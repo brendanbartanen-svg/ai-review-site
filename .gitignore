@@ -1,0 +1,21 @@
+# Quarto output and cache (the generated .qmd pages under papers/ ARE committed)
+/_site/
+/.quarto/
+**/*.quarto_ipynb
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+
+# Paper content must never enter this repository (see build/check_no_paper_content.py)
+*.pdf
+paper_text.txt
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+*.webp

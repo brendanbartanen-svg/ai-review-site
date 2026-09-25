@@ -1,0 +1,11 @@
+---
+title: "Comparison"
+---
+
+<!-- DRAFT: Brendan to edit -->
+
+The two readers gave the same overall rating to 30 of 33 papers. Codex was harsher on two (Britton, Gilmour) and softer on one (Cristancho). Per-dimension agreement was highest on methods and reproducibility and lowest on writing, where Codex rated 22 papers Weak against Claude's 10; Codex's writing rating tracks fidelity between prose and exhibits more strictly. Codex sub-reviews report higher confidence (mean 0.91) than the Claude round-two sub-reviews (about 0.72 to 0.78). The table below is the per-paper comparison.
+
+<!-- END DRAFT -->
+
+{{< include _includes/comparison_table.qmd >}}

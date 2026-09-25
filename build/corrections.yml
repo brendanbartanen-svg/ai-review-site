@@ -1,0 +1,136 @@
+# Correction notes, applied at build time by build/build_site.py.
+#
+# Each entry under `corrections` inserts a dated blockquote
+#
+#     > **Correction (<date>).** <note>
+#
+# immediately after the paragraph or list item that contains `anchor`
+# (exact, case-sensitive substring match against the source file).
+#
+# file_scope says which generated copy of the review gets the note:
+#   synthesis  the synthesis shown in the tab on the paper page (from SYNTHESIS.md)
+#   review     the full-review page, claude.qmd or codex.qmd (from REVIEW.md)
+#   both       both of the above; REVIEW.md contains the synthesis text, so a
+#              synthesis anchor normally matches in both
+#
+# The build FAILS if an anchor is not found in every file its scope targets,
+# or if it matches more than once in one file (set allow_multiple: true to permit).
+#
+# Optional keys:
+#   extra_anchors  more places to insert the same note, each with its own file_scope
+#   pointers       one-line italic cross-references inserted after other anchors
+#   where, what_was_wrong, correction   short text for the table on the Corrections page
+#
+# The original review text is never edited; notes are inserted next to it.
+#
+# NOTE: `where`, `what_was_wrong` and `correction` below are short summaries
+# drafted at build-scaffold time from the notes themselves. Brendan to edit.
+
+corrections:
+
+  - pid: P07
+    reader: claude
+    date: "2026-09-25"
+    file_scope: both
+    # The shorter anchor "never mentions the Pell Ratio row" also matches a
+    # sentence in the Writing sub-review (about Table 1, not Table 3), so the
+    # anchor is lengthened to match only the synthesis sentence.
+    anchor: "The text reports the adjacent URM Ratio (0.97) but never mentions the Pell Ratio row"
+    note: >-
+      The sentence above says the text never mentions the Pell Ratio row of
+      Table 3. That is wrong. Page 10 states that the likelihood of HPP status
+      "falls by 15.0 percentage points" per one-unit increase in the Pell Ratio,
+      and page 11 discusses the negative association. What the prose does not
+      connect to the access claim is Table 1's descriptive Pell Ratio (0.77) and
+      24.5% Pell share. The abstract's "low access ... gaps" claim, which no
+      criterion measures, stands. Found during comparison with the independent
+      Codex review; confirmed against the rendered page.
+    where: "Synthesis, Key Concerns (access bullet); same text in the full Claude review"
+    what_was_wrong: "Said the paper's text never mentions the Pell Ratio row of Table 3."
+    correction: "Pages 10 and 11 discuss it. What the prose does not connect to the access claim is Table 1's descriptive Pell Ratio and Pell share. The critique of the abstract's access claim stands."
+
+  - pid: P12
+    reader: claude
+    date: "2026-09-25"
+    file_scope: both
+    anchor: "Tables 3 and 8 carrying no legend"
+    note: >-
+      The claim that Tables 3 and 8 carry no significance legend is wrong: all
+      five tables have legends. The accurate statement is that the paper uses
+      four distinct legend schemes, so a single asterisk denotes three different
+      thresholds across tables. The advice to read each table's note before
+      interpreting stars stands. Confirmed against the rendered tables.
+    pointers:
+      # Second phrasing of the same claim, in What to Treat Cautiously.
+      - anchor: "Tables 3 and 8 have no legend. Read magnitudes"
+        file_scope: both
+        text: "*See the correction note under Key Concerns.*"
+      # The Writing sub-review (full review page only) makes the same claim.
+      - anchor: "Tables 3 and 8 have no legend at all"
+        file_scope: review
+        text: "*See the correction note under Key Concerns.*"
+    where: "Synthesis, Key Concerns and What to Treat Cautiously; same text in the full Claude review, plus the Writing sub-review"
+    what_was_wrong: "Said Tables 3 and 8 carry no significance legend."
+    correction: "All five tables have legends. The paper uses four distinct legend schemes, so one asterisk denotes three different thresholds across tables. The advice to read each table's note stands."
+
+  - pid: P13
+    reader: claude
+    date: "2026-09-25"
+    file_scope: both
+    anchor: "The conceptual-versus-strategic-priority gap"
+    note: >-
+      This synthesis presents the conceptual-versus-strategic-priority gap as
+      robust and relays the paper's statement that Pre-K is "not prioritized as
+      central strategic initiatives." Figure 4 (p. 16) shows 41% agree and 38%
+      strongly agree that early childhood education is among the district's top
+      three strategic initiatives, 79% in total. The contrast in strongly-agree
+      responses (83% vs 38%) is real; "not prioritized" is not supported by the
+      figure, and the synthesis should not have endorsed it. Found during
+      comparison with the independent Codex review; confirmed against the
+      rendered page.
+    pointers:
+      - anchor: "**The conceptual-support-versus-strategic-priority gap:**"
+        file_scope: both
+        text: "*See the correction note under Key Strengths.*"
+    where: "Synthesis, Key Strengths and What to Rely On; same text in the full Claude review"
+    what_was_wrong: "Presented the conceptual-versus-strategic-priority gap as robust, in line with the paper's statement that Pre-K is \"not prioritized\" as a strategic initiative."
+    correction: "Figure 4 (p. 16) shows 79% agree or strongly agree that early childhood education is among the district's top three strategic initiatives. The strongly-agree contrast (83% vs 38%) is real; \"not prioritized\" is not supported."
+
+  - pid: P20
+    reader: codex
+    date: "2026-09-25"
+    file_scope: both
+    # Key Concerns bullet (synthesis tab and full review).
+    anchor: "Figure 3's caption identifies 'new teacher FTE shares' but its axis says 'Change in Teacher Retention'"
+    extra_anchors:
+      # Verification notes line: full review only (the tab gets the note once).
+      - anchor: "Figure 3 says 'new teacher FTE shares' in its caption but 'Change in Teacher Retention' on its axis"
+        file_scope: review
+      # Writing sub-review: full review only.
+      - anchor: "Figure 3 is captioned 'effects on new teacher FTE shares' but its vertical axis says 'Change in Teacher Retention'"
+        file_scope: review
+    note: >-
+      This review states that Figure 3's vertical axis reads "Change in Teacher
+      Retention." On the rendered page (p. 15) it reads "Change in Teacher
+      Recruitment." The parallel observation about Figure 2 (p. 13), whose axis
+      does read "Change in Teacher Retention" over exit outcomes, is correct.
+      Found during comparison with the independent Claude review.
+    where: "Synthesis, Key Concerns and Verification notes; Writing sub-review"
+    what_was_wrong: "Said Figure 3's vertical axis reads \"Change in Teacher Retention.\""
+    correction: "On the rendered page (p. 15) it reads \"Change in Teacher Recruitment.\" The parallel observation about Figure 2 (p. 13) is correct."
+
+# Per-paper notes: shown in the callout at the top of the paper page and listed
+# on the Corrections page.
+notes:
+
+  - pid: P15
+    note: >-
+      The PDF reviewed was typeset 2026-07-17, before the corrigendum published
+      2026-08-07 (doi 10.3102/01623737261473601). The corrigendum adds an author
+      acknowledgment and changes no results.
+
+  - pid: P22
+    note: >-
+      As of 2026-09-25, Crossref lists no correction or corrigendum for this
+      article. The review's central finding about Figure 3 should be re-checked
+      against the journal's current version before being relied on.

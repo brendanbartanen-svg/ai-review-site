@@ -1,0 +1,15 @@
+/* Paper pages: the header block under the title already gives the authors and
+   DOI, so hide the copy Quarto puts in its own title block (it reads the
+   `authors` and `doi` front-matter fields the listing needs). */
+body.paper-page #title-block-header.quarto-title-block .quarto-title-meta {
+  display: none;
+}
+
+/* On narrow screens, let wide tables (the paper listing, the comparison and
+   corrections tables) scroll sideways inside the page instead of widening it. */
+@media (max-width: 767.98px) {
+  main.content table {
+    display: block;
+    overflow-x: auto;
+  }
+}

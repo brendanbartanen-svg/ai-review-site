@@ -1,0 +1,32 @@
+---
+title: "Methods"
+code-overflow: wrap
+---
+
+<!-- DRAFT: Brendan to edit -->
+
+## Which papers
+
+The sample is a recency census. For each of the four journals, the most recent online-first articles whose main analysis is statistical on numeric data were taken in order of Crossref online-publication date, cross-checked against OpenAlex. Round one (2026-09-02) took the five most recent per journal, 20 papers. Round two (2026-09-25) took every qualifying article published after each journal's last round-one paper through 2026-09-25: 13 papers (Educational Researcher 5, Educational Evaluation and Policy Analysis 5, AERA Open 3, American Educational Research Journal 0). One round-two paper (Holtz, AERA Open) has no regression; it is descriptive spatial statistics and is the thinnest quantitative paper in the set. Nothing was excluded after review.
+
+## The two pipelines
+
+Both pipelines use the same six prompts, reproduced below. Each paper receives five sub-reviews, one per dimension, written by separate model sessions that see only the paper and the prompt, followed by a synthesis written by a session that sees the paper, the sub-reviews and the synthesis prompt. The prompts ask for reader-facing guidance about a published paper, not advice to authors.
+
+Claude pipeline. Sub-reviews by Claude Opus (round one) or Claude Opus 5.5 (round two). Synthesis by Claude Fable 5.1. In round two the synthesis session also rendered PDF pages and checked the sub-reviews' specific claims against them, recording each check in a Verification notes section as CONFIRMED, CORRECTED or COULD NOT CHECK. Round-one syntheses were checked against the extracted text only.
+
+Codex pipeline. All sessions run OpenAI GPT-6 (astra) at high reasoning through the Codex CLI (version 0.155.0-alpha.2.6), with the paper's PDF and extracted text and no other information. The Codex reviews were produced after the Claude reviews but with no access to them or to the project's aims. Each Codex synthesis also ends with a Verification notes section.
+
+## Human checks
+
+The site's editor opened the journal pages behind nine of the specific errors the reviews report and confirmed each against the typeset PDF. No other claims have been human-verified. Two AI readers agreeing is not verification: they read the same extracted text and render the same pages, and can share failure modes.
+
+## What is not here
+
+The papers themselves are not reproduced; each page links to the article's DOI. Online supplements were not available to either reader except where bound into the PDF, so every claim resting on a supplement is marked as unverifiable in the reviews.
+
+<!-- END DRAFT -->
+
+## The prompts
+
+{{< include _includes/prompts.qmd >}}

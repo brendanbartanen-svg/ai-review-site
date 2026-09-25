@@ -1,0 +1,37 @@
+---
+title: "Reader's Guides to 33 Education Research Papers"
+toc: false
+listing:
+  id: papers
+  contents: "papers/*/index.qmd"
+  type: table
+  sort-ui: [journal, authors, title, claude, codex, agree, verified, online]
+  filter-ui: true
+  page-size: 40
+  fields: [journal, authors, title, claude, codex, agree, verified, online]
+  field-display-names:
+    journal: Journal
+    authors: Authors
+    title: Title
+    claude: Claude
+    codex: Codex
+    agree: Readers
+    verified: Verification
+    online: Online
+  sort:
+    - "journal"
+    - "online"
+---
+
+<!-- DRAFT: Brendan to edit -->
+
+This site publishes AI-generated retrospective reviews of the 33 most recent quantitative articles published online-first in 2026 in four journals of the American Educational Research Association: Educational Researcher, American Educational Research Journal, Educational Evaluation and Policy Analysis, and AERA Open. Every paper was reviewed twice, by two independent systems given identical instructions and no access to each other's work: a Claude pipeline (Anthropic) and a Codex pipeline (OpenAI GPT-6). Each review covers five dimensions, methods, literature, writing, contribution and reproducibility, and ends in a synthesis that separates what a reader can rely on from what to treat cautiously.
+
+The ratings are definitions, not grades. Solid Contribution means the central claims are trustworthy with ordinary scholarly caveats. Useful with Caveats means one or more central claims need qualification. Treat with Caution means the field should not rely on the central claims pending correction, clarification or replication. Within each dimension, Adequate is the expected rating for a published paper; Weak is reserved for problems that undermine central claims.
+
+Use the table to sort or filter by journal, rating, or whether the two readers agreed. Each paper's page shows both readers' ratings side by side, both syntheses, and links to the full reviews. The Methods page gives the selection rule, the pipelines, and the prompts verbatim. The Corrections page lists every known error in the reviews.
+
+<!-- END DRAFT -->
+
+::: {#papers}
+:::
