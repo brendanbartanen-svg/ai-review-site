@@ -19,3 +19,4 @@ paper_text.txt
 *.tif
 *.tiff
 *.webp
+.claude/
