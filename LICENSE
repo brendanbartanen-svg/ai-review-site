@@ -1,5 +1,6 @@
 The review text, prompts and site content in this repository are licensed under the
-Creative Commons Attribution 4.0 International License (CC BY 4.0).
+Creative Commons Attribution 4.0 International License (CC BY 4.0). The build scripts
+under build/ are licensed separately under the MIT License; see LICENSE-CODE.
 Canonical text: https://creativecommons.org/licenses/by/4.0/legalcode
 
 The reviewed articles are not included and are not covered by this license.

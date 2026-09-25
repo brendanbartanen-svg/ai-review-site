@@ -80,21 +80,24 @@ corrections:
     anchor: "The conceptual-versus-strategic-priority gap"
     note: >-
       This synthesis presents the conceptual-versus-strategic-priority gap as
-      robust and relays the paper's statement that Pre-K is "not prioritized as
-      central strategic initiatives." Figure 4 (p. 16) shows 41% agree and 38%
-      strongly agree that early childhood education is among the district's top
-      three strategic initiatives, 79% in total. The contrast in strongly-agree
-      responses (83% vs 38%) is real; "not prioritized" is not supported by the
-      figure, and the synthesis should not have endorsed it. Found during
-      comparison with the independent Codex review; confirmed against the
-      rendered page.
+      robust and says that superintendents' professed support "far outruns
+      Pre-K's standing as a strategic priority." Figure 4 (p. 16) shows 41%
+      agree and 38% strongly agree that early childhood education is among the
+      district's top three strategic initiatives, 79% in total. The contrast in
+      strongly-agree responses (83% vs 38%) is real, but the figure does not
+      show a general absence of strategic priority, and the synthesis should
+      have said so. The paper's own Discussion (p. 23) goes further, describing
+      Pre-K as "not prioritized as central strategic initiatives"; that
+      sentence is the paper's overstatement, which this synthesis did not
+      challenge. Found during comparison with the independent Codex review;
+      confirmed against the rendered page.
     pointers:
       - anchor: "**The conceptual-support-versus-strategic-priority gap:**"
         file_scope: both
         text: "*See the correction note under Key Strengths.*"
     where: "Synthesis, Key Strengths and What to Rely On; same text in the full Claude review"
-    what_was_wrong: "Presented the conceptual-versus-strategic-priority gap as robust, in line with the paper's statement that Pre-K is \"not prioritized\" as a strategic initiative."
-    correction: "Figure 4 (p. 16) shows 79% agree or strongly agree that early childhood education is among the district's top three strategic initiatives. The strongly-agree contrast (83% vs 38%) is real; \"not prioritized\" is not supported."
+    what_was_wrong: "Presented the gap between general and strategic support as robust and said support \"far outruns\" Pre-K's standing as a strategic priority, without noting what Figure 4 shows."
+    correction: "Figure 4 (p. 16) shows 79% agree or strongly agree that early childhood education is among the district's top three strategic initiatives. The strongly-agree contrast (83% vs 38%) is real; a general absence of strategic priority is not shown."
 
   - pid: P20
     reader: codex

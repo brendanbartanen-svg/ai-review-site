@@ -62,4 +62,4 @@ After the site is live, set `site-url` in `_quarto.yml`. To turn on discussion t
 
 ## License
 
-Site content is licensed CC BY 4.0; see `LICENSE`. The reviewed articles are not included and are not covered by this license.
+Site content is licensed CC BY 4.0; see `LICENSE`. The build scripts under `build/` are MIT-licensed; see `LICENSE-CODE`. The reviewed articles are not included and are not covered by either license.
