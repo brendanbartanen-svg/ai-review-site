@@ -122,6 +122,1138 @@ corrections:
     what_was_wrong: "Said Figure 3's vertical axis reads \"Change in Teacher Retention.\""
     correction: "On the rendered page (p. 15) it reads \"Change in Teacher Recruitment.\" The parallel observation about Figure 2 (p. 13) is correct."
 
+  # ---------------------------------------------------------------------------
+  # 2026-09-26: entries from the reconciliation audit (RECONCILIATION_LEDGER,
+  # §11 of RECONCILIATION_SUMMARY). Ledger item ids are given in comments.
+  # ---------------------------------------------------------------------------
+
+  # Lee (worker report, correction to the prior review; not a ledger row)
+  - pid: P02
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "the sentence narrating Table 4 matches no cell in it"
+    extra_anchors:
+      - anchor: "the one sentence narrating Table 4 matches no cell in Table 4"
+        file_scope: review
+      - anchor: "THE ONE SENTENCE NARRATING TABLE 4 MATCHES NO CELL IN TABLE 4"
+        file_scope: review
+    pointers:
+      - anchor: "a narrating sentence that matches no cell in the table it narrates"
+        file_scope: review
+        text: "*See the correction note in the Writing sub-review above.*"
+    note: >-
+      The sentence does match a cell. Page 9 reports the rural fringe as a
+      decrease of 0.03 SD (p < .05) and rural distant as 0.04 SD (p < .01) in
+      the Black–White gap; those are the White–Black math column of Table 4,
+      fringe −0.0365* and distant −0.0446**, if 0.0365 is truncated rather than
+      rounded. It is a rounding slip, not a number that appears nowhere. Found
+      during the September 2026 reconciliation audit; confirmed against the
+      rendered page.
+    where: "Synthesis, Key Concerns; same text in the full Claude review, plus the Writing sub-review"
+    what_was_wrong: "Said the sentence narrating Table 4 matches no cell in the table."
+    correction: "It matches the White–Black math column (fringe −0.0365*, distant −0.0446**) with 0.0365 truncated to 0.03. A rounding slip, not a phantom number."
+
+  # Holzman P03-4
+  - pid: P03
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "look frequency-ranked rather than ratio-ranked as the Method states"
+    extra_anchors:
+      - anchor: "look frequency-ranked rather than ratio-ranked, contrary to the stated method"
+        file_scope: review
+      - anchor: "Several entries look like frequency winners rather than ratio winners"
+        file_scope: review
+    pointers:
+      - anchor: "which is the actual-frequency ranking the Method explicitly rejects"
+        file_scope: review
+        text: "*See the correction note in the Methods sub-review above.*"
+      - anchor: "several of the entries look like what a frequency rule would produce"
+        file_scope: review
+        text: "*See the correction note in the Methods sub-review above.*"
+    note: >-
+      The rows of Table A1 follow the stated ratio rule; the header is the
+      mislabel. In the openICPSR deposit (10.3886/E249905V1),
+      RaceNativityLabor_TabA1.do keeps the top two occupations by an adjusted
+      rank built from the actual-to-counterfactual ratio, and the deposited
+      rank correlates 0.99 with a ratio ranking and 0.27 with raw frequency
+      within majors. The concern that the match variable was built on frequency
+      for low-linkage majors, which would bias Linkage × Match upward, does not
+      hold (moderate confidence: the top-two sets only partly reproduce). Found
+      during the September 2026 reconciliation audit; confirmed against the
+      ICPSR deposit.
+    where: "Synthesis, Key Concerns; same text in the full Claude review, plus the Methods and Reproducibility sub-reviews"
+    what_was_wrong: "Said Table A1's entries look frequency-ranked rather than ratio-ranked as the Method states, so the match variable may be misbuilt."
+    correction: "The deposited code ranks by the ratio rule; the 'Most Common Occupation' header is the mislabel. The construction concern does not hold."
+
+  # Boles P04-2 (withdrawn)
+  - pid: P04
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "the honest count is about eight of twelve, not eleven"
+    extra_anchors:
+      - anchor: "'11 of the 12 courses' is really about eight"
+        file_scope: both
+      - anchor: "/ '11 of the 12 courses' — Biology (rural −.024, town −.049)"
+        file_scope: both
+      - anchor: "the discussion's '11 of the 12 courses' both overstate"
+        file_scope: review
+    note: >-
+      The "11 of the 12 courses" sentence is on p. 19, in the Discussion, not
+      in the abstract, and the criticism of it is withdrawn. Eleven of the
+      twelve rural and town point estimates in Table 4 are negative, and p. 6
+      states that significance tests and standard errors are "not particularly
+      useful" for full-population data, so by the paper's own standard the count
+      is right. If significance is applied anyway, eight or nine of the
+      estimates are distinguishable from zero; that is a caveat for readers, not
+      an error in the paper. Found during the September 2026 reconciliation
+      audit; confirmed against the rendered pages.
+    where: "Synthesis, Overall Assessment, Key Concerns and What to Treat Cautiously; same text in the full Claude review, plus the Writing sub-review"
+    what_was_wrong: "Treated '11 of the 12 courses' as an abstract claim that overstates (about eight)."
+    correction: "The sentence is in the Discussion (p. 19). Eleven of twelve point estimates are negative, and p. 6 disclaims significance for population data, so the count is right by the paper's own standard."
+
+  # Britton P05-1 / P05-2
+  - pid: P05
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "The paper's signature subgroup finding is contradicted by its own table."
+    extra_anchors:
+      - anchor: "Do not cite this in either direction until an erratum settles which of the text or the table is correct"
+        file_scope: both
+      - anchor: "do not cite the Black-student finding in either direction until an erratum resolves the sign"
+        file_scope: both
+      - anchor: "Either the table or the paper's central finding is wrong, and a reader cannot tell which."
+        file_scope: review
+    pointers:
+      - anchor: "The entire Black-student narrative in the Discussion is unusable until this sign is resolved by the authors or an erratum."
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the article's own appendix settles the sign.*"
+      - anchor: "Until resolved, the paper's signature finding cannot be relied upon in either direction."
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the article's own appendix settles the sign.*"
+    note: >-
+      The article itself settles which side is wrong: the table, not the
+      prose. Table 12b (p. 17) reports the reverse regression of average GPA in
+      grades 9–11 on Black-teacher share at −0.0041***, −0.0007*** and
+      −0.0007***, negative in every column; Figure B1 (p. 26), drawn by the
+      estimation software, plots the Table 4 (p. 10) column 2 coefficient at
+      about −0.002 where the table prints +0.0020; and Table A4 (p. 25) prints
+      −0.0903*** where Table 8 (p. 12) column 6 prints −0.0195. Two independent
+      identities plus a demonstrated dropped sign elsewhere show that Table 6's
+      Black-student columns lost their minus signs in typesetting, so the
+      negative GPA relationship for Black students described in the abstract,
+      results and discussion is the correct reading and the printed +5.13 is
+      wrong. The attendance sub-claim is different: with covariates the
+      Black-student estimate in Table 5 is 0.0046 (SE 0.0040), not significant
+      under either sign, so "negative and significant" is unsupported whatever
+      the sign. Found during the September 2026 reconciliation audit; confirmed
+      against the rendered pages and replicated by an independent blind reader.
+    where: "Synthesis, Overall Assessment, Key Concerns and What to Treat Cautiously; same text in the full Claude review, plus the Methods, Writing and Contribution sub-reviews"
+    what_was_wrong: "Said Table 6 contradicts the text and that which side is right cannot be settled without an erratum."
+    correction: "Table 12b, Figure B1 and Table A4 show Table 6 dropped its minus signs; the prose is right for the GPA claim. The attendance claim fails regardless of sign (0.0046, SE 0.0040)."
+
+  - pid: P05
+    reader: codex
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "These disagreements establish unreliable reporting, not which version reflects the underlying analysis."
+    pointers:
+      - anchor: "Nor should the positive printed coefficient silently replace the narrative as the verified underlying result."
+        file_scope: both
+        text: "*See the correction note under Key Concerns: the article's own appendix settles the sign.*"
+    note: >-
+      The article does establish which version is right. Table 12b (p. 17)
+      reports the reverse regression of average GPA on Black-teacher share as
+      negative and significant in every column; Figure B1 (p. 26) plots the
+      Table 4 (p. 10) column 2 coefficient at about −0.002 where the table
+      prints +0.0020; and Table A4 (p. 25) prints −0.0903*** where Table 8
+      (p. 12) column 6 prints −0.0195. Table 6's Black-student columns lost
+      their minus signs in typesetting; the discussion's "negative and
+      significant" GPA relationship (p. 19) is the correct reading. The
+      attendance point stands: the adjusted Black-student cell, 0.0046 (0.0040),
+      is not significant under either sign. Found during the September 2026
+      reconciliation audit; confirmed against the rendered pages.
+    where: "Synthesis, Key Concerns and What to Treat Cautiously; same text in the full Codex review"
+    what_was_wrong: "Said the text–table disagreement on the Black-student GPA coefficient cannot be resolved from the document."
+    correction: "Table 12b, Figure B1 and Table A4 show Table 6 dropped its minus signs; the discussion's negative relationship is right. The attendance point stands."
+
+  # Holtz P06-3 (recoded R3/C1 after the blind pass)
+  - pid: P06
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "(p. 9): CONFIRMED wrong"
+    extra_anchors:
+      - anchor: "corresponds to 7 against 3 in the 0–5% bin"
+        file_scope: both
+      - anchor: "\"36%+ ... had the fewest TWDL hot spots\" (p. 9; 7 versus 3)"
+        file_scope: both
+      - anchor: "36%+ counties with \"the fewest\" hot spots (7 versus 3)"
+        file_scope: both
+    pointers:
+      - anchor: "The 36%+ bin does not have the \"fewest\" hot spots (p. 9): 7, against 3 in 0%–5%."
+        file_scope: review
+        text: "*See the correction note in the Verification notes above: Table 2's bins are tracts, so this is not a county comparison.*"
+      - anchor: "By count, it ties for second-fewest."
+        file_scope: review
+        text: "*See the correction note in the Verification notes above: Table 2's bins are tracts, so this is not a county comparison.*"
+      - anchor: "On p. 9, the \"fewest TWDL hot spots\" are said to be at 36%+"
+        file_scope: review
+        text: "*See the correction note in the Verification notes above: Table 2's bins are tracts, so this is not a county comparison.*"
+    note: >-
+      The 7-versus-3 comparison is not a county comparison. The ICPSR deposit's
+      README (study 308283) states that tract-level income and immigrant
+      density were joined to campuses "for the descriptive table analysis," so
+      Table 2's bins are census tracts mislabeled as counties (see the note at
+      the top of this page). No county-by-bin tabulation exists in the
+      published record. On Figure 4 the 36%+ counties show no visible TWDL hot
+      spot, tied with the 0–5% counties, while 69 of 74 sit in an adjacent
+      21–35% county, so the p. 9 sentence is a bin artefact rather than a
+      countable miscount. The "majority" (p. 11) and "almost no OWDL hot spots"
+      (p. 11) sentences are not affected. Found during the September 2026
+      reconciliation audit; confirmed against the ICPSR deposit and the rendered
+      figure, and adopted after a blind second reading.
+    where: "Synthesis, Overall Assessment, Key Concerns, What to Treat Cautiously and Verification notes; same text in the full Claude review, plus the Methods, Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Counted the p. 9 'fewest TWDL hot spots' sentence as wrong against Table 2 (7 versus 3)."
+    correction: "Table 2's bins are tracts, not counties, so the comparison does not test the sentence; on Figure 4 the 36%+ and 0–5% counties both show no hot spot. A bin artefact, not a miscount."
+
+  # Holtz P06-5 (settled by the deposit)
+  - pid: P06
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "but the paper does not allow this to be settled"
+    note: >-
+      The ICPSR deposit settles it. The README for study 308283 states that the
+      campus-to-tract spatial join attached tract-level income and immigrant
+      density "for the descriptive table analysis," and that county ACS
+      processing served the choropleth maps only. Table 2's bins are census
+      tracts mislabeled as counties; relabelling them reconciles every sum,
+      including the 716/1,089 shortfall in the income panel (suppressed tract
+      incomes), and leaves the note (69 of 74 in El Paso County) and Figure 3
+      correct. The TEA program file is not deposited, so the table cannot be
+      recounted. Found during the September 2026 reconciliation audit; confirmed
+      against the ICPSR deposit.
+    where: "Synthesis, Verification notes; same text in the full Claude review"
+    what_was_wrong: "Said the paper does not allow the Table 2 body-versus-note conflict to be settled."
+    correction: "The deposit README shows Table 2's bins are tracts mislabeled as counties; the note and Figure 3 are right."
+
+  - pid: P06
+    reader: codex
+    date: "2026-09-26"
+    file_scope: review
+    anchor: "It describes the highest-immigrant-density counties as having"
+    note: >-
+      Table 2's rows are not counties. The ICPSR deposit's README (study
+      308283) states that tract-level income and immigrant density were joined
+      to campuses for the descriptive table, so its "36%+" and "0%–5%" rows are
+      tract bins mislabeled as county bins and do not test the p. 9 sentence
+      about counties; on Figure 4 the 36%+ and 0–5% counties both show no
+      visible TWDL hot spot. The "$70,000 or greater" comparison in the same
+      paragraph is unaffected. Found during the September 2026 reconciliation
+      audit; confirmed against the ICPSR deposit and the rendered figure.
+    where: "Writing sub-review"
+    what_was_wrong: "Counted the p. 9 'fewest TWDL hot spots' sentence as failing to track Table 2 (7 versus 3)."
+    correction: "Table 2's bins are tracts, not counties, so the comparison does not test the sentence."
+
+  # Odle P07-2 (withdrawn)
+  - pid: P07
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "The Discussion contradicts the Results, and several \"findings\" restate the selection rule"
+    extra_anchors:
+      - anchor: "The Discussion's statement that \"Carnegie classifications\" have \"limited explanatory power\" (p.11)"
+        file_scope: both
+      - anchor: "CONFIRMED — p.11: \"student demographics, and Carnegie classifications"
+        file_scope: both
+    pointers:
+      - anchor: "p.11 lists \"Carnegie classifications\" among characteristics with \"limited explanatory power\""
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the two statements are compatible.*"
+      - anchor: "The Discussion reverses what the Results call \"meaningful predictors.\""
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the two statements are compatible.*"
+    note: >-
+      The two statements are compatible and p. 10 draws the distinction.
+      "Meaningful predictor" describes coefficient size (Doctoral +0.145***,
+      Pell Ratio −0.150*** in Table 3); "limited explanatory power" describes
+      variance explained, which is small (Doctoral accounts for at most 5.7% of
+      the variation in HPP status). The Discussion does not contradict the
+      Results on this point. The rest of the bullet, that the p. 6 comparisons
+      verify the selection filter rather than test anything, stands. Found
+      during the September 2026 reconciliation audit; confirmed against the
+      rendered pages.
+    where: "Synthesis, Key Concerns, What to Treat Cautiously and Verification notes; same text in the full Claude review, plus the Methods and Writing sub-reviews"
+    what_was_wrong: "Said the Discussion's 'limited explanatory power' contradicts the Results' 'meaningful predictors'."
+    correction: "Coefficient size and variance explained are different quantities, and p. 10 distinguishes them. Both statements are true."
+
+  # Gao P08-4 (withdrawn)
+  - pid: P08
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "Table 4's destination rows (9% + 16% + 12% = 37%) exceed the 31% who moved."
+    extra_anchors:
+      - anchor: "destination shares that exceed the mover rate"
+        file_scope: both
+      - anchor: "**Table 4's destination rows exceed the total.**"
+        file_scope: review
+    pointers:
+      - anchor: "Table 4 destination rows vs Table A2 per-move shares"
+        file_scope: both
+        text: "*See the correction note under Key Concerns: the rows are non-exclusive.*"
+      - anchor: "cannot be reconciled with the per-move shares in Table A2"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the rows are non-exclusive.*"
+    note: >-
+      The rows are not mutually exclusive, so they need not sum to the mover
+      rate. The AIR report from which the article developed carries the note the
+      article's Table 4 lacks: students who move more than once "may move within
+      districts, between districts, and/or between counties within the same
+      year," so a student can appear in more than one destination row and 37%
+      against 31% is feasible (moderate confidence: the note sits on the
+      by-year figure). The claim that more students move across districts or
+      counties than within a district survives. The identical N row across
+      Tables 5, 6 and A2 remains unexplained. Found during the September 2026
+      reconciliation audit; confirmed against the AIR report.
+    where: "Synthesis, Overall Assessment, Key Concerns and Verification notes; same text in the full Claude review, plus the Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Treated Table 4's destination shares summing to 37% against 31% movers as an inconsistency."
+    correction: "The rows are non-exclusive (multi-movers count in more than one), as the AIR report's note says; the article's table omits the note."
+
+  # Chin P10-4 (withdrawn)
+  - pid: P10
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "a Figure 2 with two contradictory legends; a \"class size\" label for a student-to-FTE ratio"
+    extra_anchors:
+      - anchor: "It carries two legends that contradict each other"
+        file_scope: review
+    pointers:
+      - anchor: "Figure 2 carries two mutually contradictory legends"
+        file_scope: review
+        text: "*See the correction note in the Writing sub-review below: the legends describe different panels.*"
+      - anchor: "The figure's two legends contradict each other"
+        file_scope: review
+        text: "*See the correction note in the Writing sub-review above.*"
+      - anchor: "two legends assign different labels to the same marker"
+        file_scope: review
+        text: "*See the correction note in the Writing sub-review above.*"
+    note: >-
+      Neither of these is a defect. Figure 2's two legends each describe their
+      own panel and do not contradict each other, and "class size" is defined on
+      p. 10 as the student-to-FTE-teacher ratio, so the label matches the
+      paper's definition. Whether the TPS enrollment series the text mentions
+      is plotted was not re-examined. The other items in this list are not
+      affected. Found during the September 2026 reconciliation audit; confirmed
+      against the rendered figure and page.
+    where: "Synthesis, Key Concerns; same text in the full Claude review, plus the Writing sub-review"
+    what_was_wrong: "Listed Figure 2's two legends as contradictory and 'class size' as a mislabel."
+    correction: "Each legend describes its own panel; 'class size' is defined on p. 10 as the student-to-FTE ratio."
+
+  # Chin (Appendix K; worker-report correction to the prior review)
+  - pid: P10
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "but never tested as a confound"
+    note: >-
+      The online supplement's Appendix K (pp. 72–73) addresses the 2011 lapse of
+      ARRA and levy-replacement funds with descriptive evidence: federal dollars
+      were 5.5% of revenue in treated districts against 8.3% in comparison
+      districts in 2010–11, and 44% versus 52% of districts sat above the median
+      in 2005–06 local-levy reliance. That is not a formal test, so "never
+      tested" should read "addressed only descriptively, in the supplement."
+      Found during the September 2026 reconciliation audit; confirmed against
+      the online supplement.
+    where: "Synthesis, Overall Assessment; same text in the full Claude review"
+    what_was_wrong: "Said the ARRA and levy-replacement lapse is never tested as a confound."
+    correction: "Supplement Appendix K addresses it descriptively (federal share 5.5% vs 8.3%; levy reliance 44% vs 52%). No formal test."
+
+  # Umansky P12-1 (count) and P12-6 (Ns)
+  - pid: P12
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "only 2 of 16 regular-diploma cells are significant (OR 1.464 at p < .1; OR 1.792 at p < .05)"
+    extra_anchors:
+      - anchor: "reaches significance in only two of sixteen regular-diploma cells (one at p < .1)"
+        file_scope: both
+      - anchor: "are 2 of 16 cells with no multiple-comparison adjustment"
+        file_scope: review
+    note: >-
+      The count is wrong. Under Table 8's own legend (** p < .05, * p < .1),
+      seven of the sixteen regular-diploma cells are starred: for four-year
+      core credits 1.425**, 1.48* and 1.464*; for five-year any credits 1.697**,
+      1.774** and 1.792**; and for five-year core credits 1.814**. Every star
+      is consistent with its standard error. In the preferred Matching 3 column
+      two of four cells are starred (1.464, p = .059; 1.792, p = .017).
+      Supplemental Appendix A7 confirms no effect when regular and modified
+      diplomas are pooled, and all eight modified-diploma cells are significant,
+      so the abstract's claim survives in weakened form as a shift from modified
+      to regular diplomas. On the sample sizes, Supplemental Table A2 gives
+      matched Ns of 1,544, 1,502 and 1,024; Table 8's Ns are 71–90% of these
+      and undocumented, and the text's 77%/72% retention rates match nothing.
+      Found during the September 2026 reconciliation audit; confirmed against
+      the rendered table and the supplement.
+    where: "Synthesis, Overall Assessment and What to Treat Cautiously; same text in the full Claude review, plus the Methods sub-review"
+    what_was_wrong: "Said only 2 of 16 regular-diploma cells are significant."
+    correction: "Seven of sixteen are starred under Table 8's legend (five at p < .05). The claim survives weakened, as a shift from modified to regular diplomas; Appendix A7 shows no pooled effect."
+
+  # Little P13-2 (coefficient is the typo, marker is right)
+  - pid: P13
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "In Table 2 the City/SEL cell is -0.19 with SE 0.63 (t = 0.3) yet carries a p<.10 marker"
+    extra_anchors:
+      - anchor: "the City/SEL cell reported on p. 20 cannot be significant at any conventional level"
+        file_scope: both
+      - anchor: "cannot be significant at any conventional level. The corresponding sentence on p. 20 should be disregarded."
+        file_scope: review
+      - anchor: "THIS CANNOT BE RIGHT."
+        file_scope: review
+    pointers:
+      - anchor: "yet carries a p<.10 marker (t = 0.3), and the p. 20 text repeats it as a finding"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the coefficient, not the marker, is the misprint.*"
+      - anchor: "SIGNIFICANCE MARKERS ARE NOT RELIABLE."
+        file_scope: review
+        text: "*See the correction note under Key Concerns: for the City/SEL cell the coefficient, not the marker, is the misprint.*"
+    note: >-
+      The coefficient, not the marker, is the misprint. Each respondent's six
+      outcome ranks sum to 21, so with a common regressor set the six
+      coefficients on any regressor must sum to zero and the constants to 21.
+      On the rendered Table 2 every other row satisfies this within ±0.02 and
+      the constants sum to 20.99, but the City row (1.37, 0.20, −0.84, 0.91,
+      −0.44, −0.19) sums to +1.01, which the identity closes if the SEL cell is
+      about −1.20. With SE 0.63 that gives t = 1.9 and p ≈ .06, matching the ~
+      marker. The p. 20 sentence therefore reports a real marginal association
+      with the wrong coefficient (about −1.2 of 6 rank points, not −0.19). The
+      other marker problems stand: SEL/Extensive 1.12* should read ~, D/Moderate
+      0.63** should read *, and three markers are missing. Found during the
+      September 2026 reconciliation audit; confirmed by recomputation from the
+      rendered table.
+    where: "Synthesis, Key Concerns and What to Treat Cautiously; same text in the full Claude review, plus the Methods and Writing sub-reviews"
+    what_was_wrong: "Said the Table 2 City/SEL cell (−0.19, SE 0.63) cannot be significant and its marker is wrong."
+    correction: "The rank-sum identity shows the coefficient is the typo (about −1.20); with SE 0.63 the ~ marker (p ≈ .06) is right."
+
+  - pid: P13
+    reader: codex
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "the calculated absolute ratio is about 0.30 and cannot support that conventional two-sided threshold"
+    extra_anchors:
+      - anchor: "the absolute estimate-to-error ratio is approximately 0.30"
+        file_scope: review
+      - anchor: "the absolute coefficient-to-standard-error ratio is approximately 0.30"
+        file_scope: review
+    pointers:
+      - anchor: "incompatible with that conventional two-sided"
+        file_scope: review
+        text: "*See the correction note in the Methods sub-review above: the coefficient, not the marker, is the misprint.*"
+    note: >-
+      Which component is wrong can be settled from the table. Each respondent's
+      six outcome ranks sum to 21, so the six coefficients on any regressor must
+      sum to zero; every other row of Table 2 satisfies this, but the City row
+      sums to +1.01, which closes if the SEL cell is about −1.20 rather than
+      −0.19. With the printed SE of 0.63 that gives p ≈ .06, so the ~ marker is
+      right and the coefficient is the misprint; the p. 20 sentence's direction
+      holds with a larger magnitude. Found during the September 2026
+      reconciliation audit; confirmed by recomputation from the rendered table.
+    where: "Synthesis, Key Concerns; same text in the full Codex review, plus the Methods, Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Treated the City/SEL marker as unsupported by the printed coefficient and SE, leaving open which was wrong."
+    correction: "The rank-sum identity identifies the coefficient as the misprint (about −1.20); the marker is right."
+
+  # Little (supplement Appendix C; worker-report correction)
+  - pid: P13
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "nine states and DC with zero respondents, Appendix C"
+    extra_anchors:
+      - anchor: "nine states plus DC contributed no respondents"
+        file_scope: both
+    pointers:
+      - anchor: "nine states and DC with zero respondents), and a completer/non-completer comparison reported"
+        file_scope: review
+        text: "*See the correction note under Key Strengths: the supplement's Appendix C shows four states plus DC.*"
+      - anchor: "nine states plus DC with zero respondents); Appendix D"
+        file_scope: review
+        text: "*See the correction note under Key Strengths: the supplement's Appendix C shows four states plus DC.*"
+    note: >-
+      The "nine" comes from the article's text (p. 11), not from Appendix C,
+      which this review had not seen. In the online supplement, Appendix C
+      shows zero respondents for Delaware, Maryland, Nevada, Vermont and the
+      District of Columbia, and Hawaii is absent from its table; its sample
+      column sums to 408, not the 404 the article reports. Found during the
+      September 2026 reconciliation audit; confirmed against the online
+      supplement.
+    where: "Synthesis, Key Strengths and What to Treat Cautiously; same text in the full Claude review, plus the Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Attributed 'nine states and DC with zero respondents' to Appendix C."
+    correction: "The article's text says nine; the supplement's Appendix C shows four states plus DC (Hawaii absent) and a sample column summing to 408, not 404."
+
+  # Truwit P14-4 (worker-report correction: Wald p-values reproduce)
+  - pid: P14
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "The Wald tests are printed with a single degrees-of-freedom subscript that cannot reproduce the p-values"
+    extra_anchors:
+      - anchor: "The Wald test degrees of freedom are uninterpretable as printed."
+        file_scope: review
+      - anchor: "reported with a single degrees-of-freedom subscript that cannot support the printed p-values"
+        file_scope: review
+    pointers:
+      - anchor: "Do not treat the parallel-trends Wald tests as reproducible diagnostics."
+        file_scope: review
+        text: "*See the correction note above: the p-values reproduce as F(k, printed df).*"
+    note: >-
+      The p-values do reproduce. Every Wald p-value in Tables 2 and 3
+      reproduces exactly as F(k, printed df), where k is the number of
+      pre-period leads plotted in Figure 2: six for most outcomes and five for
+      the two value-added outcomes (F(5, 42)). Only the denominator degrees of
+      freedom are printed, which is a presentation choice, not an
+      irreproducible statistic. The p = .079 and p = .010 diagnostics are
+      arithmetically sound. Found during the September 2026 reconciliation
+      audit; confirmed by recomputation from the rendered tables.
+    where: "Synthesis, Key Concerns; same text in the full Claude review, plus the Reproducibility sub-review"
+    what_was_wrong: "Said the Wald tests' single degrees-of-freedom subscript cannot reproduce the printed p-values."
+    correction: "They reproduce as F(k, printed df) with k the number of Figure 2 leads (6, or 5 for the VAMs)."
+
+  # Delgado P16-2 (A9 explanation wrong; 0.11 not 0.13)
+  - pid: P16
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "0.13 is the observation-score effect on the survey sample (Appendix Table A9)"
+    extra_anchors:
+      - anchor: "the introduction's '0.13 SD' survey effect is the observation-on-survey-sample estimate (the survey effect is 0.152)"
+        file_scope: both
+      - anchor: "comparably to observation ratings on the same middle-grade sample (about 0.13 SD, Appendix Table A9)"
+        file_scope: both
+      - anchor: "as principals on the same middle-grade sample (about 0.13 SD)"
+        file_scope: both
+      - anchor: "The figure 0.13 is what the text attributes to Supplemental Appendix Table A9"
+        file_scope: review
+    pointers:
+      - anchor: "(about 0.13 SD, Appendix A9)"
+        file_scope: review
+        text: "*See the correction note in the synthesis: Appendix Table A9 gives 0.110, not 0.13.*"
+      - anchor: "(0.152 SD vs. ~0.13 SD on the same subsample)"
+        file_scope: review
+        text: "*See the correction note in the synthesis: Appendix Table A9 gives 0.110, not 0.13.*"
+      - anchor: "Do not quote the introduction's '0.13 SD increase in student survey scores.'"
+        file_scope: review
+        text: "*See the correction note in the synthesis: the 0.13 appears in prose only; Appendix Table A9 gives 0.110.*"
+    note: >-
+      The explanation offered here is wrong. Supplemental Table A9's preferred
+      column gives 0.110, not 0.13, for the observation-score effect on the
+      survey sample. The 0.13 appears only in the article's prose (the
+      introduction, p. 13 and p. 14) and in no exhibit, supplement table or
+      working paper. The mismatch with Table 2's survey effect of 0.152 stands;
+      the comparison in Key Strengths and What to Rely On should read about
+      0.11 SD, not 0.13. Found during the September 2026 reconciliation audit;
+      confirmed against the online supplement.
+    where: "Synthesis, Key Strengths, Key Concerns, What to Rely On and What to Treat Cautiously; same text in the full Claude review, plus the Methods, Writing and Contribution sub-reviews"
+    what_was_wrong: "Said the introduction's 0.13 SD is the observation-score effect on the survey sample from Appendix Table A9."
+    correction: "Appendix Table A9 gives 0.110; the 0.13 appears in prose only. The survey-versus-observation comparison should read about 0.11 SD."
+
+  # Delgado P16-6 (withdrawn)
+  - pid: P16
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "the panel starts in 2011–12 in the Table 1 note and 2012–13 in the text"
+    extra_anchors:
+      - anchor: "2011–12 vs. 2012–13 start year"
+        file_scope: both
+    pointers:
+      - anchor: "Table 1's note says 2011–12 to 2016–17 where the data section says 2012–13"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: both dates are right in context.*"
+      - anchor: "Table 1's note dating the data to 2011–12 where the data section says 2012–13"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: both dates are right in context.*"
+      - anchor: "the Table 1 note's year range (2011–12 onward) disagrees with the Data section's 2012–13 to 2016–17"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: both dates are right in context.*"
+      - anchor: "2012–13 through 2016–17 in the text and 2011–12 through 2016–17 in the Table 1 note"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: both dates are right in context.*"
+    note: >-
+      Not a mismatch. Delgado's 2019 University of Chicago dissertation
+      (chapter 2, the earlier version of this study) shows the data run from
+      2011–12 to supply the lagged baseline, with evaluation ratings from
+      2012–13 onward; the Table 1 note and the text describe different things
+      and both are right. The other mismatches in this list were confirmed
+      (0.125 vs 0.106; R² .41 → .84 vs ".20 to .80"; 3,345 vs 4,066; the
+      missing novice row). Found during the September 2026 reconciliation
+      audit; confirmed against the earlier version.
+    where: "Synthesis, Key Concerns and What to Treat Cautiously; same text in the full Claude review, plus the Methods, Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Listed the 2011–12 (Table 1 note) versus 2012–13 (text) panel start as a prose–table mismatch."
+    correction: "The data start in 2011–12 for the lagged baseline and ratings in 2012–13; both are right in context (2019 dissertation)."
+
+  # Broton P17-1 (withdrawn)
+  - pid: P17
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "41 covariates do not reconcile with 138 balance comparisons"
+    extra_anchors:
+      - anchor: "GPA samples silently drop 45–92 students"
+        file_scope: both
+      - anchor: "The covariate count and the balance count do not reconcile."
+        file_scope: review
+    pointers:
+      - anchor: "Independently verify the covariate/balance arithmetic"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: 46 balance rows × 3 samples = 138.*"
+      - anchor: "the GPA panel silently drops observations (6,893/852 versus 6,947/855) with no note"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the supplement explains the GPA rule.*"
+    note: >-
+      Both reconcile once the supplement is in hand. Supplemental Table A2
+      lists the six race/ethnicity categories separately, so balance is
+      assessed on 46 rows, and 46 × 3 year samples = 138 comparisons exactly;
+      the 41 covariates are 12 record covariates plus 29 survey covariates,
+      and the 41 × 3 = 123 arithmetic assumed here was wrong. The smaller GPA
+      samples are explained on supplement p. 8 (students missing GPA in every
+      semester). The supplement also names the software (R 4.4.2, MatchIt
+      4.7.0, optmatch), states how post-matching standard errors were computed,
+      documents missing-data handling and the sample flow, and reports the RIR
+      sensitivity analysis for four-year graduation only. The article itself
+      still carries none of this. Found during the September 2026
+      reconciliation audit; confirmed against the online supplement.
+    where: "Synthesis, Key Concerns; same text in the full Claude review, plus the Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Said 41 covariates do not reconcile with 138 balance comparisons and that the GPA sample drops are unexplained."
+    correction: "Supplement Table A2 has 46 rows (races listed separately) × 3 samples = 138; supplement p. 8 explains the GPA rule. Software and SE method are also documented there."
+
+  # Choi P18-5 (partly withdrawn)
+  - pid: P18
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "Table 5's short- plus long-term certificates exceed the certificate total in every column"
+    extra_anchors:
+      - anchor: "they exceed the stated certificate total in every column, and no note explains why"
+        file_scope: review
+      - anchor: "exceed the certificate total in every column (391.71 vs 277.30; 309.75 vs 259.29)"
+        file_scope: review
+    note: >-
+      Not every column. The short- plus long-term certificate rows exceed the
+      certificate total only in the four all-student columns, by 50 to 114; the
+      subgroup columns add up. The same pattern appears in the working paper,
+      so it sits in the variable construction; which cell is wrong cannot be
+      settled from the public record. Found during the September 2026
+      reconciliation audit; confirmed against the rendered table.
+    where: "Synthesis, Key Concerns; same text in the full Claude review, plus the Writing sub-review"
+    what_was_wrong: "Said Table 5's certificate rows exceed the total in every column."
+    correction: "Only in the four all-student columns (by 50–114); the subgroup columns add up."
+
+  # Choi P18-4 (partly withdrawn)
+  - pid: P18
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "446/626/807 do not reconcile with the table Ns (433 and 782)"
+    extra_anchors:
+      - anchor: "sample counts do not reconcile (446 used for both the full four-year sample and the treated group"
+        file_scope: both
+      - anchor: "Sample sizes do not reconcile. The text reports 446 four-year and 807 two-year institutions"
+        file_scope: review
+      - anchor: "Sample counts contradict each other."
+        file_scope: review
+      - anchor: "The stated sample counts do not reconcile."
+        file_scope: review
+    note: >-
+      Partly withdrawn. Every table note says the descriptive statistics are for
+      the base year (2003), and institutions in the 2003–2020 panel that are
+      absent from the base year account for the gaps: 446 − 433 = 13 four-year
+      institutions, and 807 − 782 = 25 two-year (12 of the 626 adopters and 13
+      of the 181 comparison institutions). The working paper's pre-exclusion
+      526/916 minus footnote 3's removals gives 447/807. So 446, 807 and 626 are
+      consistent with the tables as panel totals, though the article never says
+      so, and the MDE calculation, which uses the totals, is unaffected. What
+      does not reconcile is p. 7's "27 states (446 institutions) adopted PBF":
+      446 is the whole four-year sample, and with 185 never-adopters in Table 4
+      the treated count must lie between 248 and 261. Found during the
+      September 2026 reconciliation audit; confirmed against the rendered
+      tables and the working paper.
+    where: "Synthesis, Key Concerns and What to Treat Cautiously; same text in the full Claude review, plus the Methods, Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Said the text's 446/626/807 do not reconcile with the tables' 433 and 782."
+    correction: "They reconcile as panel totals versus base-year (2003) counts. Only p. 7's '446 institutions adopted PBF' is wrong: 446 is the full sample; the treated count is 248–261."
+
+  # Munoz P19-5 (withdrawn)
+  - pid: P19
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "false for LEOs in Panel A (the LEO line slopes upward with Black share"
+    extra_anchors:
+      - anchor: "whose LEO line in Panel A slopes the opposite direction from the \"clear downward slope\" the text describes"
+        file_scope: both
+      - anchor: "**Figure 1 does not show a \"clear downward slope\" for every series.**"
+        file_scope: review
+    pointers:
+      - anchor: "But in Panel A (Black) the LEO fit line slopes *upward*"
+        file_scope: review
+        text: "*See the correction note under What to Treat Cautiously: the text's sentence describes combined personnel.*"
+      - anchor: "LEO line slopes upward in Panel A, fit weighted by the x-variable: MISMATCH (overstated)"
+        file_scope: review
+        text: "*See the correction note under What to Treat Cautiously: the text's sentence describes combined personnel.*"
+      - anchor: "holds for SSGs and for the combined measure, not for LEOs"
+        file_scope: review
+        text: "*See the correction note under What to Treat Cautiously.*"
+    note: >-
+      The LEO line in Panel A does rise with Black share (West ≈0.22 to South
+      ≈0.55), but the p. 8 sentence about "a clear downward slope" describes
+      combined security personnel, which does slope down, so the text is not
+      contradicted by the figure. The regional "paradox" remains an unestimated
+      residual with no standard error, illustrated by four points. Found during
+      the September 2026 reconciliation audit; confirmed against the rendered
+      figure.
+    where: "Synthesis, Overall Assessment and What to Treat Cautiously; same text in the full Claude review, plus the Methods, Writing and Contribution sub-reviews"
+    what_was_wrong: "Said the text's 'clear downward slope' is contradicted by the LEO line in Figure 1 Panel A."
+    correction: "The sentence describes combined security personnel, which does slope down; the rising LEO line does not contradict it."
+
+  # Ganimian P21-7 (withdrawn)
+  - pid: P21
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "is counted as 44 estimates on pp. 3 and 15 but 45 on p. 6"
+    extra_anchors:
+      - anchor: "with an inconsistent count (44 vs. 45)"
+        file_scope: both
+      - anchor: "The benchmark (Table A.1) is unavailable and inconsistently counted (44 vs. 45)."
+        file_scope: both
+      - anchor: "CONFIRMED: \"44 estimates\" (pp. 3, 15) vs. \"45 reliability estimates\" (p. 6)"
+        file_scope: both
+      - anchor: "COULD NOT CHECK: Table A.1 and the 44-vs-45 reconciliation"
+        file_scope: both
+    pointers:
+      - anchor: "**The count of prior estimates is inconsistent.**"
+        file_scope: review
+        text: "*See the correction note in the synthesis: both counts are right.*"
+      - anchor: "The 44-vs-45 benchmark count"
+        file_scope: review
+        text: "*See the correction note in the synthesis: both counts are right.*"
+      - anchor: "counted inconsistently (44 vs. 45)"
+        file_scope: review
+        text: "*See the correction note in the synthesis: both counts are right.*"
+    note: >-
+      Both counts are right. Supplemental Table A.1 lists 44 observation-based
+      reliability estimates plus one student-survey estimate, 45 in all; pp. 3
+      and 15 count the observation estimates and p. 6 the whole table, as the
+      Methods sub-review guessed. The supplement is now available: its mean of
+      0.391 over the 45 estimates matches the paper's pooled one-lesson mean,
+      but by design it splits into 0.60 (same peer), 0.39 (same coach) and 0.18
+      (different peer), so the comparability point above stands. Found during
+      the September 2026 reconciliation audit; confirmed against the online
+      supplement.
+    where: "Synthesis, Overall Assessment, Key Concerns, What to Treat Cautiously and Verification notes; same text in the full Claude review, plus the Literature, Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Listed the benchmark count (44 on pp. 3 and 15; 45 on p. 6) as an inconsistency."
+    correction: "Supplement Table A.1 has 44 observation estimates plus one survey estimate; both counts are right in context."
+
+  # Acris P23-3 (withdrawn); P23-1 held
+  - pid: P23
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "the Figure 1 confidence bands include zero at roughly the top fifth of the endline distribution"
+    note: >-
+      The top-fifth observation does not contradict the abstract. The point
+      estimates are positive across the whole distribution, the lower band
+      crosses zero only above about the 84th percentile, and p. 12 discloses
+      the loss of significance; that is compression at the top, not a
+      contradiction. The second half of this bullet stands: Table 4, column 5
+      implies about −0.18 SD (not significant) in non-rural districts and about
+      +0.53 SD in rural ones, so "broadly shared" (p. 16) and "across a broad
+      range of students" (p. 17) fail. Found during the September 2026
+      reconciliation audit; confirmed against the rendered figure and table,
+      and held after a blind second reading.
+    where: "Synthesis, What to Treat Cautiously; same text in the full Claude review"
+    what_was_wrong: "Cited the Figure 1 bands including zero at the top fifth against the abstract's 'positive effects across the achievement distribution'."
+    correction: "Point estimates are positive throughout and p. 12 discloses the top-tail loss of significance; not a contradiction. The rural/non-rural point stands."
+
+  # Gicheva P24-1 (worker-report correction to the synthesis)
+  - pid: P24
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "still around 5 pp at the end of the sample"
+    pointers:
+      - anchor: "still around -0.06 at the end of the sample"
+        file_scope: review
+        text: "*See the correction note in the synthesis: Figure 4a's last point is about −0.024.*"
+    note: >-
+      Figure 4a reads about −0.058 at Fall 2022–23 but −0.024 at Spring
+      2022–23, the last point, so the below-median-GPA gap at the end of the
+      sample is about 2.4 pp, not 5. The rest of the bullet stands. Separately,
+      an approximate reconstruction of levels from Figures 1c, 2c and 4 and
+      Table 1's group shares (no standard errors) puts all eight
+      group-by-sector series 1.7–5.3 pp below their own baseline in Fall 2022
+      and within about 1 pp of it by Spring 2023, so the abstract's level claim
+      is true through Fall 2022 and ambiguous at the end; the point in Key
+      Concerns, that the paper itself shows no levels, stands. Found during the
+      September 2026 reconciliation audit; confirmed against the rendered
+      figures.
+    where: "Synthesis, What to Rely On; same text in the full Claude review, plus the Contribution sub-review"
+    what_was_wrong: "Said the below-median-GPA completion gap is still around 5 pp at the end of the sample."
+    correction: "Figure 4a's last point (Spring 2022–23) is about −0.024; the −0.058 is Fall 2022–23."
+
+  # Whitfield P26-1 (worker-report correction: 'linear-trend' label)
+  - pid: P26
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "the refiling effect is a range (roughly 2–4 pp)"
+    extra_anchors:
+      - anchor: "under a linear-trend counterfactual extrapolating the +2.2 pp gain between the first two cohorts, roughly 3.9 pp"
+        file_scope: review
+    note: >-
+      The range is wider than stated, and the Methods sub-review's
+      "linear-trend counterfactual" label for the 3.9 pp figure is wrong.
+      β2 − β1 assumes the 2024 cohort would have matched the 2023 cohort's
+      level; a linear extrapolation of the pre-period rise is β2 − 2β1, which
+      is −6.1 pp for all filers. The refiling decline is therefore −1.7 pp
+      under a flat counterfactual, −3.9 pp at the 2023 level, −6.1 pp under a
+      linear trend, and under 1.7 pp if the pre-period rise was about to
+      revert. The point that the sign is solid and the magnitude depends on the
+      counterfactual stands. Found during the September 2026 reconciliation
+      audit; confirmed against Table 2.
+    where: "Synthesis, Overall Assessment; same text in the full Claude review, plus the Methods sub-review"
+    what_was_wrong: "Gave the refiling effect as roughly 2–4 pp and called the 3.9 pp figure a linear-trend counterfactual."
+    correction: "β2 − β1 is a level counterfactual; a linear trend gives −6.1 pp. The range runs from under 1.7 pp to 6.1 pp depending on the counterfactual."
+
+  # Yoon P27-2 (withdrawn)
+  - pid: P27
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "\"Persistent within-school barriers\" is contradicted by the body (\"widened,\" \"intensifying\")"
+    extra_anchors:
+      - anchor: "the abstract's \"persistent\" contradicts the body's \"widened,\""
+        file_scope: both
+      - anchor: "\"Persistent\" (abstract) versus \"widened\" (body) for ELLs"
+        file_scope: both
+      - anchor: "ABSTRACT–BODY CONTRADICTION ON THE HEADLINE FINDING."
+        file_scope: review
+    pointers:
+      - anchor: "It contains the paper's single most misleading word"
+        file_scope: review
+        text: "*See the correction note in the Writing sub-review above: Figure 2(f) supports both words.*"
+    note: >-
+      Figure 2(f) supports both words. The ELL coefficient is negative in 13 of
+      14 cohorts (persistent) and its fitted slope is −0.0010 per cohort,
+      p < .05 (widened); the abstract's word and the body's are not
+      contradictory. The second half of this sentence, on Hispanic
+      "underrepresentation" against Figure 1(e), stands. Found during the
+      September 2026 reconciliation audit; confirmed against the rendered
+      figure.
+    where: "Synthesis, Overall Assessment, Key Concerns and What to Treat Cautiously; same text in the full Claude review, plus the Writing sub-review"
+    what_was_wrong: "Said the abstract's 'persistent' ELL barriers contradicts the body's 'widened'."
+    correction: "Figure 2(f) shows a gap that is negative in 13 of 14 cohorts and widening (slope −0.0010, p < .05); both words are supported."
+
+  # Yoon (worker-report correction: raw ELL gap)
+  - pid: P27
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "is a small remainder of a raw gap several times larger"
+    extra_anchors:
+      - anchor: "against a raw gap several times larger"
+        file_scope: both
+      - anchor: "against a raw ELL participation gap on the order of 10 percentage points in Figure 1(h)"
+        file_scope: review
+    note: >-
+      The raw gap is smaller than stated. Digitized from Figure 1(h) against
+      1(a), the raw ELL participation gap is 2.0–5.0 percentage points (12.8 vs
+      14.8 in 2010; 12.9 vs 17.9 in 2020; 15.9 vs 19.2 in 2024) and the
+      concentration gap 2.8–4.4 points, not about 10. The 2023 adjusted gap of
+      about −2.2 points is roughly half the raw concentration gap, not a small
+      remainder of it. Found during the September 2026 reconciliation audit;
+      confirmed against the rendered figure.
+    where: "Synthesis, Overall Assessment and What to Treat Cautiously; same text in the full Claude review, plus the Contribution sub-review"
+    what_was_wrong: "Said the within-school ELL gap is a small remainder of a raw gap several times larger (about 10 points)."
+    correction: "The raw gap is 2–5 points; the adjusted gap is about half of it."
+
+  # Polikoff P29-2 (withdrawn)
+  - pid: P29
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "3,905/4,896 is 79.8%, not 81%; six regression Ns exceed 3,905"
+    extra_anchors:
+      - anchor: "3,905/4,896 = 79.8% — CONFIRMED (p.3; Table 3)"
+        file_scope: both
+      - anchor: "CORRECTED in this synthesis by the writing reviewer's arithmetic (79.8%)"
+        file_scope: both
+      - anchor: "And 3,905/4,896 is 79.8%, not the stated 81% (p.3)."
+        file_scope: review
+      - anchor: "3,905/4,896 is 79.8%, not 81%. And six of the Table 3 models"
+        file_scope: review
+    pointers:
+      - anchor: "The response rate arithmetic is 79.8%, not 81% (p.3)."
+        file_scope: review
+        text: "*See the correction note in the Methods sub-review above: the 81% is the starter rate.*"
+      - anchor: "\"response rate of 81%\" vs. 3,905/4,896 = 79.8%. **MISMATCH** (minor)."
+        file_scope: review
+        text: "*See the correction note in the Writing sub-review above: the 81% is the starter rate.*"
+    note: >-
+      The UAS 567 methodology document reconciles the numbers, as the
+      reproducibility sub-review anticipated: 4,896 households were invited,
+      3,974 responded to at least one item (81%), and 3,905 completed the
+      survey (79.8%). The article pairs the completer count with the starter
+      rate, and the regression Ns of 3,932–3,973 include partial respondents.
+      The 81% is right, and the synthesis's "correction" of the contribution
+      sub-review on this point was itself wrong. Whether the 2,005 and 1,900
+      "sampled" groups are responders rather than invitees is not affected.
+      Found during the September 2026 reconciliation audit; confirmed against
+      the UAS 567 methodology documentation.
+    where: "Synthesis, Key Concerns and Verification notes; same text in the full Claude review, plus the Methods and Writing sub-reviews"
+    what_was_wrong: "Said the response rate is 79.8%, not 81%, and that regression Ns above 3,905 do not reconcile."
+    correction: "UAS documentation: 3,974 of 4,896 started (81%), 3,905 completed (79.8%); regression Ns include partial respondents."
+
+  - pid: P29
+    reader: codex
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "yields approximately 79.8% from the stated counts; this confirms the sub-review's arithmetic criticism"
+    extra_anchors:
+      - anchor: "Those stated counts yield approximately 79.8%, not 81%."
+        file_scope: review
+    note: >-
+      The intended denominator is documented outside the article. The UAS 567
+      methodology document reports 4,896 households invited, 3,974 responding
+      to at least one item (81%) and 3,905 completing (79.8%); the article
+      pairs the completer count with the starter rate, and the Table 3 Ns of
+      3,932–3,973 are partial plus complete respondents. The 81% is right, and
+      the regression counts are not erroneous. Found during the September 2026
+      reconciliation audit; confirmed against the UAS 567 methodology
+      documentation.
+    where: "Synthesis, Verification notes; same text in the full Codex review, plus the Writing sub-review"
+    what_was_wrong: "Confirmed the 79.8%-not-81% arithmetic criticism, leaving the denominator unresolved."
+    correction: "UAS documentation: 81% started, 79.8% completed; the article mixes the two. Regression Ns include partial respondents."
+
+  # Polikoff P29-4 (withdrawn)
+  - pid: P29
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "13 items below 50% support is not majority opposition, and the paper never reports the disagree share"
+    extra_anchors:
+      - anchor: "13 items below 50% support is not the same as majority opposition"
+        file_scope: review
+    pointers:
+      - anchor: "so \"below 50% agree\" is not the same as majority opposition if not-sure responses are counted"
+        file_scope: review
+        text: "*See the correction note under What to Treat Cautiously: the UAS topline shows majority disagreement on 10 of 18.*"
+      - anchor: "Majority opposition **CANNOT CHECK**."
+        file_scope: review
+        text: "*See the correction note under What to Treat Cautiously: the UAS topline shows majority disagreement on 10 of 18.*"
+    note: >-
+      The UAS 567 topline, which reproduces Figure 1, reports the full
+      response distribution: a majority disagree or strongly disagree on 10 of
+      the 18 elementary-school topics, so the abstract's "opposition to most"
+      is true, narrowly. The paper itself does not report the disagree shares,
+      so the point that Figure 1 cannot show this stands. Found during the
+      September 2026 reconciliation audit; confirmed against the UAS 567
+      topline.
+    where: "Synthesis, What to Treat Cautiously; same text in the full Claude review, plus the Methods, Writing and Contribution sub-reviews"
+    what_was_wrong: "Treated the abstract's 'opposition to most racial topics in elementary schools' as unsupported."
+    correction: "The UAS topline shows majority disagreement on 10 of 18 elementary topics; the claim is true, narrowly, though Figure 1 cannot show it."
+
+  - pid: P29
+    reader: codex
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "whereas the results say 'The other 13 items have less than 50% support'"
+    pointers:
+      - anchor: "These are not equivalent when the response options include"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the UAS topline shows majority disagreement on 10 of 18.*"
+      - anchor: "lack of majority agreement alone does not demonstrate majority opposition"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the UAS topline shows majority disagreement on 10 of 18.*"
+    note: >-
+      The distinction is right but the abstract's claim survives it. The UAS
+      567 topline, which reproduces Figure 1, reports the full response
+      distribution: a majority disagree or strongly disagree on 10 of the 18
+      elementary-school topics, so "opposition to most" is true, narrowly. The
+      article itself does not report the disagree shares. Found during the
+      September 2026 reconciliation audit; confirmed against the UAS 567
+      topline.
+    where: "Synthesis, Key Concerns; same text in the full Codex review, plus the Methods and Writing sub-reviews"
+    what_was_wrong: "Treated the abstract's 'opposition to most racial topics in elementary schools' as not established by Figure 1."
+    correction: "The UAS topline shows majority disagreement on 10 of 18 elementary topics; the claim is true, narrowly."
+
+  # Ambali P30-1 (withdrawn after the blind pass)
+  - pid: P30
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "Most of the decomposed gap is in an unreported intercept, and the text reads it as a covariate result."
+    extra_anchors:
+      - anchor: "the 30% is E + C + I for one covariate over a gap of which about 84% sits in an unreported constant"
+        file_scope: both
+      - anchor: "attributes to the covariates a quantity that is almost entirely the unexplained residual"
+        file_scope: both
+      - anchor: "implying an unreported constant of ~0.070 (84% of gap)"
+        file_scope: both
+    pointers:
+      - anchor: "Under Figure 3's metric, all twelve covariates together account for only about 16% of the overall gap"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: a reporting omission, not an error in the paper.*"
+      - anchor: "**Figure 3 has no \"unexplained\" bar (checkable, derived).**"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: a reporting omission, not an error in the paper.*"
+      - anchor: "most of the gap (about 84% by my arithmetic from Table 2) is left in an unreported intercept term"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: a reporting omission, not an error in the paper.*"
+      - anchor: "The printed rows omit an unreported constant/intercept term worth about 84% of the gap"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: a reporting omission, not an error in the paper.*"
+    note: >-
+      The arithmetic here is right; the charge that the paper misreads it is
+      withdrawn. Table 2 prints no constant row, and the overall-index
+      coefficient rows do sum to −0.0095 against the reported 0.0603, so about
+      0.070 (84% of the 0.0830 gap) sits in the unprinted Kitagawa–Oaxaca–Blinder
+      intercept. But the 30% recomputes exactly ((0.0425 + 0.0151 −
+      0.0328)/0.0830 = 29.9%), every Figure 3 bar recomputes from Table 2, and
+      the paper never claims that the listed covariates account for the whole
+      gap. This is a reporting omission (no constant row, so a reader cannot
+      check the total) rather than a text–table discrepancy, and it was removed
+      from the audit's list of errors after a blind second reading. The advice
+      to describe property taxes as the largest identified contributor to a gap
+      the model mostly does not explain remains sound; the description of the
+      paper's reading as an error does not. Found during the September 2026
+      reconciliation audit; confirmed by recomputation from the rendered table.
+    where: "Synthesis, Overall Assessment, Key Concerns, What to Treat Cautiously and Verification notes; same text in the full Claude review, plus the Methods, Writing, Contribution and Reproducibility sub-reviews"
+    what_was_wrong: "Presented the unprinted 84% intercept share as an error in the paper's reading of its decomposition."
+    correction: "The 30% and every Figure 3 bar recompute exactly, and the paper does not claim the covariates explain the whole gap. A reporting omission (no constant row), not a discrepancy."
+
+  # Cristancho P31-1 (wording: flips only at 7 days; the p. 4 sentence names other rows)
+  - pid: P31
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "Table 1's FE-adjusted differences for these rows are larger than the unadjusted ones and flip sign"
+    extra_anchors:
+      - anchor: "larger than unadjusted and sign-flipped"
+        file_scope: both
+      - anchor: "\"substantially reduced\" (p.4) is wrong for the center-level rows"
+        file_scope: both
+      - anchor: "once fixed effects are applied (p.4), but Table 1 shows that within the same unit"
+        file_scope: both
+    pointers:
+      - anchor: "That contradicts the p.4 statement that differences are \"substantially reduced\" once child FE are applied."
+        file_scope: review
+        text: "*See the correction note under Key Concerns: the p. 4 sentence names crime and demographic rows, for which it is true.*"
+      - anchor: "**The balance narrative runs against Table 1.**"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: only the 7-day cells flip sign, and the p. 4 sentence names other rows.*"
+      - anchor: "does not hold for classroom resources"
+        file_scope: review
+        text: "*See the correction note under Key Concerns.*"
+    note: >-
+      Two wording corrections. Only the two 7-day cells flip sign (learning
+      materials 0.51* → −0.63*; teacher higher education 0.24** → −0.47***);
+      the 14-day cells keep their sign and grow (−0.60*** → −0.84***;
+      −0.17* → −0.36***). And the p. 4 sentence names crime exposure and
+      demographics, for which "substantially reduced" is true (the crime rows
+      shrink from 1.24***, 0.77*** and 1.11*** to 0.07, 0.23* and −0.03, and
+      the demographic rows go to about zero); it does not name learning
+      materials or teacher education, so it is incomplete rather than wrong,
+      which is how the Codex review read it. The within-unit imbalance on those
+      two rows is real and the concern about the classroom estimate stands.
+      Found during the September 2026 reconciliation audit; confirmed against
+      the rendered table.
+    where: "Synthesis, Overall Assessment, Key Concerns, What to Treat Cautiously and Verification notes; same text in the full Claude review, plus the Methods, Writing and Contribution sub-reviews"
+    what_was_wrong: "Said the FE-adjusted differences flip sign (all four cells) and that the p. 4 'substantially reduced' sentence is wrong."
+    correction: "Only the 7-day cells flip; the 14-day cells grow with the same sign. The p. 4 sentence names crime and demographic rows, for which it is true; it omits the materials and teacher rows."
+
+  # Burdick-Will P32-4 (withdrawn)
+  - pid: P32
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "matches no Table 3 estimate (−.28, −.25, −.48) and contradicts p. 8's \"a little more than a quarter\""
+    extra_anchors:
+      - anchor: "p. 8 \"a little more than a quarter\" — CONFIRMED understatement"
+        file_scope: both
+      - anchor: "No sidewalk coefficient in Table 3 rounds to .2"
+        file_scope: review
+      - anchor: "**(ii-d) Discussion sidewalk effect vs. Table 3.**"
+        file_scope: review
+    pointers:
+      - anchor: "does not match either Model 1 (−.28) or Model 2 (−.25) in Table 3"
+        file_scope: review
+        text: "*See the correction note under Key Concerns: '.2' is Model 2's −.25 at one decimal.*"
+    note: >-
+      Withdrawn. The Discussion's ".2 percentage point" is the Model 2 estimate
+      (−.25) reported at one decimal, and it does not contradict p. 8's "a
+      little more than a quarter," which describes the same estimate at two
+      decimals. Coarse, not wrong. The other items in this list (the .11/.12
+      standard error, the .79/−.79 correlation, the Table 2 urbanicity shares
+      and density label) stand. Found during the September 2026 reconciliation
+      audit; confirmed against the rendered pages.
+    where: "Synthesis, Key Concerns and Verification notes; same text in the full Claude review, plus the Methods, Writing and Reproducibility sub-reviews"
+    what_was_wrong: "Said the Discussion's '.2 percentage point' sidewalk figure matches no Table 3 estimate and contradicts p. 8."
+    correction: "It is Model 2's −.25 at one decimal; nothing contradicts."
+
+  # Burdick-Will P32-7 (tiebreak reversed)
+  - pid: P32
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "so the label rather than the year is the likely error, but the PDF cannot settle it"
+    extra_anchors:
+      - anchor: "so a mislabeled agency is the more likely resolution than a wrong year"
+        file_scope: both
+    note: >-
+      The tiebreak reverses. No 2018–19 CRDC exists (the collection is
+      biennial), but the 2017–18 CRDC public-use release includes the
+      school-level EDFacts chronic-absenteeism file with the 10% definition, so
+      an OCR-distributed, school-level, 10%-definition file exists for 2017–18
+      and a wrong year (2017–18 data labelled 2018–19) is at least as likely as
+      a wrong agency. The methods sub-review's alternative should not have been
+      marked QUALIFIED. Found during the September 2026 reconciliation audit;
+      confirmed against the OCR CRDC documentation.
+    where: "Synthesis, Key Concerns and Verification notes; same text in the full Claude review"
+    what_was_wrong: "Said a mislabeled agency is more likely than a wrong year because the 10% definition fits EDFacts."
+    correction: "The 2017–18 CRDC release carries the 10%-definition EDFacts file, so 'wrong year' is as likely as 'wrong agency'."
+
+  # Lyon P33-4 (withdrawn)
+  - pid: P33
+    reader: claude
+    date: "2026-09-26"
+    file_scope: both
+    anchor: "and note it cannot be reproduced from the printed coefficients"
+    extra_anchors:
+      - anchor: "and it cannot be recomputed from Table 3, col. 6 because the scaling and centering of logged district size are never stated"
+        file_scope: both
+      - anchor: "COULD NOT CHECK — Whether the 417% figure can be reproduced from Table 3, col. 6"
+        file_scope: both
+    note: >-
+      It reproduces. From Table 3, column 6, the 3.1% and 0.6% predictions
+      recur at a logged district size of about 1.96, which is the 75th
+      percentile implied by Figure 2's own curves; the unrounded ratio read
+      from the figure's pixels is about 3.96–4.05, and ±1 pixel gives 376–418%,
+      so 417% is what the rounded 3.1 and 0.6 give. The scaling of logged size
+      is still unstated, which is why the figure had to be read to fix the
+      75th-percentile value. The advice to quote the absolute gap stands. Found
+      during the September 2026 reconciliation audit; confirmed by
+      recomputation from Table 3.
+    where: "Synthesis, Key Concerns, What to Treat Cautiously and Verification notes; same text in the full Claude review"
+    what_was_wrong: "Said the 417% figure cannot be reproduced from the printed coefficients."
+    correction: "It reproduces from Table 3, column 6, at a logged size of about 1.96 (the 75th percentile); pixel range 376–418%."
+
 # Per-paper notes: shown in the callout at the top of the paper page and listed
 # on the Corrections page.
 notes:
@@ -161,3 +1293,77 @@ notes:
       0.06. Supplemental Table A7 shows the school-level achievement and
       composition gradients holding with controls for family income, building
       age and percent Black.
+
+  # 2026-09-26: notes from the reconciliation audit (deposits, supplements and
+  # earlier versions that bear on how a review should be read).
+
+  - pid: P03
+    note: >-
+      The openICPSR deposit (10.3886/E249905V1, read 2026-09-26) confirms what
+      both reviews infer from the article: no pooled model exists.
+      RaceNativityLabor_MainResults.do estimates Tables 3–4 in a loop over race
+      groups, and no script contains a race × linkage term or any cross-group
+      test (no suest, test, lincom, nlcom or margins). Approximate z-tests from
+      the reported standard errors put the Black–White and Hispanic–White
+      differences in Linkage × Match at z = 2.3 and 2.9 for earnings, so the
+      abstract's "benefit more" claim survives for earnings among Black and
+      Hispanic workers and not for unemployment. The same deposit shows
+      Appendix Table A1 follows the stated ratio rule (see the correction on
+      the Claude review).
+
+  - pid: P06
+    note: >-
+      The ICPSR deposit (study 308283, read 2026-09-26) settles what Table 2
+      is. Its README states that tract-level income and immigrant density were
+      joined to campuses "for the descriptive table analysis" and that county
+      ACS processing served the choropleth maps only, so Table 2's bins are
+      census tracts mislabeled as counties; relabelling them reconciles every
+      sum, and the note (69 of 74 TWDL hot spots in El Paso County) and
+      Figure 3 are right. The TEA program file is not deposited, so the table
+      cannot be recounted. Separately, the abstract's conclusions were carried
+      nearly verbatim from the author's 2023 Texas A&M dissertation, which ran
+      the hot-spot analysis on raw enrollment (hot spots in San Antonio, Austin
+      and El Paso); the article re-ran it on enrollment ratios, which moved
+      the TWDL hot spots to El Paso County, and kept the conclusions.
+
+  - pid: P07
+    note: >-
+      The openICPSR deposit (248577, read 2026-09-26) settles the 38% Pell
+      share that appears only in prose: line 664 of HPP_Analysis.Rmd computes it
+      as the mean of IPEDS percent Pell over the pooled 2015–2019 analytic
+      sample (1,462 institution-years). The same file shows the criterion-3
+      model is trained on 2015–2018 and predicts 2019, so the prediction is out
+      of sample.
+
+  - pid: P11
+    note: >-
+      The online supplement, read 2026-09-26, bears on the Discussion's
+      "turnover of nearly half the workforce (which we found in one state and
+      in some locations in other states)." Charter-school total turnover in the
+      supplement reaches 46–56% (Indiana 55.6%, Washington 55.7%, Texas 51.6%,
+      Massachusetts 46.3%), which supports the "some locations" clause. The
+      "one state" clause traces only to a single-year Texas figure (2022–23,
+      47.4%) in the OSF and working-paper over-time table, which appears in
+      neither the article nor the supplement and which the posted code
+      suggests double-counts switchers. The reviews' statement that the
+      article's highest statewide figure is 35.9% is correct.
+
+  - pid: P23
+    note: >-
+      The external record, read 2026-09-26, contains cost data the article does
+      not: the program's endline report has a cost-effectiveness annex
+      (pp. 131–132) giving about $90 per student, about $9,000 per school
+      (about $6,000 marginal) and about $290 per standard deviation of
+      knowledge gain, which the authors compare with $95.60 per SD for Kenyan
+      textbooks. The reviews' statements that the article reports no cost data
+      are correct; the "scalable model" claim can be read against these
+      figures.
+
+  - pid: P29
+    note: >-
+      The UAS 567 methodology documentation, read 2026-09-26, explains the half
+      sample in Models 9–13 of Table 3 (N = 1,727–1,827 against 3,892): the
+      attitude items were on Form A, administered to a random half of
+      respondents. The article never says so. The same documentation
+      reconciles the response rate and the regression Ns (see the corrections
+      on both reviews).

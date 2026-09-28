@@ -27,6 +27,8 @@ body-classes: "paper-page"
 Claude pipeline, round one (reviewed 2026-09-02). Five sub-reviews were written by separate Claude Opus sessions, one per dimension; the synthesis was written by Claude Fable 5.1, which read the paper and checked the sub-reviews against the extracted text but did not render PDF pages. Not page-verified. Sub-reviews are first-layer outputs and may contain claims the synthesis did not adopt.
 
 Codex pipeline (reviewed 2026-09-25). Independent second reader: OpenAI GPT-6 (astra, high reasoning) run through the Codex CLI with the same six prompts, given the paper and no other information; it had no access to the Claude reviews or to the project's aims. Five sub-reviews were written by separate sessions, one per dimension; the synthesis by a sixth session that read them. Each Codex synthesis ends with its own Verification notes.
+
+**Note.** The online supplement, read 2026-09-26, bears on the Discussion's "turnover of nearly half the workforce (which we found in one state and in some locations in other states)." Charter-school total turnover in the supplement reaches 46–56% (Indiana 55.6%, Washington 55.7%, Texas 51.6%, Massachusetts 46.3%), which supports the "some locations" clause. The "one state" clause traces only to a single-year Texas figure (2022–23, 47.4%) in the OSF and working-paper over-time table, which appears in neither the article nor the supplement and which the posted code suggests double-counts switchers. The reviews' statement that the article's highest statewide figure is 35.9% is correct.
 :::
 
 | | Claude | Codex |

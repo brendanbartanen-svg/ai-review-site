@@ -19,6 +19,8 @@ This repository builds a static Quarto website that publishes AI-generated retro
 | `_includes/prompts.qmd`, `_includes/comparison_table.qmd` | Partials included by the Methods and Comparison pages | No, generated |
 | `prompts/*.md` | Copies of the six prompts (also served as raw files) | No, copied |
 | `build/manifest.csv` | One row per paper: metadata and both readers' ratings | No, generated |
+| `build/export_data.py` | Writes `data/` from the essay's mistakes ledger and overreach census; drops every column holding paper text or notes and fails on any cell over 40 characters or with a quotation mark | Yes |
+| `data/*.csv` | Quote-free code-only data behind the Mistakes audit and Overreach census pages: `mistakes_ledger.csv`, `overreach_claims.csv`, `paper_summary.csv` (copied into `_site/data/`) | No, generated |
 
 Generated pages are committed, so the GitHub Actions workflow only has to run `quarto render`. It never needs the review archives.
 

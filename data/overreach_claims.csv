@@ -1,0 +1,1341 @@
+pid,cite,journal,doi,claim_id,location,type,scope,hedge,design,verdict,secondary,concession_page,final_code_source,assessable,f1,overreach
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C02a,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C02b,abstract,POL,IN,H0,DESC;OTHER,T1,,13,fable,true,false,true
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C02c,abstract,DES,IN,H0,DESC;CORR,T3a,T1;T4,11,fable,true,false,true
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C03,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C04,abstract,POL,IN,HF,DESC;OTHER,S,,,fable,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C05,conclusion,DES,IN,H0,DESC,S,T3b,,agree,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C06,conclusion,DES,IN,H0,DESC;OTHER,S,T1,,adjudicator,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C07,conclusion,DES,IN,H0,DESC;OTHER,S,,,agree,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C08,conclusion,DES,IN,H0,DESC;OTHER,S,T3b,,agree,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C09,conclusion,DES,IN,H0,OTHER,S,,,agree,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C10,conclusion,DES,IN,H0,DESC,T4,T3a,,fable,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C11,conclusion,DES,IN,HF,DESC,S,,,fable,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C12,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C13,conclusion,DES,IN,HM,DESC;OTHER,S,,,fable,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C14,conclusion,POL,IN,HM,DESC;OTHER,SH,T1,13,codex,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C15a,conclusion,DES,IN,H0,OTHER;DESC,S,,,codex,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C15b,conclusion,CAU,IN,H0,DESC;OTHER,T1,T3b,8,codex,true,false,true
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C16,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C17,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C18,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C19,conclusion,NC,IN,HM,,NC,,,agree,false,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C20a,conclusion,DES,IN,HF,DESC,S,,,fable,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C20b,conclusion,POL,IN,HF,NONE,T3b,T1,13,fable,true,false,true
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C21,conclusion,POL,IN,HM,NONE,T3b,T1,13,fable,true,false,true
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C22,conclusion,POL,IN,H0,NONE,T3b,,,fable,true,false,true
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C23,conclusion,NC,IN,H0,,NC,,,fable,false,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C24,conclusion,POL,IN,H0,NONE,T3b,T1,13,agree,true,false,true
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C25,conclusion,POL,IN,HL,OTHER;DESC,S,,,agree,true,false,false
+P01,"Shand, Chu, Gurny et al.",AERA Open,10.1177/23328584261466663,P01-C26,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C02,abstract,ASC,IN,HF,CORR,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C03,abstract,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C04a,abstract,ASC,IN,H0,CORR,S,,,fable,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C04b,abstract,ASC,IN,H0,CORR,T3a,,,fable,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C05,abstract,ASC,IN,H0,CORR,T1,T3a,13,fable,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C06,abstract,POL,IN,H0,,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C07,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C08,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C09,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C10,conclusion,POL,IN,H0,CORR,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C11,conclusion,CAU,IN,H0,CORR,T1,,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C12,conclusion,MEC,IN,HM,NONE,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C13,conclusion,MEC,IN,H0,NONE,T1,T3b,8,fable,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C14,conclusion,MEC,IN,HM,NONE,T1,T3b,8,fable,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C15,conclusion,POL,IN,H0,NONE,T3b,T1,,fable,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C16,conclusion,POL,IN,H0,CORR,T1,T3b,8,fable,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C17,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C18,conclusion,ASC,IN,H0,NONE,T3b,T4,,codex,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C19,conclusion,ASC,IN,H0,CORR,LIT,,,fable,false,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C20,conclusion,MEC,IN,HM,NONE,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C21,conclusion,CAU,IN,H0,CORR,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C22,conclusion,POL,IN,HM,CORR,T1,T3b,8,codex,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C23,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C24,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C25,conclusion,MEC,IN,HMF,NONE,SH,T1,8,codex,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C26,conclusion,MEC,IN,HM,CORR,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C27a,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C27b,conclusion,MEC,IN,HMF,NONE,SH,T1,8,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C28,conclusion,CAU,IN,H0,CORR,T1,,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C29a,conclusion,NUL,IN,H0,CORR,S,T3a,,codex,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C29b,conclusion,ASC,IN,HF,CORR,S,T4,,codex,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C30,conclusion,MEC,IN,HM,NONE,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C31,conclusion,MEC,IN,HMF,NONE,SH,T1,8,codex,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C32,conclusion,MEC,IN,H0,NONE,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C33,conclusion,NC,IN,HM,NONE,NC,T1,,codex,false,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C34,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C35,conclusion,ASC,IN,H0,CORR,S,T1,13,fable,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C36,conclusion,ASC,IN,H0,CORR,T1,T3a,13,fable,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C37,conclusion,POL,IN,H0,,S,T1,,fable,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C38,conclusion,MEC,IN,H0,NONE,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C39,conclusion,MEC,IN,H0,NONE,T1,T3b,8,codex,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C40,conclusion,POL,IN,H0,DESC;CORR,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C41,conclusion,POL,IN,H0,DESC;CORR,T1,T3b,8,codex,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C42,conclusion,POL,IN,H0,CORR,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C43,conclusion,POL,IN,H0,NONE,T3b,,,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C44,conclusion,POL,IN,H0,CORR,T1,T3b,8,agree,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C45,conclusion,POL,IN,HM,NONE,SH,T1,,fable,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C46,conclusion,POL,IN,H0,CORR,T1,T3b,8,codex,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C47,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C48,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C49,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C50,conclusion,DES,IN,H0,DESC,S,T3b,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C51,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C52a,conclusion,DES,IN,H0,DESC,S,,,codex,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C52b,conclusion,POL,IN,H0,,S,,,codex,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C53,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C54,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C55,conclusion,MEC,IN,H0,NONE,T1,T3b,8,codex,true,false,true
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-C56,conclusion,POL,IN,HM;HC,NONE,SH,T3b,,codex,true,false,false
+P02,Lee,AERA Open,10.1177/23328584261466676,P02-X01,conclusion,ASC,IN,H0,CORR,T3a,T1,13,agree,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C02a,abstract,ASC,IN,H0,CORR,S,T3a;T4,,codex,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C02b,abstract,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C03a,abstract,CAU,IN,HF,CORR,T1,,2,codex,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C03b,abstract,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C04,abstract,ASC,IN,HL,CORR,SH,T3a,,codex,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C05,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C06,conclusion,ASC,IN,H0,CORR,S,T4,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C07,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C08,conclusion,CAU,IN,HF,CORR,T1,T3a,2,codex,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C09,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C10,conclusion,MEC,IN,HM,NONE,T1,,2,agree,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C11,conclusion,CAU,IN,HM,CORR,T1,,2,agree,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C12,conclusion,MEC,IN,HM;HF,NONE,SH,T1,2,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C13,conclusion,MEC,IN,HM,NONE,T1,,2,fable,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C14a,conclusion,MEC,IN,HM;HF,NONE,SH,T1,2,fable,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C14b,conclusion,ASC,IN,H0,CORR,S,T3a,,fable,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C15,conclusion,CAU,IN,HM,CORR,T1,,2,agree,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C16a,conclusion,MEC,IN,H0,NONE,T1,,2,fable,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C16b,conclusion,CAU,IN,HM,CORR,T1,,2,fable,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C17,conclusion,POL,IN,HM;HF,CORR,SH,T1,2,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C18,conclusion,POL,IN,HM,CORR,T1,,2,codex,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C19,conclusion,POL,IN,HM,CORR,SH,T1,2,codex,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C20,conclusion,POL,IN,HM,CORR,SH,T1,2,codex,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C21,conclusion,ASC,IN,HF,CORR,S,,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C22,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C23,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C24,conclusion,POL,IN,HM,CORR,S,,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C25,conclusion,POL,IN,HM,DESC;CORR,S,,,agree,true,false,false
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-C26,conclusion,POL,IN,HM,NONE,T1,T3b,2,fable,true,false,true
+P03,"Holzman, Han, Lewis et al.",AERA Open,10.1177/23328584261467394,P03-X01,conclusion,NC,IN,HM;HC,,NC,,,fable,false,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C02,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C03,abstract,DES,IN,H0,DESC,S,,,fable,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C04,abstract,ASC,IN,H0,CORR,T1,,21,fable,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C05,abstract,POL,IN,H0,CORR,S,T1,20,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C06,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C07,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C08,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C09,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C10,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C11,conclusion,ASC,IN,H0,CORR,S,T1,21,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C12,conclusion,ASC,IN,H0,CORR,S,T2,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C13,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C14,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C15,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C16,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C17,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C18,conclusion,ASC,IN,H0,CORR,S,T2,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C19,conclusion,ASC,IN,H0,CORR,S,T3a,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C20,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C21,conclusion,MEC,IN,H0,CORR,S,,,fable,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C22,conclusion,POL,BEYOND,H0,NONE,LIT,,,codex,false,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C23,conclusion,POL,IN,H0,CORR,S,,,fable,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C24,conclusion,POL,IN,H0,DESC,S,T3b,,codex,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C25,conclusion,POL,IN,H0,NONE,T3b,,,codex,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C26,conclusion,MEC,IN,HM,NONE,T3b,,,agree,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C27,conclusion,MEC,IN,HM,NONE,T3b,,,agree,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C28,conclusion,MEC,IN,HM,NONE,T3b,,,fable,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C29,conclusion,MEC,IN,HM,NONE,T3b,,,agree,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C30,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C31,conclusion,DES,IN,H0,DESC,S,,,fable,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C32,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C33,conclusion,DES,IN,H0,DESC,S,T3a,,fable,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C34,conclusion,ASC,IN,H0,CORR,T1,,21,adjudicator,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C35a,conclusion,ASC,IN,H0,CORR,T1,,21,fable,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C35b,conclusion,MEC,IN,HM,NONE,T3b,,,agree,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C36a,conclusion,ASC,IN,H0,CORR,T1,,21,fable,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C36b,conclusion,POL,IN,HMF,CORR,SH,T1,21,fable,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C37,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C38,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C39,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C40,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C41,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C42,conclusion,POL,IN,HF,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C43,conclusion,DES,IN,H0,DESC,S,,,fable,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C44,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C45,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C46,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C47,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C48,conclusion,MEC,IN,HMF,NONE,SH,T3b,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C49,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C50,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C51,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C52,conclusion,DES,IN,H0,DESC,S,T3a,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C53,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C54,conclusion,ASC,IN,H0,CORR,T1,T3a,21,agree,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C55,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C56,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C57a,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C57b,conclusion,ASC,IN,HF,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C57c,conclusion,ASC,IN,HF,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C57d,conclusion,ASC,IN,HF,CORR,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C57e,conclusion,ASC,IN,HF,CORR,SH,T1,21,fable,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C58,conclusion,POL,IN,H0,CORR,S,T1,20,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-C59,conclusion,POL,IN,H0,NONE,S,,,agree,true,false,false
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-X01,conclusion,MEC,IN,HM,NONE,T3b,,,agree,true,false,true
+P04,Boles,AERA Open,10.1177/23328584261448139,P04-X02,conclusion,NC,IN,H0,,NC,,,adjudicator,false,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C02a,abstract,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C02b,abstract,ASC,IN,H0,CORR,T3a,,,agree,true,true,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C03,abstract,MEC,IN,HS;HM,CORR,SH,T1,16,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C04,abstract,NUL,IN,H0,CORR,T1,T3a;T4,8,codex,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C05a,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C05b,conclusion,NUL,IN,H0,CORR,T4,T3a,,overruled,true,true,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C06a,conclusion,NUL,IN,H0,CORR,T1,T3a;T4,8,codex,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C06b,conclusion,ASC,IN,H0,CORR,T4,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C07,conclusion,NC,IN,H0,,NC,LIT,,agree,false,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C08,conclusion,MEC,IN,HL;HS,CORR,SH,,17,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C09,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C10a,conclusion,ASC,IN,H0,CORR,T3a,,,agree,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C10b,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C11,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C12,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C13,conclusion,MEC,IN,HF,CORR,T1,T3a,16,agree,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C14,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C15,conclusion,NC,IN,H0,NONE,NC,,,codex,false,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C16a,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C16b,conclusion,ASC,IN,H0,CORR,S,,,overruled,true,true,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C17,conclusion,NC,IN,HS,NONE,NC,,,codex,false,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C18,conclusion,DES,IN,HS,DESC,S,,,fable,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C19,conclusion,MEC,IN,HM;HS,NONE,SH,T3a,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C20,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C21,conclusion,ASC,IN,HM;HC,CORR,S,,,codex,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C22,conclusion,MEC,IN,HM;HS,CORR,SH,T3a,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C23,conclusion,MEC,IN,HS,NONE,SH,T1,16,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C24,conclusion,MEC,IN,HM;HS,NONE,SH,T1,16,fable,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C25,conclusion,MEC,IN,HM,NONE,T1,LIT;T3b,16,agree,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C26,conclusion,ASC,IN,H0,CORR,T4,T3a,,fable,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C27,conclusion,NUL,IN,H0,CORR,T1,T3a;T4,8,codex,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C28,conclusion,ASC,IN,HF,CORR,S,,,codex,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C29a,conclusion,ASC,IN,H0,CORR,T3a,,,agree,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C29b,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C30,conclusion,ASC,IN,HM;HL,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C31,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C32,conclusion,ASC,IN,HS,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C33,conclusion,MEC,IN,HM;HS,CORR,SH,T1,16,fable,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C34,conclusion,MEC,IN,HM,NONE,T1,T3b,16,agree,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C35,conclusion,MEC,IN,HC;HM,NONE,SH,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C36,conclusion,MEC,IN,HS,NONE,SH,T1,,fable,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C37,conclusion,MEC,IN,HS,NONE,SH,T1,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C38,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C39,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C40,conclusion,POL,IN,HM,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C41,conclusion,POL,IN,H0,CORR,S,T1,,codex,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C42,conclusion,POL,IN,HM,NONE,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C43,conclusion,POL,BEYOND,HM,CORR,T3a,T1;T2,16,fable,true,false,true
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C44,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P05,"Britton, Shirrell & Bristol",AERA Open,10.1177/23328584261476998,P05-C45,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C02a,abstract,DES,IN,H0,DESC,T3a,,,agree,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C02b,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C03a,conclusion,DES,IN,H0,DESC,T3a,,,agree,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C03b,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C04,conclusion,MEC,IN,H0,DESC,T1,T2,23,codex,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C05,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C06,conclusion,DES,IN,HF,DESC,S,,,fable,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C07,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C08a,conclusion,DES,IN,H0,DESC,S,T3a,,overruled,true,true,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C08b,conclusion,MEC,IN,HF,DESC,T2,T3b,,agree,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C09,conclusion,NUL,IN,HF,DESC,S,T3a,,overruled,true,true,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C10a,conclusion,DES,IN,H0,DESC,S,T3b,,codex,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C10b,conclusion,DES,IN,H0,DESC,S,T3a,,overruled,true,true,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C10c,conclusion,MEC,IN,HF,DESC,T1,T2,14,agree,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C11,conclusion,MEC,IN,HF,DESC,T1,T2,23,agree,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C12,conclusion,MEC,IN,H0,DESC,T3a,T1,,agree,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C13a,conclusion,DES,IN,HM,DESC,T1,T3b,23,codex,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C13b,conclusion,CAU,IN,H0,DESC,T1,T2,23,agree,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C14,conclusion,MEC,IN,HM;HF,DESC,T1,T2,23,codex,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C15,conclusion,POL,IN,HF,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C16,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C17,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C18a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C18b,conclusion,DES,IN,HF,NONE,T3b,T4,,codex,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C19,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C20,conclusion,DES,IN,H0,DESC,S,T3a,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C21,conclusion,MEC,IN,HF,DESC,T2,T1,,agree,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C22,conclusion,DES,IN,H0,DESC,T3a,,,codex,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C23,conclusion,DES,IN,H0,DESC,S,T3a,,codex,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C24,conclusion,MEC,IN,HMF,DESC,SH,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C25,conclusion,MEC,IN,HF;HL,DESC,SH,,22,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C26,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C27,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C28,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C29,conclusion,POL,IN,HM,DESC,T1,T3b;T2,23,codex,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C30,conclusion,POL,IN,H0,DESC,T1,T2;T3b,22,codex,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C31,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C32,conclusion,DES,IN,H0,DESC,S,T3a,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C33,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C34,conclusion,POL,IN,HF,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C35,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C36,conclusion,POL,IN,H0,DESC,S,,,fable,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C37,conclusion,NC,IN,HL,,NC,,,codex,false,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C38,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C39a,conclusion,MEC,IN,H0,DESC,T1,T3a;T2,23,codex,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C39b,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C40,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C41,conclusion,POL,BEYOND,HC,DESC,T3a,T3b,,fable,true,false,true
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C42,conclusion,POL,IN,HC,NONE,SH,T3b,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-C43,conclusion,POL,IN,HM,DESC,S,T3b,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-X01,conclusion,POL,IN,H0,DESC,S,,,codex,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-X02,conclusion,NC,IN,H0,,NC,,,adjudicator,false,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-X03,conclusion,POL,IN,HC,NONE,SH,T3b,,agree,true,false,false
+P06,Holtz,AERA Open,10.1177/23328584261481430,P06-X04,conclusion,POL,BEYOND,HC,NONE,SH,T3b,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C02a,abstract,DES,IN,H0,DESC,S,,,codex,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C02b,abstract,DES,IN,H0,DESC,T3a,,,codex,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C02c,abstract,DES,IN,H0,DESC,S,,,codex,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C03a,abstract,ASC,IN,H0,CORR,T4,,,fable,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C03b,abstract,MEC,IN,H0,NONE,T1,T3b,11; 13 (note 9),agree,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C04,abstract,NC,IN,H0,,NC,,,agree,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C05,abstract,POL,IN,H0,DESC,S,T1,,fable,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C06,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C07,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C08,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C09,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C10,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C11,conclusion,ASC,IN,H0,CORR,T4,T3a,,fable,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C12,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C13,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C14,conclusion,MEC,IN,HM;HF,CORR,SH,T1,11; 13 (note 9),fable,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C15a,conclusion,NUL,IN,H0,CORR,T1,T3a,11; 13 (note 9),fable,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C15b,conclusion,MEC,IN,HM,NONE,T1,T3b,11; 13 (note 9),fable,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C16,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C17a,conclusion,MEC,IN,HMF,CORR,SH,T1,11; 13 (note 9),fable,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C17b,conclusion,CAU,IN,HF,CORR,T1,T3a,11; 13 (note 9),fable,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C18,conclusion,MEC,IN,HM,NONE,T1,T3b,11; 13 (note 9),agree,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C19,conclusion,MEC,IN,HM;HF,CORR,SH,T1,11; 13 (note 9),adjudicator,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C20,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C21,conclusion,POL,IN,HF,,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C22a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C22b,conclusion,DES,IN,HF,NONE,T3b,T1,,codex,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C23,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C24,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C25,conclusion,MEC,IN,HM,CORR,T1,T3b,11,agree,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C26,conclusion,POL,IN,H0,DESC,S,T1,,fable,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C27,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C28,conclusion,POL,IN,HM,DESC,S,T1,,fable,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C29,conclusion,POL,IN,HM,DESC,T1,T3b,11; 13 (note 9),agree,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C30,conclusion,POL,IN,HM,DESC,T1,T3a;T3b,11; 13 (note 9),agree,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C31,conclusion,POL,IN,H0,CORR,S,,,fable,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C32,conclusion,POL,IN,HM,DESC,S,T3b,,codex,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C33,conclusion,POL,IN,HM,DESC,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C34,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C35,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C36,conclusion,POL,IN,HM,,S,T1,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C37,conclusion,MEC,IN,HM,NONE,T1,T3b,11; 13 (note 9),agree,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C38,conclusion,POL,IN,H0,DESC,T3a,,,fable,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C39a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C39b,conclusion,DES,IN,H0,NONE,T3b,,,agree,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C40,conclusion,MEC,IN,HMF,CORR,SH,T1,11; 13 (note 9),agree,true,false,false
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-C41,conclusion,MEC,IN,H0,NONE,T1,T3b,11; 13 (note 9),agree,true,false,true
+P07,"Odle, Duke & Dunens",AERA Open,10.1177/23328584261483676,P07-X01,conclusion,POL,IN,HM,OTHER,S,,,codex,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C02a,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C02b,abstract,CAU,IN,H0,CORR,T1,T2,5,agree,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C03a,abstract,DES,IN,H0,DESC,T4,T1,5,fable,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C03b,abstract,CAU,IN,H0,OTHER,T1,T2,4,fable,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C04,abstract,ASC,IN,H0,DESC,S,T3b,,fable,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C05,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C06,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C07,abstract,ASC,IN,H0,CORR,S,T2,,codex,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C08,abstract,POL,IN,H0,DESC,S,T1,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C09,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C10,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C11a,conclusion,CAU,IN,H0,CORR,T2,T3b,,agree,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C11b,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C12,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C13,conclusion,MEC,IN,HM,NONE,T3b,T1,,agree,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C14,conclusion,DES,IN,HL,OTHER,S,,,codex,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C15,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C16,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C17,conclusion,POL,IN,H0,DESC,T2,T1;T3b,,agree,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C18,conclusion,DES,IN,H0,DESC,T4,T1,5,fable,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C19,conclusion,CAU,IN,H0,OTHER,T1,T3b;T2,4,fable,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C20,conclusion,POL,IN,H0,OTHER,T1,T3b,4,agree,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C21,conclusion,DES,IN,HL,OTHER,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C22a,conclusion,CAU,IN,H0,CORR,T2,,,agree,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C22b,conclusion,MEC,IN,HM,NONE,T3b,T1,,agree,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C23a,conclusion,ASC,IN,H0,OTHER,S,T1,,codex,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C23b,conclusion,CAU,IN,H0,CORR,T1,T2,5,codex,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C24a,conclusion,POL,IN,H0,CORR,T2,,,fable,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C24b,conclusion,POL,IN,H0,CORR,T3a,T2,,fable,true,false,true
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C25,conclusion,DES,IN,HF,OTHER,S,,,codex,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C26a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C26b,conclusion,DES,IN,HM,NONE,LIT,,,adjudicator,false,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C27a,conclusion,DES,IN,H0,DESC,S,,,codex,true,false,false
+P08,"Gao, Semykina, Isler et al.",AERA Open,10.1177/23328584261482071,P08-C27b,conclusion,ASC,IN,H0,DESC,S,T3b,,adjudicator,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C02,abstract,NC,IN,H0,,NC,T2,,agree,false,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C03a,abstract,DES,IN,HF,DESC,S,,,codex,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C03b,abstract,ASC,IN,HF,CORR,S,,,codex,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C04,abstract,CAU,IN,H0,CORR,T2,T4,,agree,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C05,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C06,conclusion,DES,IN,HM,DESC,S,,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C07,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C08,conclusion,MEC,IN,H0,CORR,T2,T3b,,codex,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C09,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C10,conclusion,DES,IN,H0,DESC,S,T4,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C11a,conclusion,DES,IN,H0,DESC,S,,,fable,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C11b,conclusion,DES,IN,H0,NONE,LIT,T3b,,fable,false,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C12a,conclusion,ASC,IN,H0,CORR,S,,,fable,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C12b,conclusion,CAU,IN,HF,CORR,T2,,,fable,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C13,conclusion,MEC,IN,HC,NONE,SH,T3b,,fable,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C14,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C15a,conclusion,DES,IN,H0,NONE,T3b,,,fable,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C15b,conclusion,DES,IN,H0,DESC,S,T3b,,fable,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C16,conclusion,MEC,IN,H0,NONE,T3b,,,agree,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C17,conclusion,MEC,IN,H0,NONE,T3b,T2,,fable,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C18,conclusion,MEC,IN,H0,CORR,T2,T3b,,agree,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C19,conclusion,NC,IN,H0,,NC,T2,,agree,false,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C20a,conclusion,ASC,IN,H0,CORR,S,,,fable,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C20b,conclusion,ASC,IN,H0,CORR,T4,T3a,,fable,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C21a,conclusion,ASC,IN,H0,CORR,S,T3b,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C21b,conclusion,CAU,IN,H0,CORR,T2,T4,,agree,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C22,conclusion,MEC,IN,HF,CORR,T2,T1,,agree,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C23,conclusion,NC,IN,HF,,NC,T2,,codex,false,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C24,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C25,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C26,conclusion,CAU,IN,HF,CORR,T2,T3b,,agree,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C27,conclusion,POL,IN,H0,,S,,,fable,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C28,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C29,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C30,conclusion,CAU,IN,H0,CORR,T2,T4,,agree,true,false,true
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-C31,conclusion,NC,IN,H0,,NC,T2,,fable,false,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-X01,conclusion,NC,IN,HS,,NC,,,adjudicator,false,false,false
+P09,Johnson & Zhang,AERJ,10.3102/00028312261467392,P09-X02,conclusion,NC,BEYOND,HM,,NC,T1,,adjudicator,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C02a,abstract,CAU,IN,H0,QE,S,,,agree,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C02b,abstract,CAU,IN,H0,QE,T4,,,agree,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C03,abstract,ASC,IN,H0,QE,S,T1,32,fable,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C04,conclusion,MEC,IN,H0,QE,T1,T3a,28,fable,true,false,true
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C05a,conclusion,CAU,IN,H0,QE,S,,,agree,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C05b,conclusion,MEC,IN,H0,QE,T4,,,agree,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C06a,conclusion,CAU,IN,H0,QE,T4,,,fable,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C06b,conclusion,DES,IN,H0,QE,T4,T1,19,codex,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C07a,conclusion,CAU,IN,H0,QE,S,T4,,fable,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C07b,conclusion,CAU,IN,H0,QE,T4,T3a,,fable,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C08a,conclusion,MEC,IN,HMF,QE,SH,,31,codex,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C08b,conclusion,ASC,IN,HF,QE,SH,,28,codex,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C09,conclusion,ASC,IN,H0,QE,S,T1,32,fable,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C10,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C11,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C12,conclusion,MEC,IN,HM,NONE,T3b,T1,31,fable,true,false,true
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C13,conclusion,CAU,IN,HF,QE,T4,T1,32,adjudicator,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C14,conclusion,MEC,IN,HF,QE,T2,T1,32,agree,true,false,true
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C15,conclusion,CAU,IN,H0,QE,S,,,agree,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C16,conclusion,MEC,IN,HF,QE,T2,T3b;T1,32,agree,true,false,true
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C17,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-C18,conclusion,POL,BEYOND,HC;HM,,SH,T2,,agree,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X01,conclusion,SCO,IN,H0,DESC,S,,,fable,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X02,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X03,conclusion,SCO,BEYOND,HM,CORR,T2,,,codex,true,false,true
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X04,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X05,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X06,conclusion,POL,BEYOND,HMF,,SH,,33,codex,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X07,conclusion,POL,IN,HF;HC,,SH,,33,codex,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X08,conclusion,CAU,IN,HM;HC,,SH,T3b,33,codex,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X09,conclusion,DES,IN,HMF,QE,SH,,36 (note 3),codex,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X10,conclusion,DES,IN,H0,QE,S,T3a,,codex,true,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X11,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X12,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P10,Chin & Chen,AERJ,10.3102/00028312261468354,P10-X13,conclusion,DES,IN,HF;HL,DESC,S,,,codex,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C02,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C03,abstract,DES,IN,H0,DESC;CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C04,abstract,POL,IN,HF,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C05a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C05b,conclusion,MEC,IN,HM,DESC;CORR,T2,T1;SH,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C05c,conclusion,DES,IN,H0,DESC;CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C05d,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C06,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C07,conclusion,NC,IN,HM,,NC,,,agree,false,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C08,conclusion,MEC,IN,HM,DESC,S,T2,,fable,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C09,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C10,conclusion,MEC,IN,HM,DESC,T2,T3b,,agree,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C11,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C12,conclusion,NC,IN,HM,,NC,,,codex,false,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C13,conclusion,MEC,IN,HM,DESC,T2,T1;T3b,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C14,conclusion,POL,IN,HM,,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C15,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C16,conclusion,NUL,IN,H0,CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C17,conclusion,ASC,IN,HF,CORR,S,T2,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C18,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C19,conclusion,DES,IN,H0,CORR,S,T3b,,codex,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C20,conclusion,DES,IN,H0,CORR,S,T3b,,codex,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C21,conclusion,MEC,IN,HMF,DESC;CORR,SH,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C22,conclusion,NC,IN,HM,,NC,,,codex,false,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C23,conclusion,MEC,IN,H0,CORR,T2,T3b,,codex,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C24,conclusion,NUL,IN,H0,CORR,S,T3a,,fable,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C25,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C26,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C27,conclusion,ASC,IN,H0,CORR,T3a,,,agree,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C28,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C29,conclusion,NC,IN,HF,,NC,,,agree,false,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C30a,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C30b,conclusion,ASC,IN,H0,CORR,T3a,,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C31,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C32,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C33,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C34,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C35,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C36,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C37,conclusion,DES,IN,H0,DESC,S,,,fable,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C38a,conclusion,MEC,IN,HM,DESC,T2,T1;T3b,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C38b,conclusion,DES,IN,HM,DESC,S,,,codex,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C39,conclusion,MEC,IN,HM,DESC,T2,T1;T3b,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C40,conclusion,MEC,IN,HM,DESC,T2,T1;T3b,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C41a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C41b,conclusion,MEC,IN,HM,DESC,T2,T1;T3b,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C42,conclusion,MEC,IN,HM,DESC,T2,T1;T3b,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C43a,conclusion,DES,IN,H0,DESC,T3b,T3a,,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C43b,conclusion,POL,IN,HL,DESC,SH,T3b,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C44a,conclusion,MEC,IN,HM;HS,DESC,SH,T2,,adjudicator,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C44b,conclusion,POL,IN,HF,DESC,S,,,codex,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C45,conclusion,POL,IN,H0,CORR,S,T2,,codex,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C46,conclusion,POL,IN,HM,NONE,SH,T3b,,fable,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C47,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C48,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C49,conclusion,POL,IN,HF,DESC,T1,T2,31,fable,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C50,conclusion,DES,IN,H0,DESC;CORR,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C51,conclusion,MEC,IN,HM,DESC;CORR,T2,T3a,,agree,true,false,true
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C52,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C53,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-C54,conclusion,DES,IN,HF,DESC;CORR,S,,,fable,true,false,false
+P11,"Gilmour, Bartanen, Bettini et al.",AERJ,10.3102/00028312261468742,P11-X01,conclusion,NC,IN,H0,,NC,,,adjudicator,false,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C02a,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C02b,abstract,CAU,IN,H0,CORR,T1,T3a,17;18,agree,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C03a,abstract,CAU,IN,H0,CORR,T1,,17,codex,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C03b,abstract,POL,IN,H0,,S,,,fable,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C04,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C05,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C06,conclusion,ASC,IN,H0,DESC;CORR,S,T3a,,codex,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C07a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C07b,conclusion,MEC,IN,HF,DESC,T1,T2,33,agree,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C08,conclusion,DES,IN,H0,DESC,T1,T4,21;24,codex,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C09a,conclusion,DES,IN,H0,DESC,S,T3a,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C09b,conclusion,CAU,IN,H0,CORR,T1,,17,agree,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C10a,conclusion,CAU,IN,H0,CORR,T1,,17,codex,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C10b,conclusion,CAU,IN,HMF,CORR,SH,,29,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C11,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C12,conclusion,MEC,IN,HM,DESC,T1,T3b,33,fable,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C13,conclusion,DES,IN,HS,DESC,S,,,codex,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C14,conclusion,POL,IN,HM,,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C15,conclusion,POL,BEYOND,HM,CORR,T2,T1,,fable,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C16,conclusion,NC,IN,HM,,NC,,,agree,false,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C17,conclusion,DES,IN,HM,DESC,S,,,fable,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C18,conclusion,DES,IN,H0,DESC,S,,,fable,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C19,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C20,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C21,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C22,conclusion,POL,IN,HM,,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C23,conclusion,CAU,IN,H0,CORR,T1,T3a;T4,17,agree,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C24,conclusion,CAU,IN,HL;HF,CORR,SH,,34,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C25,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C26,conclusion,POL,IN,HM,CORR,T1,,17;18,codex,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C27,conclusion,CAU,IN,H0,CORR,T1,,17,codex,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C28,conclusion,MEC,IN,HMF,NONE,SH,,37,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C29,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C30,conclusion,MEC,IN,HS;HM,CORR,SH,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C31,conclusion,MEC,IN,HM;HS,NONE,SH,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C32,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C33,conclusion,DES,IN,HM,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C34a,conclusion,POL,IN,HM,NONE,T3b,,,agree,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C34b,conclusion,POL,IN,HM,CORR,T1,T3a,17;29,agree,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C35,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C36,conclusion,DES,IN,H0,DESC;CORR,S,T3a,,codex,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C37,conclusion,CAU,IN,H0,CORR,T1,,17;18,agree,true,false,true
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-C38,conclusion,POL,IN,HMF,CORR,SH,,18;29,agree,true,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-X01,conclusion,NC,IN,HM,,NC,,,fable,false,false,false
+P12,"Umansky, Avelar & Thompson",AERJ,10.3102/00028312261453523,P12-X02,conclusion,NC,IN,HC;HM,,NC,,,fable,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C01,title,NC,IN,,,NC,,,agree,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C02,abstract,DES,IN,H0,DESC,S,T1,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C03,abstract,POL,IN,HF,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C04,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C05,conclusion,DES,IN,H0,DESC,T3a,T4,,codex,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C06,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C07,conclusion,MEC,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C08a,conclusion,DES,IN,HF;HL,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C08b,conclusion,MEC,IN,H0,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C09,conclusion,DES,IN,H0,DESC,S,T1,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C10,conclusion,DES,IN,H0,DESC,S,,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C11,conclusion,SCO,BEYOND,H0,DESC,T1,,28,agree,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C12,conclusion,DES,IN,HL,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C13,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C14,conclusion,DES,IN,H0,DESC,S,T3b,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C15,conclusion,MEC,IN,H0,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C16,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C17,conclusion,MEC,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C18,conclusion,MEC,IN,HM,NONE,T3b,T3a;T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C19,conclusion,NC,IN,,,NC,,,agree,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C20,conclusion,MEC,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C21,conclusion,POL,IN,H0,DESC,LIT,T3b,,fable,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C22,conclusion,POL,IN,H0,,LIT,,,agree,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C23,conclusion,DES,IN,H0,DESC,S,T4,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C24,conclusion,DES,IN,H0,DESC,S,,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C25,conclusion,DES,IN,HM,DESC,S,T1;T4,,adjudicator,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C26,conclusion,CAU,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C27,conclusion,ASC,IN,HL,CORR,S,,,fable,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C28,conclusion,ASC,IN,H0,CORR,S,T1,,fable,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C29,conclusion,CAU,IN,HF,CORR,T1,T2,25,codex,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C30,conclusion,MEC,IN,HS;HM;HL,CORR,SH,,25,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C31,conclusion,MEC,IN,H0,CORR,T1,T3b,12,agree,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C32,conclusion,ASC,IN,HF,CORR,S,T1,,fable,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C33,conclusion,MEC,IN,H0,CORR,T1,T3b,12,agree,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C34,conclusion,NC,IN,,,NC,,,agree,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C35,conclusion,ASC,IN,H0,CORR,S,T1,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C36,conclusion,ASC,IN,H0,CORR,S,T1,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C37,conclusion,MEC,IN,HF,CORR,T1,,12,agree,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C38a,conclusion,NC,IN,,,NC,,,codex,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C38b,conclusion,NUL,IN,HL,CORR,SH,,29,fable,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C39a,conclusion,ASC,IN,H0,CORR,S,T1,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C39b,conclusion,MEC,IN,H0,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C40,conclusion,MEC,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C41,conclusion,NC,IN,,,NC,,,agree,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C42,conclusion,POL,IN,HM,CORR,SH,T1,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C43a,conclusion,ASC,IN,H0,CORR,S,T1,,fable,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C43b,conclusion,CAU,BEYOND,HMF,CORR,SH,T4,12,fable,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C44,conclusion,ASC,IN,H0,CORR,S,T1,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C45,conclusion,MEC,IN,HS,NONE,SH,T3b,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C46,conclusion,MEC,IN,HM;HC;HS,NONE,SH,T3b,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C47,conclusion,NC,IN,,,NC,,,agree,false,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C48,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C49a,conclusion,DES,IN,H0,DESC,S,T3b,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C49b,conclusion,CAU,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C50,conclusion,MEC,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C51a,conclusion,DES,IN,HL,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C51b,conclusion,MEC,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C52,conclusion,DES,IN,H0,DESC,S,,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C53,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C54,conclusion,DES,IN,H0,DESC,S,,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C55a,conclusion,DES,IN,H0,DESC,S,,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C55b,conclusion,DES,IN,H0,DESC,S,T1,,fable,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C56,conclusion,POL,IN,HM;HL,,S,,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C57,conclusion,SCO,BEYOND,H0,DESC,T1,,11,agree,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C58,conclusion,MEC,IN,H0,CORR,T1,T3b,5,agree,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C59,conclusion,MEC,IN,H0,NONE,T1,T3b;T2,5,codex,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C60,conclusion,POL,IN,HM,NONE,SH,,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C61,conclusion,POL,IN,HF,CORR,T1,T2,12,codex,true,false,true
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C62a,conclusion,POL,IN,HM,CORR,SH,T1,,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C62b,conclusion,CAU,IN,HMF,CORR,SH,,12,agree,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C63,conclusion,POL,IN,HM,NONE,SH,T3b,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C64,conclusion,POL,IN,HM,DESC,SH,T3b,,codex,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C65,conclusion,POL,IN,HM,NONE,SH,T3b,,fable,true,false,false
+P13,"Little, Drake, White & Rowan",AERJ,10.3102/00028312261475692,P13-C66,conclusion,POL,IN,HM,NONE,SH,T3b,,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C02a,abstract,NUL,IN,H0,QE,S,T4,,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C02b,abstract,CAU,IN,HMF,QE,SH,,14,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C03,conclusion,CAU,IN,HMF,QE,SH,,14,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C04a,conclusion,DES,IN,H0,QE,S,,,fable,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C04b,conclusion,DES,IN,H0,,LIT,,,fable,false,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C05,conclusion,CAU,IN,H0,QE,T1,T3a,14,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C06,conclusion,DES,IN,H0,QE,T3a,T1,,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C07,conclusion,DES,IN,HM,QE,S,T3a,,overruled,true,true,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C08,conclusion,MEC,IN,HMF,QE,SH,T3a,15,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C09,conclusion,CAU,IN,HF,QE,T1,T4,5,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C10a,conclusion,CAU,IN,H0,QE,T1,,5,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C10b,conclusion,MEC,IN,HF,QE,T1,T2,23 (note 7),codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C10c,conclusion,CAU,IN,HL,QE,SH,,9,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C11,conclusion,CAU,IN,HM;HL,QE,SH,,9,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C12,conclusion,MEC,IN,HMF,QE,SH,,17,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C13a,conclusion,CAU,IN,HM,QE,T1,T4,8,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C13b,conclusion,MEC,IN,HMF,QE,SH,,17,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C14,conclusion,NUL,IN,HF,QE,S,T4,,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C15,conclusion,NUL,IN,H0,QE,S,,,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C16,conclusion,POL,IN,HMF,QE,SH,,16,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C17,conclusion,NC,IN,HM,,NC,,,agree,false,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C18,conclusion,MEC,IN,HF,QE,S,T1,,fable,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C19,conclusion,NUL,IN,H0,QE,T1,T4,18,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C20,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C21,conclusion,MEC,BEYOND,HS;HM,NONE,SH,,,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C22,conclusion,MEC,BEYOND,HS;HM,NONE,SH,,,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C23a,conclusion,MEC,IN,HM;HC,NONE,SH,,,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C23b,conclusion,POL,IN,HM;HC,NONE,SH,,,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C24,conclusion,NUL,IN,H0,QE,T1,,18,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C25,conclusion,CAU,IN,H0,QE,T1,,14,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C26,conclusion,POL,IN,HM;HC,QE,SH,,14,agree,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C27,conclusion,POL,IN,H0,QE,T1,,14,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C28,conclusion,CAU,IN,H0,QE,T1,T3a;T4,16,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C29,conclusion,CAU,IN,H0,QE,T1,T3b,16,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C30,conclusion,NUL,IN,H0,QE,T1,T3b,17,fable,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C31,conclusion,CAU,IN,H0,QE,T1,,17,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C32,conclusion,POL,IN,HF;HL,QE,SH,,17,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C33,conclusion,POL,IN,HMF,QE,SH,T3b,,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C34a,conclusion,NUL,IN,HM,QE,T1,,17,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C34b,conclusion,CAU,IN,H0,QE,T1,,8,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C35,conclusion,MEC,IN,HF,QE,T1,,17,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C36,conclusion,DES,IN,H0,DESC,T3a,,,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C37,conclusion,CAU,IN,HF,QE,T1,,8,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C38,conclusion,NC,BEYOND,HM;HC,,NC,,,codex,false,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C39,conclusion,POL,BEYOND,HMF;HC,QE,SH,,7,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C40,conclusion,NC,IN,HF,,NC,,,agree,false,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C41a,conclusion,MEC,IN,HF,QE,T1,,17,codex,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C41b,conclusion,POL,IN,H0,QE,S,,,codex,true,false,false
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C42,conclusion,SCO,BEYOND,HF,QE,T1,,7,fable,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C43,conclusion,CAU,IN,HM,QE,T1,T3a,14,agree,true,false,true
+P14,Truwit & Ronfeldt,EEPA,10.3102/01623737261453349,P14-C44,conclusion,POL,BEYOND,HMF,QE,SH,,14,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C02,abstract,ASC,IN,H0,QE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C03,abstract,POL,IN,HF,QE,S,T1,11,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C04,conclusion,CAU,IN,HMF,QE,S,,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C05,conclusion,CAU,IN,HL,QE,SH,,15,codex,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C06,conclusion,CAU,IN,H0,QE,T1,,11,codex,true,false,true
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C07,conclusion,CAU,IN,HF,QE,S,T1,11,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C08a,conclusion,CAU,IN,H0,QE,S,T1,11,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C08b,conclusion,DES,IN,H0,DESC,S,T3b,,codex,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C09,conclusion,CAU,IN,HMF,QE,S,,,adjudicator,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C10a,conclusion,CAU,IN,H0,QE,S,T1,11,adjudicator,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C10b,conclusion,ASC,IN,HF,QE,SH,,15,codex,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C11,conclusion,ASC,IN,H0,QE,T1,,15,agree,true,false,true
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C12,conclusion,DES,IN,H0,DESC,S,T3b,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C13,conclusion,ASC,IN,HMF,QE,T4,,15,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C14,conclusion,MEC,IN,HS,NONE,SH,,20,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C15,conclusion,MEC,IN,HM;HS,NONE,SH,,20,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C16,conclusion,MEC,BEYOND,HF,QE,S,T2,19,adjudicator,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C17,conclusion,MEC,IN,HMF,QE,T4,,18,codex,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C18,conclusion,CAU,IN,HF,QE,S,T3a,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C19,conclusion,ASC,IN,HL,QE,S,,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C20,conclusion,CAU,IN,H0,QE,S,,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C21,conclusion,CAU,IN,H0,QE,S,,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C22,conclusion,NC,IN,,,NC,,,agree,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C23,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C24,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C25,conclusion,POL,IN,HF,QE,SH,,18,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C26,conclusion,MEC,IN,HM,QE,T4,T3a,18,adjudicator,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C27,conclusion,CAU,IN,HF,QE,T3a,,18,agree,true,false,true
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C28,conclusion,MEC,IN,HC;HMF,QE,T4,T3a,18,adjudicator,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C29,conclusion,ASC,IN,H0,QE,S,T3a,,fable,true,true,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C30,conclusion,MEC,IN,HS,NONE,SH,,9-10,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C31,conclusion,ASC,IN,HF,QE,SH,,18,codex,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C32,conclusion,MEC,IN,HF,QE,S,T1,18,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C33,conclusion,MEC,IN,HF;HM;HL,QE,SH,,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C34,conclusion,CAU,IN,HF;HL,QE,SH,,15,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C35,conclusion,CAU,IN,HF,QE,S,T3a,18,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C36,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C37,conclusion,POL,IN,H0,NONE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C38,conclusion,POL,IN,H0,QE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C39,conclusion,POL,IN,H0,QE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C40a,conclusion,CAU,IN,H0,QE,S,T1,20,adjudicator,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C40b,conclusion,CAU,IN,H0,QE,S,T1,11,adjudicator,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C41,conclusion,POL,IN,HL,QE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C42,conclusion,CAU,IN,H0,QE,T1,,11,codex,true,false,true
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C43,conclusion,POL,IN,HM;HS,QE,SH,,,adjudicator,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C44,conclusion,POL,BEYOND,H0,NONE,LIT,,,fable,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C45,conclusion,POL,IN,H0,NONE,LIT,T3b,,agree,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C46,conclusion,NC,IN,,,NC,,,codex,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C47,conclusion,CAU,IN,HMF,QE,S,T3a,11,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C48,conclusion,ASC,IN,H0,QE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C49,conclusion,CAU,IN,HF,QE,SH,,17,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C50a,conclusion,ASC,IN,H0,QE,T1,,17,agree,true,false,true
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C50b,conclusion,ASC,IN,H0,QE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C51,conclusion,POL,IN,HMF,QE,SH,,20,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C52,conclusion,POL,IN,HMF,QE,SH,,2,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C53a,conclusion,ASC,IN,H0,QE,T1,,15,agree,true,false,true
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C53b,conclusion,POL,IN,H0,QE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C54,conclusion,MEC,IN,HMF,QE,T4,,20,codex,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C55,conclusion,POL,IN,HC;HM,NONE,SH,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C56,conclusion,POL,IN,HM;HS,NONE,SH,,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C57,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C58,conclusion,POL,IN,H0,QE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C59,conclusion,POL,IN,H0,NONE,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C60,conclusion,CAU,IN,HM,QE,S,T3a,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-C61,conclusion,POL,IN,HM,NONE,S,,,fable,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-X01,conclusion,NC,IN,,,NC,,,adjudicator,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-X02,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-X03,conclusion,NC,IN,,,NC,,,adjudicator,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-X04,conclusion,NC,IN,,,NC,,,adjudicator,false,false,false
+P15,"Xu, Flanagan & Quintero",EEPA,10.3102/01623737261445984,P15-X05,conclusion,POL,BEYOND,HC;HM,NONE,SH,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C01,title,CAU,IN,H0,WITHIN,S,T4,,fable,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C02,abstract,ASC,IN,H0,WITHIN,S,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C03,abstract,CAU,IN,H0,WITHIN,T4,T3a,,fable,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C04,abstract,NUL,IN,H0,WITHIN,S,T3a,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C05,abstract,DES,IN,H0,OTHER,S,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C06,abstract,POL,IN,H0,OTHER,S,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C07,conclusion,ASC,IN,H0,WITHIN,S,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C08,conclusion,NUL,IN,H0,WITHIN,S,T3a,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C09,conclusion,CAU,IN,HF,WITHIN,T4,T3a,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C10,conclusion,POL,BEYOND,HMF,WITHIN,SH,T4,,fable,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C11,conclusion,MEC,IN,HF;HM,WITHIN,T4,T1,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C12,conclusion,POL,IN,H0,WITHIN,S,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C13,conclusion,POL,IN,HM;HC,WITHIN,SH,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C14,conclusion,POL,IN,HM,WITHIN,SH,T3a,,codex,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C15,conclusion,POL,IN,HM,WITHIN,SH,T3a,,codex,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C16,conclusion,POL,IN,HM,NONE,SH,T3b,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C17,conclusion,DES,IN,H0,OTHER,S,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C18,conclusion,MEC,IN,H0,WITHIN;CORR,T4,,,codex,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C19a,conclusion,POL,IN,HM,OTHER,T1,,23,fable,true,false,true
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C19b,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C20,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C21,conclusion,NC,IN,HC;HM,,NC,,,agree,false,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C22,conclusion,NC,IN,HC;HM,,NC,,,agree,false,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C23,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C24,conclusion,POL,IN,H0,WITHIN,S,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C25,conclusion,CAU,IN,HF,WITHIN,T4,,,agree,true,false,false
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C26,conclusion,POL,IN,HM,OTHER,T1,,23,fable,true,false,true
+P16,Delgado & Sartain,EEPA,10.3102/01623737261449250,P16-C27,conclusion,POL,BEYOND,HM,NONE,T3b,T1;T2,,fable,true,false,true
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C01,title,NC,IN,H0,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C02,abstract,ASC,IN,HF,CORR,S,,,agree,true,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C03,abstract,POL,IN,H0,,S,,,agree,true,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C04,abstract,ASC,IN,H0,DESC,S,,,codex,true,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C05,conclusion,ASC,IN,HF,CORR,S,,,agree,true,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C06,conclusion,POL,IN,HF,CORR,T1,,5,agree,true,false,true
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C07a,conclusion,POL,IN,HF,CORR,T1,,5,codex,true,false,true
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C07b,conclusion,POL,IN,HF,NONE,T3b,,,codex,true,false,true
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C08a,conclusion,ASC,IN,H0,DESC,S,,,codex,true,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C08b,conclusion,MEC,IN,H0,DESC;CORR,T1,,5,codex,true,false,true
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C09a,conclusion,ASC,IN,H0,CORR,S,T3a,,codex,true,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C09b,conclusion,MEC,IN,HM,CORR,T1,T3a,5,codex,true,false,true
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-C10,conclusion,POL,BEYOND,HM,CORR,T1,,5,agree,true,false,true
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X01,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X02,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X03,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X04a,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X04b,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X05,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X06,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X07a,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X07b,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X08,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X09,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X10,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X11,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X12,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X13,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X14,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X15a,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P17,"Broton, Fenton-Miller & Bowman",EEPA,10.3102/01623737261462496,P17-X15b,conclusion,NC,IN,,,NC,,,fable,false,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C02,abstract,NUL,IN,HF,QE,T3a,T1,15,codex,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C03,abstract,NUL,IN,H0,QE,T3a,T1,16,adjudicator,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C04,conclusion,POL,IN,H0,QE,T1,,15,agree,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C05,conclusion,NUL,IN,H0,QE,S,,,agree,true,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C06,conclusion,NC,IN,HL,,NC,,19,codex,false,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C07,conclusion,MEC,IN,H0,NONE,T3b,T1;LIT,,adjudicator,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C08,conclusion,MEC,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C09,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C10,conclusion,NUL,IN,HF,QE,T1,,15,agree,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C11,conclusion,NUL,IN,H0,QE,T3a,T1,16,codex,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C12,conclusion,MEC,IN,HMF,NONE,SH,,15,agree,true,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C13,conclusion,DES,IN,H0,QE,S,,,agree,true,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C14,conclusion,MEC,IN,HM,NONE,T3b,,,agree,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C15,conclusion,NUL,IN,H0,QE,S,,,agree,true,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C16,conclusion,NUL,IN,HF,NONE,T3b,T3a;T1,,codex,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C17,conclusion,POL,IN,HF,QE,T3a,T1,,adjudicator,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C18,conclusion,CAU,IN,HM,NONE,T3b,,,adjudicator,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C19,conclusion,NUL,IN,H0,QE,S,,,agree,true,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C20,conclusion,NUL,IN,H0,QE,S,T3a,,codex,true,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C21,conclusion,NC,IN,HM,,NC,,,agree,false,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C22,conclusion,MEC,IN,HM,NONE,T1,T3b,15,codex,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C23,conclusion,MEC,IN,HM,NONE,T1,T3b,15,codex,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C24,conclusion,MEC,IN,HM,NONE,T1,T3b,15,agree,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C25,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C26,conclusion,MEC,IN,HM,NONE,T3b,T1,,fable,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C27,conclusion,POL,IN,HM,NONE,T3b,T1,,codex,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C28,conclusion,POL,IN,HF,QE,SH,T1,,codex,true,false,false
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-C29,conclusion,NUL,IN,HF,QE,T3a,T1;T4,15,codex,true,false,true
+P18,"Choi, Zahran, Ortagus et al.",EEPA,10.3102/01623737261449256,P18-X01,conclusion,NC,IN,H0,,NC,,,adjudicator,false,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C02,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C03a,abstract,DES,IN,H0,DESC,S,,,fable,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C03b,abstract,DES,IN,H0,DESC,T3a,,,fable,true,false,true
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C04,abstract,POL,IN,HF,DESC,S,T1,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C05,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C06,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C07,conclusion,DES,IN,H0,DESC,S,T3a,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C08,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C09,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C10,conclusion,POL,IN,HMF,DESC,SH,,3,fable,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C11,conclusion,MEC,IN,HS;HM,NONE,SH,,3,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C12,conclusion,POL,IN,H0,DESC,S,T1,3,fable,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C13,conclusion,POL,IN,H0,DESC,S,T1,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C14,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C15,conclusion,POL,IN,HMF,NONE,SH,,3,fable,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-C16,conclusion,POL,IN,HC,DESC,S,,,agree,true,false,false
+P19,"Munoz, Shores, Weathers & Woods",EEPA,10.3102/01623737261460908,P19-X01,conclusion,NC,IN,H0,,NC,,,adjudicator,false,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C01,title,NC,IN,H0,NONE,NC,,,agree,false,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C02,abstract,DES,IN,H0,OTHER,S,,,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C03a,abstract,NUL,IN,H0,QE,S,,,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C03b,abstract,CAU,IN,H0,QE,S,,,fable,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C04,abstract,NUL,IN,HM,QE,S,,,fable,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C05,conclusion,NUL,IN,H0,QE,S,,,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C06a,conclusion,NUL,IN,H0,QE,S,T1,11,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C06b,conclusion,CAU,IN,H0,QE,S,,,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C07,conclusion,NC,IN,HM,NONE,NC,,,agree,false,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C08,conclusion,NC,IN,H0,NONE,NC,,,codex,false,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C09,conclusion,MEC,IN,HF;HL,NONE,SH,T3b,22,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C10,conclusion,MEC,IN,HF;HL,OTHER;QE,SH,T3b,22,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C11,conclusion,DES,IN,HF;HL,OTHER,S,,,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C12,conclusion,MEC,IN,HF;HL,NONE,SH,T3b,22,fable,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C13,conclusion,MEC,IN,HS;HM;HF;HL,NONE,SH,T3b,22,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C14,conclusion,MEC,IN,HM;HF;HL,NONE,SH,T3b,22,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C15,conclusion,MEC,IN,HM;HF;HL,NONE,SH,T3b,22,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C16,conclusion,DES,IN,H0,OTHER;QE,S,T1,24 (fn 10),agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C17,conclusion,POL,IN,H0,NONE,LIT,,,codex,false,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C18,conclusion,POL,IN,H0,NONE,S,,,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C19,conclusion,POL,IN,H0,OTHER;QE,S,T1,5,agree,true,false,false
+P20,"Camp, Anglum, Koedel et al.",EEPA,10.3102/01623737261464169,P20-C20,conclusion,POL,IN,HM,NONE,SH,T3b,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C01,title,NC,IN,H0,NONE,NC,,,agree,false,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C02,abstract,NC,IN,H0,NONE,NC,,,agree,false,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C03a,abstract,DES,IN,H0,DESC,S,T1,15,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C03b,abstract,CAU,IN,H0,DESC,T1,,17,agree,true,false,true
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C04,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C05,abstract,DES,IN,H0,DESC,S,T4,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C06,abstract,POL,IN,HF,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C07,abstract,NC,IN,H0,NONE,NC,,,agree,false,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C08,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C09,conclusion,POL,IN,HF,DESC,S,T1,15,codex,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C10,conclusion,DES,IN,H0,DESC,S,T1,15,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C11,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C12,conclusion,MEC,IN,HS;HMF,NONE,SH,T3b,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C13,conclusion,MEC,IN,HM;HS,NONE,SH,T3b,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C14,conclusion,DES,IN,H0,DESC,S,T1,17,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C15a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C15b,conclusion,MEC,IN,H0,NONE,T3b,T1,17,codex,true,false,true
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C16a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C16b,conclusion,MEC,IN,HM,DESC,T1,T3b;T4,17,codex,true,false,true
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C17,conclusion,MEC,IN,HM;HS,NONE,SH,T3b,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C18,conclusion,NC,IN,H0,NONE,NC,,,codex,false,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C19,conclusion,MEC,IN,HF;HL,DESC,SH,,21,fable,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C20,conclusion,POL,IN,HM,DESC;OTHER,S,,,codex,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C21,conclusion,DES,IN,HM,OTHER,S,,22,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C22,conclusion,POL,BEYOND,HMF,NONE,SH,T2,22,adjudicator,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C23,conclusion,POL,IN,HF,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C24,conclusion,POL,IN,HC,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C25,conclusion,NC,IN,H0,NONE,NC,,,agree,false,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C26,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C27,conclusion,DES,IN,HM,DESC,S,T1,17,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C28,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C29,conclusion,POL,IN,HF,DESC,S,T1,21,agree,true,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C30,conclusion,NC,IN,H0,NONE,NC,,,fable,false,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-C31,conclusion,NC,IN,H0,NONE,NC,,,fable,false,false,false
+P21,"Ganimian, Ho & Campos Quintero",EEPA,10.3102/01623737261462146,P21-X01,conclusion,NC,IN,H0,NONE,NC,,,fable,false,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C01,title,CAU,IN,H0,CORR,T1,,9–10,agree,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C02,abstract,CAU,IN,H0,CORR,T1,,9–10,agree,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C03,abstract,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C04a,abstract,DES,IN,H0,CORR,S,T3a,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C04b,abstract,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C05,abstract,MEC,IN,H0,NONE,T1,,9–10,agree,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C06a,conclusion,ASC,IN,H0,CORR,T3a,,,adjudicator,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C06b,conclusion,ASC,IN,H0,CORR,S,T1,,adjudicator,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C07,conclusion,DES,IN,H0,CORR,T3a,,,agree,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C08,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C09,conclusion,NUL,IN,H0,CORR,T3a,,,agree,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C10,conclusion,ASC,IN,H0,CORR,S,,,adjudicator,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C11,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C12,conclusion,MEC,IN,HF,CORR,S,T1,9–10,fable,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C13,conclusion,MEC,IN,HF,NONE,T1,,9–10,fable,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C14,conclusion,CAU,IN,HF,CORR,LIT,,,fable,false,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C15,conclusion,MEC,IN,HC;HM,NONE,SH,,9–10,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C16,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C17,conclusion,MEC,IN,HL;HF,NONE,SH,,21,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C18,conclusion,NC,IN,H0,NONE,NC,,,agree,false,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C19,conclusion,MEC,IN,HS;HL;HM,NONE,SH,,21,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C20,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C21,conclusion,ASC,IN,H0,CORR,S,T3a,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C22,conclusion,MEC,IN,HC,NONE,SH,,9–10,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C23,conclusion,ASC,IN,HF,CORR,S,T1,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C24,conclusion,DES,IN,HF,CORR,S,,,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C25,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C26,conclusion,ASC,IN,H0,CORR,S,T4,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C27,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C28,conclusion,MEC,IN,HS,NONE,SH,,9–10,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C29,conclusion,ASC,BEYOND,H0,CORR,T1,,3,codex,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C30,conclusion,CAU,IN,HF,NONE,T1,,9–10,fable,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C31,conclusion,POL,IN,H0,NONE,S,,,fable,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C32,conclusion,MEC,IN,H0,NONE,T1,,9–10,agree,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C33,conclusion,POL,IN,HM;HC,CORR,SH,,9–10,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C34,conclusion,POL,IN,HMF,CORR,SH,,21,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C35,conclusion,MEC,IN,H0,NONE,T1,,9–10,agree,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C36,conclusion,POL,IN,HS,NONE,LIT,,,codex,false,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C37,conclusion,POL,IN,HM,CORR,S,,,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C38,conclusion,POL,IN,H0,NONE,S,,,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C39,conclusion,POL,IN,HF,NONE,LIT,,,agree,false,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C40,conclusion,POL,IN,HM,NONE,SH,,,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C41,conclusion,POL,IN,HM,NONE,SH,,,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C42,conclusion,POL,IN,HM,NONE,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C43,conclusion,POL,IN,HM,CORR,S,,,codex,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C44,conclusion,MEC,IN,H0,NONE,T1,,9–10,fable,true,false,true
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C45,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P22,Cleveland & Lukes,EEPA,10.3102/01623737261477103,P22-C46,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C01,title,NC,IN,H0,NONE,NC,,,agree,false,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C02,abstract,ASC,IN,H0,RCT,S,,,fable,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C03a,abstract,CAU,IN,H0,RCT,S,T4,,codex,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C03b,abstract,CAU,IN,H0,RCT,T1,,12,codex,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C04,abstract,NUL,IN,H0,RCT,T1,,12–16,agree,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C05,abstract,DES,IN,H0,RCT,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C06,conclusion,POL,IN,HM,RCT,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C07,conclusion,CAU,IN,HM,RCT,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C08,conclusion,POL,BEYOND,HMF,RCT,SH,,17,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C09,conclusion,CAU,IN,HF,RCT,SH,T1;T3a,12; 16,adjudicator,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C10,conclusion,NUL,IN,H0,RCT,T1,,12–16,agree,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C11a,conclusion,CAU,IN,H0,RCT,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C11b,conclusion,NUL,IN,H0,RCT,T1,,12–16,agree,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C12,conclusion,MEC,BEYOND,HMF,RCT,SH,T1;T2,12–16; 17,fable,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C13,conclusion,MEC,IN,HMF,NONE,SH,T3b,,fable,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C14a,conclusion,CAU,BEYOND,HMF,RCT,SH,T1,17; 17,codex,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C14b,conclusion,POL,BEYOND,HMF,NONE,SH,T1,17,codex,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C15,conclusion,POL,IN,H0,NONE,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C16,conclusion,CAU,BEYOND,HMF,RCT,SH,T4,17,codex,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C17,conclusion,POL,IN,HM,RCT,S,T1;T2,,codex,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C18,conclusion,CAU,IN,H0,RCT,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C19,conclusion,POL,IN,HM,RCT,S,,,codex,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C20,conclusion,MEC,IN,HM,DESC,T2,T3b,,fable,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C21,conclusion,DES,IN,HM,DESC,S,T2,,fable,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C22,conclusion,DES,IN,HM,DESC,S,T3b,,fable,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C23,conclusion,MEC,IN,HM,DESC,T2,T3b,,fable,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C24,conclusion,MEC,IN,HM,NONE,T2,T3b,,fable,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C25,conclusion,MEC,BEYOND,H0,NONE,T1,T2,17,agree,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C26,conclusion,POL,BEYOND,HMF,RCT,SH,,17,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C27,conclusion,SCO,BEYOND,HM,NONE,SH,T1,17,fable,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C28,conclusion,SCO,BEYOND,HM,NONE,SH,T1,17,fable,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C29,conclusion,SCO,BEYOND,HM,NONE,SH,T1,17,fable,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C30,conclusion,POL,IN,H0,NONE,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C31,conclusion,NC,IN,H0,NONE,NC,,,agree,false,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C32,conclusion,CAU,BEYOND,HM,RCT,T1,,17,codex,true,false,true
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C33,conclusion,POL,IN,H0,NONE,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C34,conclusion,POL,IN,HM,RCT,S,,,agree,true,false,false
+P23,"Acris, Ganimian, King & Marple-Cantrell",EEPA,10.3102/01623737261468263,P23-C35,conclusion,POL,BEYOND,HM,RCT,T1,T3b,17,agree,true,false,true
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C02,abstract,DES,IN,H0,CORR,S,,,agree,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C03,abstract,DES,IN,H0,CORR,S,T1,10,agree,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C04,abstract,DES,IN,HF,CORR,S,,,agree,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C05a,conclusion,MEC,IN,HM,CORR,T1,T2,11,fable,true,false,true
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C05b,conclusion,DES,IN,H0,CORR,S,,,fable,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C06,conclusion,DES,IN,H0,CORR,S,,,agree,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C07,conclusion,DES,IN,H0,CORR,S,T4,,fable,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C08,conclusion,DES,IN,HF,CORR,S,,11,agree,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C09,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C10,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P24,"Gicheva, Edmunds, Hutchins et al.",ER,10.3102/0013189X261462499,P24-C11,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C01,title,CAU,IN,H0,CORR,T1,T3b,10,fable,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C02,abstract,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C03,abstract,ASC,IN,H0,CORR,S,T3a,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C04,conclusion,NC,IN,H0,,NC,,,codex,false,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C05,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C06,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C07,conclusion,CAU,IN,HM,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C08,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C09,conclusion,MEC,IN,H0,CORR,T1,,10,fable,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C10a,conclusion,ASC,IN,H0,CORR,T3a,,,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C10b,conclusion,CAU,IN,H0,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C11,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C12,conclusion,CAU,IN,HF,CORR,T1,T3b,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C13,conclusion,ASC,IN,HF,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C14,conclusion,ASC,IN,H0,CORR,S,T1,,fable,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C15,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C16,conclusion,CAU,IN,HM,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C17,conclusion,MEC,IN,HM,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C18a,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C18b,conclusion,NUL,IN,H0,CORR,T4,,,codex,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C19,conclusion,CAU,IN,H0,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C20,conclusion,CAU,IN,HM,CORR,T1,,10,fable,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C21,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C22,conclusion,MEC,IN,HS;HM,NONE,SH,,10,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C23,conclusion,POL,IN,HC;HS;HM,NONE,SH,,10,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C24,conclusion,POL,IN,H0,CORR,S,T3a,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C25a,conclusion,POL,IN,H0,CORR,S,T1,,fable,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C25b,conclusion,CAU,IN,HM,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C26,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C27a,conclusion,CAU,IN,HM,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C27b,conclusion,ASC,IN,HM,CORR,S,T1,,codex,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C28,conclusion,MEC,IN,HMF,NONE,SH,,10,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C29,conclusion,CAU,IN,HM,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C30,conclusion,POL,IN,HM,CORR,S,T1,,codex,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C31,conclusion,POL,BEYOND,H0,CORR,T1,T3b;T2,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C32,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C33,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C34,conclusion,POL,IN,H0,NONE,T3b,T1,,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C35,conclusion,POL,BEYOND,H0,NONE,T3b,T1;T2,,codex,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C36a,conclusion,MEC,IN,HM;HS,NONE,SH,,10,codex,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C36b,conclusion,POL,IN,HM;HS,NONE,SH,,10,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C37,conclusion,MEC,IN,HS;HM,NONE,SH,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C38,conclusion,POL,IN,H0,CORR,T1,T3b,10,fable,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C39,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C40,conclusion,NC,IN,H0,,NC,,,fable,false,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C41,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C42,conclusion,POL,IN,HM,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C43,conclusion,CAU,IN,HM,CORR,T1,T3b,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C44,conclusion,POL,IN,H0,DESC,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C45,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C46a,conclusion,CAU,IN,HM,CORR,T1,,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C46b,conclusion,ASC,IN,HM,CORR,S,T3a,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-C47,conclusion,POL,BEYOND,H0,CORR,T1,T3b;T2,10,agree,true,false,true
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-X01,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P25,"Perry, Reddy, Martinez et al.",ER,10.3102/0013189X261457851,P25-X02,conclusion,POL,IN,H0,CORR,S,,,codex,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C01,title,NC,IN,H0,,NC,T1,,fable,false,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C02,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C03,abstract,DES,IN,HMF,NONE,SH,T1,10,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C04,abstract,DES,IN,H0,CORR,S,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C05,conclusion,DES,IN,H0,DESC;CORR,S,,,fable,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C06,conclusion,CAU,IN,H0,DESC,T1,T4,10,agree,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C07,conclusion,CAU,IN,HF,DESC,T1,T3a,10,agree,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C08a,conclusion,DES,IN,HF,DESC,S,T1,,codex,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C08b,conclusion,CAU,IN,H0,NONE,T1,T3b,10,codex,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C09a,conclusion,MEC,IN,HM,DESC;CORR,T1,T3b,10,fable,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C09b,conclusion,MEC,IN,HS,NONE,SH,T1,10,fable,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C10,conclusion,DES,IN,H0,CORR,S,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C11,conclusion,MEC,IN,HS;HM,NONE,SH,,10,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C12,conclusion,MEC,IN,HF,CORR,T1,T3a,10,fable,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C13,conclusion,POL,IN,HM,NONE,SH,T1,10,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C14,conclusion,POL,IN,HM,NONE,SH,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C15,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C16,conclusion,DES,IN,H0,DESC;CORR,S,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C17,conclusion,NC,IN,H0,,NC,,,fable,false,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C18a,conclusion,CAU,IN,HM,OTHER,T1,T3b,10,agree,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C18b,conclusion,DES,IN,H0,OTHER,S,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C19,conclusion,CAU,IN,HF,OTHER,T1,S,10,agree,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C20a,conclusion,DES,IN,H0,DESC;OTHER,S,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C20b,conclusion,CAU,IN,HM,NONE,T1,T3b,10,agree,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C21,conclusion,MEC,IN,HMF,NONE,SH,LIT,10,fable,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C22a,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C22b,conclusion,POL,BEYOND,HM,NONE,SH,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C23a,conclusion,MEC,BEYOND,H0,NONE,T1,T2;T3b,10,agree,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C23b,conclusion,POL,BEYOND,HM,NONE,SH,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C24,conclusion,POL,IN,H0,DESC;CORR;OTHER,T1,T3b,10,codex,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C25a,conclusion,POL,BEYOND,HM,NONE,SH,,,agree,true,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C25b,conclusion,DES,BEYOND,HF,NONE,LIT,,,codex,false,false,false
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C26,conclusion,POL,IN,HM,NONE,T1,LIT,11,adjudicator,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C27,conclusion,POL,BEYOND,H0,NONE,T1,T3b;T2,10,agree,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C28,conclusion,POL,IN,HM,CORR,T1,T3b,10,codex,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C29,conclusion,POL,BEYOND,HM,NONE,T3b,T1;T2,,fable,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C30,conclusion,POL,BEYOND,H0,NONE,T1,T2,10,fable,true,false,true
+P26,Whitfield & Gurantz,ER,10.3102/0013189X261462516,P26-C31,conclusion,POL,IN,HM,NONE,T1,T3b,10,codex,true,false,true
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C02,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C03,abstract,MEC,IN,HF,CORR,T2,T3a,,codex,true,false,true
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C04,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C05,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C06,conclusion,MEC,IN,HF;HM,CORR,SH,T2,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C07,conclusion,MEC,IN,HM,DESC;CORR,T2,,,agree,true,false,true
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C08a,conclusion,DES,IN,H0,DESC,S,T3a,,codex,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C08b,conclusion,ASC,IN,H0,CORR,S,,,codex,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C09,conclusion,ASC,IN,HF;HM,CORR,S,,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C10,conclusion,MEC,IN,HF;HM,DESC;CORR,SH,T2;T4,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C11a,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C11b,conclusion,MEC,IN,H0,CORR,T2,,,agree,true,false,true
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C12,conclusion,MEC,IN,H0,CORR,T2,,,agree,true,false,true
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C13,conclusion,POL,IN,H0,,S,T2,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C14,conclusion,MEC,IN,HM,CORR,T2,,,agree,true,false,true
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C15,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C16a,conclusion,DES,IN,H0,DESC,S,T3a,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C16b,conclusion,MEC,IN,HF;HM,DESC;CORR,SH,,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C17,conclusion,MEC,IN,HM,NONE,T3b,T2,,agree,true,false,true
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C18a,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C18b,conclusion,DES,IN,H0,NONE,T3b,,,agree,true,false,true
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C19,conclusion,POL,IN,H0,CORR,S,T2,,codex,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C20,conclusion,POL,BEYOND,HM,DESC;CORR,SH,T2,,agree,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C21a,conclusion,ASC,IN,H0,CORR,T4,T3a,,fable,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C21b,conclusion,NUL,IN,H0,CORR,S,T3a,,adjudicator,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C21c,conclusion,MEC,IN,HF;HM,CORR,SH,T4,,fable,true,false,false
+P27,Yoon & Dougherty,ER,10.3102/0013189X261467378,P27-C21d,conclusion,POL,IN,H0,,S,,,codex,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C02,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C03,abstract,DES,IN,H0,DESC,S,,,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C04a,abstract,NUL,IN,H0,DESC;CORR;OTHER,T1,,6,agree,true,false,true
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C04b,abstract,MEC,IN,HM,CORR;RCT;OTHER,T1,,8,agree,true,false,true
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C05,abstract,DES,IN,H0,DESC;CORR,S,T1,,fable,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C06,abstract,MEC,IN,H0,CORR;RCT,T1,T4,8,codex,true,false,true
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C07,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C08,conclusion,DES,IN,H0,DESC,S,T3a,,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C09a,conclusion,MEC,IN,H0,DESC;OTHER,T1,T4,5,fable,true,false,true
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C09b,conclusion,CAU,IN,HM,CORR;RCT,T1,SH,8,fable,true,false,true
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C10,conclusion,POL,IN,HL;HM,,S,,9,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C11a,conclusion,POL,IN,H0,NONE,LIT,,,codex,false,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C11b,conclusion,POL,IN,H0,RCT,S,,,codex,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C12,conclusion,CAU,IN,H0,CORR,T2,T1,,codex,true,false,true
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C13,conclusion,POL,IN,HM,NONE,LIT,T2,,fable,false,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C14,conclusion,POL,IN,H0,NONE,LIT,,,agree,false,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C15,conclusion,POL,IN,H0,CORR;OTHER,S,,,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C16,conclusion,POL,IN,HM,OTHER,S,,,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C17,conclusion,POL,IN,HM,CORR;RCT,T1,SH,8,fable,true,false,true
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C18,conclusion,POL,IN,HM,DESC,S,,,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C19,conclusion,POL,IN,H0,RCT,S,,,codex,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C20,conclusion,POL,IN,HM,RCT,SH,,,codex,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C21,conclusion,POL,BEYOND,HM,NONE,SH,T3a,,codex,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C22,conclusion,POL,BEYOND,HM,NONE,SH,T2,,agree,true,false,false
+P28,Heller & Slungaard Mumma,ER,10.3102/0013189X261467376,P28-C23,conclusion,POL,IN,HM,,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C02,abstract,DES,IN,H0,DESC,S,T3b,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C03,abstract,ASC,IN,H0,CORR,S,,8,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C04,abstract,POL,IN,HF,DESC;CORR,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C05,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C06,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C07,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C08,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C09,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C10,conclusion,ASC,IN,HM,CORR,S,T3b,8,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C11,conclusion,ASC,IN,HM,CORR,S,,8,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C12a,conclusion,MEC,IN,H0,NONE,T1,T3b,10,fable,true,false,true
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C12b,conclusion,ASC,IN,H0,CORR,S,,,fable,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C13,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C14,conclusion,DES,IN,H0,DESC,S,T4,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C15,conclusion,POL,IN,HMF,DESC,SH,T2,,fable,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C16,conclusion,MEC,IN,HL;HM;HS,NONE,SH,T1,10,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C17,conclusion,MEC,IN,HS,NONE,SH,T1,10,fable,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C18,conclusion,POL,IN,HL,DESC;CORR,S,,10,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C19,conclusion,POL,IN,HM,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C20,conclusion,POL,IN,HM,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C21,conclusion,POL,IN,HM,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C22,conclusion,POL,IN,HM,CORR,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C23,conclusion,POL,IN,HC;HM,CORR,SH,T1,8,fable,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C24,conclusion,POL,IN,HM,NONE,SH,T3b,,fable,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C25,conclusion,POL,IN,HMF;HC,CORR,SH,T1,8,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C26,conclusion,NC,IN,H0,,NC,,,fable,false,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C27a,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C27b,conclusion,POL,IN,HM,NONE,SH,T3b,,fable,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C28,conclusion,DES,IN,HMF,DESC,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-C29,conclusion,POL,IN,HM,DESC;CORR,S,,,agree,true,false,false
+P29,"Polikoff, Rowley, Silver et al.",ER,10.3102/0013189X261481780,P29-X01,conclusion,NC,IN,HM,NONE,NC,,,fable,false,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C01,title,DES,BEYOND,H0,DESC,T1,,13 (note 2),fable,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C02,abstract,ASC,IN,H0,DESC,S,T3a,,codex,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C03a,abstract,DES,IN,H0,DESC,S,T4,,agree,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C03b,abstract,CAU,IN,H0,DESC,T1,,12,agree,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C04,abstract,DES,IN,H0,DESC,S,T1,12,fable,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C05,abstract,POL,BEYOND,H0,DESC,T1,,13 (note 2),codex,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C06,conclusion,DES,BEYOND,H0,DESC,T1,,13 (note 2),fable,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C07,conclusion,ASC,IN,H0,DESC,S,T3a,,codex,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C08,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C09,conclusion,DES,IN,H0,DESC,S,,,codex,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C10,conclusion,MEC,IN,HMF,NONE,SH,T1,12,agree,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C11,conclusion,NC,IN,H0,NONE,NC,,,codex,false,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C12,conclusion,MEC,IN,H0,DESC,T1,,5,agree,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C13a,conclusion,ASC,IN,H0,DESC,S,T1,11,fable,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C13b,conclusion,CAU,IN,H0,NONE,T1,T3b,12,agree,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C14,conclusion,MEC,IN,H0,DESC,T1,T3b,5,agree,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C15,conclusion,DES,IN,H0,DESC,T4,T3a,,fable,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C16,conclusion,MEC,IN,HM,NONE,T1,T4,12,agree,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C17,conclusion,CAU,IN,HMF,DESC,SH,T1,12,agree,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C18a,conclusion,DES,IN,H0,DESC,S,T1,,codex,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C18b,conclusion,CAU,IN,HMF,DESC,SH,T1,12,agree,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C19,conclusion,POL,IN,HMF,NONE,LIT,,,agree,false,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C20,conclusion,POL,IN,HM,DESC,T1,,12,agree,true,false,true
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C21,conclusion,POL,IN,HM,NONE,SH,T3b,,agree,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C22,conclusion,NC,IN,HM,NONE,NC,,,agree,false,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C23,conclusion,ASC,IN,H0,DESC,S,T3b,,codex,true,false,false
+P30,"Ambali, Jung & Sorensen",ER,10.3102/0013189X261481800,P30-C24,conclusion,DES,IN,HF,DESC,S,,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C02,abstract,CAU,IN,H0,WITHIN,T1,T4,11,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C03,abstract,CAU,IN,H0,WITHIN,T1,T4;T3a,11,codex,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C04,abstract,POL,IN,H0,WITHIN,S,,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C05,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C06,conclusion,CAU,IN,HMF,WITHIN,SH,T4,11,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C07,conclusion,CAU,IN,HF,WITHIN,T1,T4,11,fable,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C08a,conclusion,NUL,IN,H0,WITHIN,T4,T1,,fable,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C08b,conclusion,ASC,IN,H0,WITHIN,S,T4,,codex,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C09,conclusion,MEC,IN,HM,NONE,T1,T3b,9,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C10,conclusion,CAU,IN,HF,WITHIN,T1,T4,11,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C11,conclusion,NUL,IN,H0,WITHIN,T1,T3a;T4,10,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C12,conclusion,NC,IN,HM,,NC,,,agree,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C13,conclusion,NC,BEYOND,HM,,NC,,,fable,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C14,conclusion,CAU,IN,HL,WITHIN,T4,T1,11,codex,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C15,conclusion,MEC,IN,HS;HM,NONE,SH,T4,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C16,conclusion,MEC,IN,HF;HS,WITHIN,SH,T4,,fable,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C17a,conclusion,ASC,IN,H0,WITHIN,S,,,adjudicator,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C17b,conclusion,DES,IN,H0,WITHIN,S,T3a,,codex,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C18,conclusion,CAU,IN,H0,WITHIN,T3a,T1,,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C19,conclusion,CAU,IN,H0,WITHIN,T1,T4,11,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C20,conclusion,MEC,IN,HM,NONE,T2,T3b,,fable,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C21,conclusion,CAU,IN,HM,WITHIN,T1,T3a,11,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C22,conclusion,CAU,IN,HF,WITHIN,T1,T3a,11,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C23,conclusion,MEC,IN,HMF,NONE,SH,T2,,codex,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C24a,conclusion,DES,IN,H0,WITHIN,T3a,,,codex,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C24b,conclusion,MEC,IN,HMF,NONE,SH,T3a,,codex,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C25,conclusion,DES,IN,H0,WITHIN,S,T3a,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C26,conclusion,CAU,IN,H0,WITHIN,T1,T3a,11,codex,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C27,conclusion,DES,IN,H0,WITHIN,LIT,T3b,,fable,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C28,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C29,conclusion,CAU,IN,H0,CORR,T1,,10,fable,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C30a,conclusion,NC,IN,HM,,NC,,,fable,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C30b,conclusion,CAU,IN,HL,WITHIN,SH,T1,11,codex,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C31,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C32,conclusion,MEC,IN,HM,NONE,T1,T3b,10,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C33a,conclusion,DES,IN,H0,NONE,T3b,,,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C33b,conclusion,DES,IN,H0,DESC,S,T3a,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C34a,conclusion,NUL,IN,H0,WITHIN,T3a,,,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C34b,conclusion,MEC,IN,HF;HM,WITHIN,SH,T3a,,codex,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C35a,conclusion,NUL,IN,H0,WITHIN,S,T4,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C35b,conclusion,CAU,IN,HM,WITHIN,T1,T4;T3a,11,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C36,conclusion,POL,IN,H0,,S,,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C37,conclusion,POL,IN,HL;HF;HM,WITHIN,SH,T4,11,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C38,conclusion,POL,IN,HL;HF;HM,WITHIN,SH,T4,11,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C39,conclusion,POL,IN,HF,,S,,,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C40,conclusion,SCO,BEYOND,H0,NONE,LIT,T1,11,fable,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C41,conclusion,POL,IN,HMF,,S,,,codex,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C42,conclusion,CAU,IN,HMF,WITHIN,SH,T4,11,agree,true,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C43,conclusion,CAU,IN,H0,WITHIN,T1,T4,11,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C44,conclusion,MEC,IN,HM,NONE,T1,T3b,10,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-C45,conclusion,CAU,IN,HM,WITHIN,T1,T4,11,agree,true,false,true
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-X01,conclusion,DES,IN,HF,WITHIN,LIT,,,fable,false,false,false
+P31,"Cristancho, Maldonado-Carreño, Bailey et al.",ER,10.3102/0013189X261482105,P31-X02,conclusion,NC,IN,HM,,NC,,,adjudicator,false,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C02,abstract,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C03,abstract,CAU,IN,HMF,CORR,SH,T2,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C04,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C05,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C06,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C07,conclusion,ASC,IN,H0,CORR,S,T3a,,agree,true,true,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C08,conclusion,ASC,IN,H0,CORR,S,,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C09,conclusion,NC,IN,HM;HF,,NC,,,codex,false,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C10,conclusion,POL,IN,H0,NONE,T3b,T2,,agree,true,false,true
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C11,conclusion,POL,IN,H0,NONE,T3b,T2,,agree,true,false,true
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C12,conclusion,CAU,IN,H0,NONE,T3b,T2,,fable,true,false,true
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C13,conclusion,CAU,IN,HS,NONE,SH,T1;T3b,10,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C14,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C15,conclusion,POL,IN,H0,CORR,S,T4,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C16,conclusion,NUL,IN,HF,CORR,T4,,,fable,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C17,conclusion,POL,IN,HM,NONE,SH,T3b,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C18,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C19,conclusion,POL,IN,H0,CORR,S,,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C20,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C21,conclusion,NC,IN,HM,,NC,,,fable,false,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C22,conclusion,ASC,IN,HMF,CORR,S,SH,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C23,conclusion,MEC,IN,HMF,CORR,SH,T2,10,fable,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C24,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C25,conclusion,CAU,IN,H0,CORR,T1,T2,10,codex,true,false,true
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C26,conclusion,POL,IN,HF,CORR,T2,,,agree,true,false,true
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C27,conclusion,CAU,IN,H0,CORR,T2,T3b,,agree,true,false,true
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C28,conclusion,ASC,IN,HM,CORR,S,,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C29,conclusion,POL,IN,H0,CORR,T2,,,fable,true,false,true
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C30a,conclusion,POL,IN,HM,NONE,SH,T3b;T2,,agree,true,false,false
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-C30b,conclusion,POL,IN,H0,NONE,T3b,,,agree,true,false,true
+P32,"Burdick-Will, Bader & Nguyen",ER,10.3102/0013189X261485085,P32-X01,conclusion,NC,IN,H0,,NC,,,adjudicator,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C01,title,NC,IN,H0,,NC,,,agree,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C02,abstract,NC,IN,H0,,NC,,,agree,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C03,abstract,CAU,IN,H0,CORR,T1,T4,6,agree,true,false,true
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C04,abstract,NUL,IN,H0,CORR,T3a,T1,12 (note 3),agree,true,false,true
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C05a,abstract,MEC,IN,HF,CORR,T1,T3a,6,fable,true,false,true
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C05b,abstract,SCO,BEYOND,H0,NONE,LIT,T2,,fable,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C06,conclusion,DES,IN,H0,DESC,S,T3b,,agree,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C07,conclusion,DES,IN,H0,DESC,S,,,agree,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C08,conclusion,NUL,IN,H0,CORR,S,,,agree,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C09,conclusion,ASC,IN,H0,CORR,S,T3a;T4,,fable,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C10,conclusion,DES,IN,HM,DESC,S,,,fable,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C11,conclusion,CAU,IN,H0,NONE,T1,T3b,6,agree,true,false,true
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C12,conclusion,CAU,IN,HM,NONE,LIT,T1,,fable,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C13,conclusion,NC,IN,HF,,NC,,,agree,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C14,conclusion,MEC,IN,HF,CORR,T1,,6,fable,true,false,true
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C15,conclusion,MEC,IN,H0,CORR,T1,,6,agree,true,false,true
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C16,conclusion,DES,BEYOND,H0,NONE,LIT,,,fable,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C17,conclusion,MEC,IN,H0,NONE,LIT,T1,,fable,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C18,conclusion,MEC,IN,HM,NONE,T1,T3b,6,agree,true,false,true
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C19,conclusion,MEC,IN,H0,CORR,T1,T4,6,fable,true,false,true
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C20,conclusion,MEC,IN,HM;HS,NONE,SH,,,agree,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C21,conclusion,MEC,IN,HM;HS,NONE,SH,T1,,agree,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C22,conclusion,POL,IN,HM;HC,NONE,SH,,,agree,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C23,conclusion,MEC,IN,HM;HS,NONE,SH,T1,,fable,true,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C24,conclusion,NC,IN,H0,,NC,,,agree,false,false,false
+P33,"Lyon, Snaider, Bertrand et al.",ER,10.3102/0013189X261481802,P33-C25,conclusion,POL,IN,HM,NONE,SH,T1,,agree,true,false,false

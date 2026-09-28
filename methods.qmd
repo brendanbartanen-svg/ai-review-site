@@ -19,11 +19,18 @@ Codex pipeline. All sessions run OpenAI GPT-6 (astra) at high reasoning through 
 
 ## Human checks
 
-The site's editor opened the journal pages behind nine of the specific errors the reviews report and confirmed each against the typeset PDF. No other claims have been human-verified. Two AI readers agreeing is not verification: they read the same extracted text and render the same pages, and can share failure modes.
+The site's editor opened the journal pages behind nine of the specific errors the reviews report and confirmed each against the typeset PDF. One of the nine, the Table 2 sums in Ambali et al., was later withdrawn by the mistakes audit: the numbers are as the review describes them, but they do not show an error in the paper. The editor later hand-checked the pages behind the mistakes audit's main findings and the nine example claims on the overreach census page. Nothing else on the site has been human-verified. Two AI readers agreeing is not verification: they read the same extracted text and render the same pages, and can share failure modes.
+
+## Audits after the reviews
+
+Two later audits used the reviews as their starting point. Each has its own page, with its methods, results and quote-free data files.
+
+- [Mistakes audit](mistakes.qmd) (2026-09-26). Every text-versus-exhibit discrepancy the reviews flagged, 141 items, was taken back to the article, the supplements, earlier versions and the authors' data deposits to settle which side is wrong. Seventeen flags were withdrawn. Where the audit showed a statement in a review to be wrong, a dated correction was added to that review and listed on the [Corrections](corrections.qmd) page; where outside evidence changes how a review should be read but no sentence is wrong, a per-paper note was added instead.
+- [Overreach census](overreach.qmd) (2026-09-27). Every claim in each paper's title, abstract and closing section was extracted and coded, blind, by two AI coders against a written codebook, to measure how often a paper's headline claims go beyond what its design and evidence support.
 
 ## What is not here
 
-The papers themselves are not reproduced; each page links to the article's DOI. Online supplements were not available to either reader except where bound into the PDF, so every claim resting on a supplement is marked as unverifiable in the reviews.
+The papers themselves are not reproduced; each page links to the article's DOI. Online supplements were not available to either reader except where bound into the PDF, so every claim resting on a supplement is marked as unverifiable in the reviews. The mistakes audit later used the supplements for the 25 papers that have one.
 
 <!-- END DRAFT -->
 

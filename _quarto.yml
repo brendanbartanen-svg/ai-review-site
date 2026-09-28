@@ -6,11 +6,15 @@ project:
     - index.qmd
     - methods.qmd
     - comparison.qmd
+    - mistakes.qmd
+    - overreach.qmd
     - corrections.qmd
     - "papers/*/*.qmd"
-  # Raw prompt files, linked from the Methods page.
+  # Raw prompt files, linked from the Methods page, and the quote-free data
+  # files written by build/export_data.py, linked from the audit pages.
   resources:
     - "prompts/*.md"
+    - "data/*.csv"
 
 website:
   title: "Reader's Guides: AI reviews of 33 education research papers"
@@ -22,6 +26,12 @@ website:
         text: Papers
       - href: methods.qmd
         text: Methods
+      - text: Audits
+        menu:
+          - href: mistakes.qmd
+            text: Mistakes audit
+          - href: overreach.qmd
+            text: Overreach census
       - href: comparison.qmd
         text: Comparison
       - href: corrections.qmd

@@ -1,0 +1,188 @@
+---
+title: "Mistakes audit"
+---
+
+<!-- DRAFT: Brendan to edit -->
+
+The reviews on this site flag places where a sentence in a paper and an exhibit in the same paper cannot both be right. This page describes the audit that took those flags one step further: for each one, which side is wrong, whether a reader can recover what the authors meant from the public record, and whether the sentence a reader would quote survives. The audit was done in September 2026 by AI agents under the direction of the site's editor, on 141 flagged items across all 33 papers. Its row-level results are in [data/mistakes_ledger.csv](data/mistakes_ledger.csv).
+
+Three caveats first. Authors were not contacted, so items that the published record cannot settle stay unsettled. The audit did not re-estimate anything from raw data. And the consequence codes below are a reading of how much an error matters; a second, blind AI pass agreed on every underlying fact but graded that reading differently on 15 of the 37 items it re-adjudicated, never more severely. The audit is also the source of the correction notes dated 2026-09-26 on the [Corrections](corrections.qmd) page: 17 of the 141 flags were withdrawn, and several other review claims were corrected in wording.
+
+## The unit
+
+An item is one discrepancy between the text of a paper and one of its exhibits, flagged by at least one of the two reviews on this site. Each item has a side A (a sentence, with its page) and a side B (an exhibit, with its page and value). The paper is not the unit: a paper can have several items, and 141 items are spread over 33 papers, from one (Broton) to nine (Cleveland & Lukes).
+
+Only items already documented in the reviews entered the audit. Nothing new was added, and anything the auditors noticed along the way was set aside in a parking lot and not counted.
+
+## How items were seeded
+
+The 141 items were assembled from the project's review inventory before any reconciliation work began: the single most serious issue named for each of the 33 papers; every hard text-versus-exhibit conflict, meaning a printed value contradicting another printed value or a sample size that cannot be reconciled across exhibits (ledger bucket A, 71 items); every abstract- or discussion-level sentence that an exhibit contradicts or fails to support (bucket B, 38 items); every wrong or mislabeled exhibit (bucket J, 26 items); and results discussed in the text but reported in no exhibit (bucket F, 6 items). Causal-language complaints, design critiques and literature-review complaints were excluded by rule, because reconciliation cannot settle a question of judgment. The 141 items split evenly between the two review rounds, 71 from round one and 70 from round two.
+
+Each item was assigned a priority tier. Tier 1 (25 items) covers every item the editor's accompanying essay cites, the top exhibits, and one qualifying item for each of the 25 papers with a hard conflict. Tier 2 (63 items) covers the remaining most-serious issues and the abstract-level items. Tier 3 (53 items) is everything else. All three tiers were completed.
+
+## The codes
+
+Every surviving item carries two codes.
+
+**Resolution**: what the public record lets a reader determine.
+
+| Code | Meaning |
+|---|---|
+| Withdrawn (R0) | There was no error. The numbers reconcile once read correctly, or the review misread the page. The flag is dropped. |
+| R1, resolved from the article | The article itself shows which side is wrong and what was intended: other rows or columns, components that must sum to a total, agreement among a coefficient's standard error, t-statistic and stars, the same quantity in another exhibit, or a table note. |
+| R2, resolved from outside the article | A published supplement, an earlier version, posted code or a corrigendum settles it. |
+| R3, partially resolved | Which side is wrong is known but the correct value is not, or the correct value is known but the status of the claim stays ambiguous. |
+| R4, unresolvable on the public record | Nothing public determines which side is right. Only the authors' own data or code could. |
+
+**Consequence**: what the error does to the claim a reader would quote, judged against the abstract, title or discussion sentence, not the narrow body claim, and against the specific claim the item targets.
+
+| Code | Meaning |
+|---|---|
+| C0, cosmetic | A typo or a relabel. The correct value is recoverable and the claim survives unchanged. |
+| C1, survives weakened | The intended result is real and recoverable, but narrower or weaker than the prose says. |
+| C2, fails | The prose is the wrong side, and the quotable claim is not supported. |
+| C3, indeterminate | The item is unresolvable, so the claim cannot be evaluated. The paper says two incompatible things. |
+
+Withdrawn items carry no consequence code. R4 pairs with C0, not C3, when the unresolved detail is immaterial to any quotable claim (a district count, a standard-error digit).
+
+Two decision rules did most of the work. First, side with the reading supported by more independent internal evidence: a coefficient whose standard error, t-statistic and stars all agree outranks a sentence. Second, prose that theorizes about a result is evidence of what the authors believed, not of what is correct, and never resolves an item on its own. A round-two COULD NOT CHECK was treated as an R4 candidate, not as resolved.
+
+Three examples of how the codes fall. Table 6 of Britton, Shirrell & Bristol (p. 11) prints the Black-student GPA coefficients without their minus signs; Table 12b (p. 17) runs the same regression in reverse and gets a negative coefficient, and Figure B1 (p. 26) plots a Table 4 (p. 10) coefficient at the opposite sign from the one printed. The typeset table dropped the signs, the prose is right, and the GPA claim survives: R1/C0. The attendance sub-claim in the same paper fails whatever the sign, because the with-covariates estimate in Table 5 is not significant: R1/C2. Figure 3 of Cleveland & Lukes (p. 13) reproduces the racial-composition panels of Figure 4 instead of the revenue series its caption describes; the intended numbers are in Supplemental Table A4, so the figure is wrong and the claim it was meant to carry is recoverable: R2/C0. And the Discussion of Gao et al. (p. 13) recommends acting on housing affordability in the direction opposite to the sign of the paper's own coefficient in Table 8 (p. 10): R1/C2.
+
+## The evidence hierarchy
+
+Workers took each item down the following list and stopped at the first source that settled it, recording every source tried.
+
+1. **The article itself.** Cheapest, and where 83 of the 124 surviving items were settled.
+2. **The published supplement.** 25 of the 33 papers have one on the journal's site (26 files; Heller has two). The editor retrieved all of them through his library login on 2026-09-26. Eight papers have none listed (Shand, Lee, Britton, Holtz, Gao, Perry, Truwit, Burdick-Will); Gao's appendix is bound into the article. None of these supplements had been available to either review.
+3. **Earlier versions.** Working papers, preprints, conference papers and dissertations, found by searching EdWorkingPapers, NBER, SSRN, IZA, OSF, conference programs, author sites and Google Scholar. An independent earlier version was found for 18 papers. (A nineteenth, for Umansky, Avelar & Thompson, turned out to be the journal's own proof of the same article and was not counted.) An earlier version's value counts as evidence of the intended value only if the sample and specification match, or the paper says the estimate did not change.
+4. **Posted code and data.** Gilmour et al. (OSF), Holzman et al. and Odle, Duke & Dunens (openICPSR), Shand et al. and Holtz (ICPSR). The editor downloaded the four ICPSR deposits with his login; the auditors read the code path that produces each flagged cell. Five items changed code after that step. No code was run and no data file was re-analyzed.
+5. **Corrections.** A Crossref sweep of all 33 DOIs for corrections and corrigenda found one: the corrigendum to Xu, Flanagan & Quintero, which adds an acknowledgment and changes no results.
+
+**Authors were not contacted.** That was decided on 2026-09-25, before the audit began. Items still open after step 5 are reported as unresolvable on the public record, which is itself the finding. The audit also did not re-estimate any result from public data.
+
+## Error stage
+
+For the 18 papers with an independent earlier version, each surviving item records whether the error was already present in that version or entered afterwards, during revision or production. The field has five values: present in the earlier version; introduced after it; the earlier version is silent on the point; a different version with a different number, not comparable; and no earlier version found. Where the only earlier version was a same-day working paper or a typeset proof, the field is recorded but the audit notes that it is uninformative.
+
+## Who did what
+
+**First pass (2026-09-26).** Thirty-three Claude Opus worker agents, one per paper, took the ledger rows for their paper and an evidence packet (article, supplement, any earlier version found, any code deposit) and worked each row down the hierarchy under a written brief. Each worker rendered the pages it cited to images rather than relying on extracted text, which drops minus signs and merges table columns, and recorded the minutes each item took. A Claude Fable 5.1 overseer read every report, entered every verdict, viewed the rendered crops for all 25 Tier 1 items, and recomputed three of them by hand (the rank sums in Little et al.'s Table 2, the column sums in Ambali, Jung & Sorensen's Table 2, and the reliability coefficients in Ganimian, Ho & Campos Quintero's Table 2). Tier 2 and 3 verdicts were taken from the reports, with consequence codes recoded where the scheme required.
+
+**ICPSR deposits (2026-09-26).** After the editor supplied the four deposits, the overseer read the code and re-examined five items. Four changed: two Holzman items and one Odle item moved from partially resolved or unresolvable to resolved from code, and one Holtz item was resolved from the deposit's README. One Shand item stayed partially resolved because no data were deposited.
+
+**Blind second pass (2026-09-26).** Nine independent Fable agents re-adjudicated 37 items: every Tier 1 item, every item the essay cites, and every C2 or C3 verdict. Their packets carried only side A and side B, the article, the supplement, and a raw evidence folder with the first pass's notes stripped out; they had no access to the ledger, the worker reports or the reviews, and no web search. The two passes agreed on the underlying facts for all 37 items. Codes matched exactly on 18. Of the 19 that differed, the overseer changed 11 verdicts and held 8, recording the dissent in the ledger. Every failing (C2) verdict the essay relies on replicated blind with the same decisive evidence. The pattern in the disagreements: the blind reader graded the consequence one notch softer in 8 of the 19 cases and never harsher, and twice withdrew a flag where the numbers reconcile. The two withdrawals were Ambali, Jung & Sorensen (the decomposition's 30% figure recomputes exactly; the missing 84% is an unprinted intercept, an omission rather than a discrepancy) and one Umansky item (four star-legend schemes, each self-consistent: a presentation inconsistency, not a discrepancy). Both are now counted among the 17 withdrawn flags.
+
+**The editor's hand checks.** The site's editor opened the typeset pages behind the nine pre-audit checks described on the [Methods](methods.qmd) page, retrieved the supplements and the ICPSR deposits, checked the AERA 2022 program for an earlier Britton paper (a proposal abstract only, with a different model, so no earlier version of that regression exists), and on 2026-09-26 hand-checked the pages behind the audit's main examples: Britton Tables 4 and 12b and Figure B1; the City row of Little et al.'s Table 2; the earlier report behind Gao et al.; Holtz's dissertation abstract against the article's; and the sign sentence on p. 10 and Table 6 of Gilmour et al. All matched. No other verdict has been human-verified.
+
+One of the 33 papers, Gilmour, Bartanen, Bettini et al., is coauthored by the site's editor. It went through the same process as every other paper and has a failing claim: the Methods (p. 10) state a sign convention backwards, and ten sentences comparing states contradict the tables.
+
+## Results
+
+All totals are the final ones, after the blind pass. They match the ledger file exactly.
+
+**Withdrawn and surviving.**
+
+| | Items | Papers |
+|---|---|---|
+| Flagged | 141 | 33 |
+| Withdrawn (R0) | 17 | 15 |
+| Surviving | 124 | 32 |
+
+Broton, Fenton-Miller & Bowman had one item, and it was withdrawn (the covariate count reconciles once race categories are counted separately, and the GPA drops are explained in the supplement). Other withdrawals include a percentage that reproduces (Lyon et al.), sample sizes confirmed by the survey's public documentation (Polikoff et al.), and rows a review had read as exclusive shares when they were not (Gao et al.).
+
+**Resolution by consequence, 124 surviving items.**
+
+| | C0 cosmetic | C1 weakened | C2 fails | C3 indeterminate | Total |
+|---|---|---|---|---|---|
+| R1 article | 39 | 33 | 11 | 0 | 83 |
+| R2 external | 8 | 4 | 1 | 0 | 13 |
+| R3 partial | 11 | 7 | 1 | 0 | 19 |
+| R4 unresolvable | 7 | 0 | 0 | 2 | 9 |
+| Total | 65 | 44 | 13 | 2 | 124 |
+
+Settled on the public record (R1 or R2): 96 of 124, 77%. Of the 13 external resolutions, 8 came from a supplement, 1 from an earlier version, and 4 from deposited code or its documentation. Among the 24 surviving Tier 1 items, the ones the essay leans on, 19 are R1, 4 R2 and 1 R4; 8 are C0, 8 C1, 7 C2 and 1 C3.
+
+**Which side was wrong, 96 settled items.**
+
+| Wrong side | Items |
+|---|---|
+| The prose | 81 |
+| The exhibit | 11 |
+| Both | 2 |
+| Neither (the flag stood but no printed value was wrong) | 2 |
+
+The exhibit-side cases include dropped minus signs (Britton Table 6), a coefficient digit (Little Table 2), a copied N row and mislabeled parentheticals (Lee), the wrong figure (Cleveland Figure 3), a table body at the wrong level of aggregation (Holtz Table 2), axis labels (Camp et al.), a column total (Truwit & Ronfeldt) and significance stars (Little, Xu). This split is taken from the "which side is wrong" line of each worker report, adjusted for the blind-pass rulings; it is not a column in the ledger file.
+
+**Papers with a failing claim.**
+
+| Worst surviving consequence | Papers | |
+|---|---|---|
+| A quotable claim fails (C2) | 12 | [Boles](papers/P04_boles/index.qmd), [Britton, Shirrell & Bristol](papers/P05_britton/index.qmd), [Holtz](papers/P06_holtz/index.qmd), [Odle, Duke & Dunens](papers/P07_odle/index.qmd), [Gao et al.](papers/P08_gao/index.qmd), [Johnson & Zhang](papers/P09_johnson/index.qmd), [Gilmour et al.](papers/P11_gilmour/index.qmd), [Little et al.](papers/P13_little/index.qmd), [Cleveland & Lukes](papers/P22_cleveland/index.qmd), [Acris et al.](papers/P23_acris/index.qmd), [Yoon & Dougherty](papers/P27_yoon/index.qmd), [Burdick-Will, Bader & Nguyen](papers/P32_burdickwill/index.qmd) |
+| A claim cannot be evaluated (C3), none fails | 2 | [Munoz et al.](papers/P19_munoz/index.qmd), [Cristancho et al.](papers/P31_cristancho/index.qmd) |
+| Only weakened or cosmetic errors | 18 | |
+| Only item withdrawn | 1 | [Broton, Fenton-Miller & Bowman](papers/P17_broton/index.qmd) |
+
+Six of the 12 failing verdicts were held over the blind reader's C1. Five (Boles, Little, Acris, Yoon, Burdick-Will) turn on the rule that consequence is judged on the specific claim the item targets; the blind reader graded the surviving neighbouring claim rather than the sentence as written. The sixth, Cleveland & Lukes, was held because three numeric sentences in the text match nothing printed in the article or its supplement, and one reverses the direction of the gap. Those six rulings are the ones a reader is most entitled to dispute.
+
+**Errors that entered after the earlier version, 18 papers with an independent earlier version, 78 surviving items.**
+
+| Error stage | Items |
+|---|---|
+| Present in the earlier version | 49 |
+| Introduced after the earlier version | 24 |
+| Earlier version silent on the point | 4 |
+| Different version, not comparable | 1 |
+
+12 of the 18 papers have at least one error that entered after the earlier version. The clearest cases: Gao et al., where an earlier report's coefficient carried the opposite sign, the published respecification flipped it, the results text was updated and the Discussion recommendation was not; Holtz, where the abstract and conclusions were carried over from the author's 2023 dissertation after the analysis was re-run on a different measure that moved the results; Johnson & Zhang, where a qualifying condition on the main finding was removed in revision; Acris et al., where a Discussion sentence generalizing the gains beyond rural districts first appears in the April 2026 draft; and Cleveland & Lukes, where the wrong figure and a significance claim for the Midwest entered in the journal version. The other 15 papers have no earlier version on the public record, so nothing can be said about when their errors entered (46 surviving items in 14 papers; Broton's one item was withdrawn).
+
+**Minutes per item**, as reported by the first-pass workers, all 141 items.
+
+| | Items | Median minutes | Total minutes |
+|---|---|---|---|
+| All items | 141 | 10 | 2,041 |
+| Withdrawn (R0) | 17 | 12 | 261 |
+| R1 article | 83 | 8 | 1,045 |
+| R2 external | 13 | 15 | 287 |
+| R3 partial | 19 | 12 | 326 |
+| R4 unresolvable | 9 | 9 | 122 |
+
+The interquartile range over all items is 6 to 18 minutes; the longest single item took 60. These are the minutes an AI worker reported for an item with the evidence packet already assembled. They exclude the time to retrieve supplements, find earlier versions and download deposits, the overseer's checks, and the blind pass.
+
+## Limitations
+
+- **The seed is the reviews.** Only discrepancies one of the two AI reviews had already flagged were audited. Discrepancies both reviews missed are not counted, and the new items the auditors noticed along the way were parked and deliberately left out of every count.
+- **The record was not complete.** Authors were not contacted, nothing was re-estimated, and no deposited code was run. Nine items are unresolvable for that reason, and the R3 items would in some cases resolve with the authors' data.
+- **Consequence is a reading.** The resolution codes rest on arithmetic and page images. The consequence codes rest on a rule about which claim an item targets, and in the blind pass, a second reader applying the same rule graded consequence differently on 15 of 37 items, and never more severely.
+- **Verification is mostly AI.** Every verdict cites a rendered page, and every Tier 1 verdict was checked twice by AI, but only the pages listed above have been opened by a person.
+- **Error stage is right-censored.** An error recorded as present in the earlier version may still have entered after some version that was not found. And for 15 papers there is no earlier version at all.
+- **Minutes are self-reported by AI agents** and are not the time a human reader would take.
+- **One paper is the editor's own.** Gilmour et al. was audited by the same process; its result is reported above and not adjusted.
+
+## Data files
+
+- [data/mistakes_ledger.csv](data/mistakes_ledger.csv): one row per item, 141 rows.
+- [data/paper_summary.csv](data/paper_summary.csv): one row per paper, 33 rows, with the ledger counts and the claim-census counts from the [Overreach census](overreach.qmd) side by side.
+
+Both files carry codes only. The side A sentence, the side B exhibit description, the evidence notes and the worker notes are not published, because they quote the papers. Cells are limited to 40 characters and may not contain a quotation mark; the export script fails otherwise.
+
+**mistakes_ledger.csv**
+
+| Column | Values |
+|---|---|
+| `item_id` | Paper id and item number, e.g. `P05-2`. |
+| `pid`, `cite`, `journal`, `doi` | Paper identifiers, as on the paper pages. |
+| `round` | Review round the flag came from: `1` (2026-09-02) or `2` (2026-09-25). |
+| `tier` | Audit priority: `1` (25 items), `2` (63), `3` (53). |
+| `bucket` | Inventory source of the flag: `A` hard text-versus-exhibit conflict (71); `B` abstract or discussion sentence contradicted or unsupported by an exhibit (38); `J1`, `J2` wrong or mislabeled exhibit, first and second priority (11, 15); `F` result discussed but reported in no exhibit (6). |
+| `resolution` | `R0` to `R4`, as defined above. |
+| `consequence` | `C0` to `C3`; `n.a.` for withdrawn items. |
+| `source` | What settled or characterized the item: `article`, `supplement`, `earlier version`, `code`, `UAS documentation` (the survey's public methodology, two Polikoff items), `none`. Four items resolved from the ICPSR deposits after the first pass (two Holzman, one Odle, one Holtz) are coded `code`. |
+| `error_stage` | `present in earlier version`, `introduced after earlier version`, `earlier version silent`, `different version not comparable`, `no earlier version found`; `n.a.` for most withdrawn items. |
+| `minutes` | Minutes the first-pass worker reported for the item. |
+| `overseer_check` | `CORRECTED` for the 11 items whose codes changed after the blind second pass; `CONFIRMED` otherwise. |
+| `withdrawn` | `true` if `resolution` is `R0`. |
+
+**paper_summary.csv**, ledger columns: `ledger_items`, `withdrawn`, `surviving`, then `R1` to `R4` and `C0` to `C3` counted over surviving items only, and `has_C2`. The remaining columns are described on the Overreach census page.
+
+<!-- END DRAFT -->

@@ -1,0 +1,224 @@
+---
+title: "Overreach census"
+---
+
+<!-- DRAFT: Brendan to edit -->
+
+The reviews on this site say, of most papers, that the headline claims outrun the evidence. That is a judgment, and language models are known to hedge. This page describes the census that was built to put a checkable number on it: every headline claim in every paper, coded against a written rulebook by two AI coders from different model families, working blind to each other and to the reviews, with every disagreement adjudicated and every overreach verdict re-checked against the page. The row-level codes are in [data/overreach_claims.csv](data/overreach_claims.csv).
+
+Two caveats first. The reliability figures below are agreement between two AI coders. The planned human benchmark was not run: the site's editor chose to run the three papers held back for it through the same AI pipeline, so no human has coded any paper under the rulebook. And one of the 33 papers, Gilmour, Bartanen, Bettini et al., is coauthored by the editor. It went through the same process as every other paper and its result is reported below.
+
+## Scope
+
+A claim is a sentence, or a separable clause of one, that asserts something about the paper's own findings or their implications. Three locations are in scope: the title, the abstract, and the paper's closing block, from the first heading after the results that opens a Discussion, Implications or Conclusion section to the references. These are the sentences readers cite. Background, motivation, descriptions of data and method, summaries of prior literature, statements of research questions, novelty statements, limitations sentences and proposals for future research are not claims; limitations sentences are instead candidate concessions. Footnotes and endnotes are out of the census but remain sources of evidence and concessions. The body of the paper is not censused, but it is searched for concessions.
+
+The introduction's contribution paragraph was left out. It roughly doubles the extraction and mostly repeats the abstract.
+
+## Extraction
+
+One Claude Opus agent per paper copied every in-scope sentence verbatim, with its page and the heading it sits under, without judging it. Extractors were told to include borderline sentences. A script then checked that every extracted row is a verbatim substring of the paper's text (comparing on letters and digits only, so hyphenation and dash styles do not matter) and begins on the stated page. All 33 papers passed. Extraction produced 1,135 rows: 33 titles, 106 abstract sentences and 996 conclusion-zone sentences. One extractor first read the conclusion zone as the final section only; four papers were re-extracted under the clarified rule.
+
+The coders could split a row into separable clauses (adding `a` and `b` to its id) and add sentences the extractor missed (ids with an `X`). After splits and 59 coder-added rows, all in the conclusion zone, the census has 1,340 rows. Of these, 1,140 are assessable claims; the rest are not claims (175) or rest only on cited literature (25). Every denominator on this page is the 1,140 assessable claims unless it says otherwise.
+
+## The codebook
+
+The codebook was drafted before the pilot, revised three times during it (v0.2 to v0.4), and frozen as v1.0 on 2026-09-26 after the editor approved the pilot rulings. It records the inputs to a verdict (type, hedge, design, scope, concession) separately from the verdict, so any verdict can be recomputed under other rules. The examples below are synthetic; none is a sentence from a reviewed paper.
+
+**Claim type**, one per claim. When a sentence carries more than one, the coder records the strongest in the order policy, mechanism, causal, scope, null, association, descriptive.
+
+| Code | Type | What it asserts |
+|---|---|---|
+| DES | Descriptive | A level, share, count, trend or pattern in the data, including measurement properties. *A third of the sampled schools offered the program.* |
+| ASC | Association | A relationship stated in associational terms. *Schools offering the program had higher attendance.* |
+| CAU | Causal | One thing changes, produces or determines another. *The program raised attendance.* Triggered by a verb lexicon (effect, impact, increase, reduce, lead to, drive, and so on) applied to the paper's explanatory variable; coders may override the lexicon with a one-line reason. |
+| MEC | Mechanism | Why an effect or pattern occurs, or through what it operates. *Attendance rose because the program improved students' sense of belonging.* |
+| SCO | Scope | A generalization beyond the analyzed sample, place or period. *These patterns hold across the country.* |
+| NUL | Null | No effect, difference or relationship. *The program had no effect on test scores.* |
+| POL | Policy or evaluative | A specific recommendation, a judgment of worth, or a prediction. *Districts should expand the program.* A generic relevance statement that names no action and no expected result is coded POL but is supported unless the paper contradicts it. |
+| NC | Not a claim | An extracted row that is not a claim under the scope rule. |
+
+Wording that restates an accounting identity over a descriptive decomposition, or reports the arithmetic of a simulation, is descriptive, not causal. Subgroup comparisons take the type of the underlying estimate.
+
+**Hedge**, every hedge present, with the strongest governing.
+
+| Code | Hedge | Examples |
+|---|---|---|
+| H0 | None | |
+| HM | Modal only | may, might, could, can, likely |
+| HF | Framing only | suggests, indicates, is consistent with, appears to, some evidence |
+| HMF | Both modal and framing | *results suggest the program may raise attendance* |
+| HS | Explicit speculation marker | *one possible explanation is*, *we speculate* |
+| HC | Explicit conditional | *if this is the case, then* |
+| HL | Explicit design label or disclaimer in the same sentence | *descriptively*, *although not causal*, *among the districts we studied* |
+
+**Scope**, every claim: `IN` if the claim is about the analyzed sample, place and period, including generic present-tense statements about the kind of unit studied; `BEYOND` if the sentence explicitly extends to a broader population, place, period or system. A BEYOND claim is judged twice, once on its type and once on its scope, and takes the more severe verdict.
+
+**Design.** Before coding any claim, the coder lists every analysis in the paper with a design code: `DESC` descriptive; `CORR` correlational (regression with controls, matching, multilevel models, and any fixed-effects panel that makes no identification argument); `WITHIN` within-unit designs where the paper states and argues for an identifying assumption; `QE` quasi-experimental (difference-in-differences, event study, regression discontinuity, instrumental variables, synthetic control); `RCT` randomized; `OTHER`. Each claim is then linked to the analysis that backs it, or to `NONE`. By default, descriptive and correlational designs support descriptive and associational claims; within-unit, quasi-experimental and randomized designs support causal claims for the identified estimate; mechanism claims need an analysis that tests the mechanism, whatever the design; policy claims inherit the support of the findings the recommendation requires.
+
+**Concession.** A sentence in the published article (body, footnote, table note or printed exhibit, but not the supplement) that limits the claim: a design label, a scope limit, a strength label such as exploratory or suggestive, an identification limit, or a printed diagnostic that fails and that the article acknowledges as a failure. A diagnostic the authors discount does not count as a concession. A paper-wide label applies to every causal and mechanism claim in the paper.
+
+**Verdict.** The severity order, most to least, is T3a, T1, T3b, T2, T4, then SH and S. When several apply, the most severe is recorded and the rest go in a `secondary` field. When the coder is unsure between two tiers, the less severe one is the verdict and the more severe goes in `secondary`.
+
+| Code | Verdict | Rule, and a synthetic example |
+|---|---|---|
+| S | Supported | The claim's type and scope are within what its backing analysis supports, and nothing in the paper contradicts it. *Attendance was higher in program schools*, backed by a regression with controls. |
+| SH | Supported as hedged | The claim would otherwise outrun its design or lack backing, but carries a hedge that cures it: a modal-plus-framing hedge, a speculation marker, a conditional, or a design label. *One possible explanation is that the program improved belonging.* |
+| T1 | Outruns, conceded | The claim outruns its design, sample or evidence, and the article itself contains a concession that the claim ignores. *The program raised attendance* in the abstract, when p. 8 says the estimates are correlational and not causal. |
+| T2 | Outruns the design | A causal, mechanism or policy claim, or a beyond-sample scope, rests on a design or sample that does not support it, with no concession anywhere in the paper and no curing hedge. *The program raised attendance*, on a cross-sectional regression, in a paper that never says what that regression can and cannot show. |
+| T3a | Contradicted | The paper's own exhibit, estimate or printed number runs against the claim. *Effects were largest for the youngest students*, when the table shows the youngest group's estimate is the smallest. Nothing cures a T3a. |
+| T3b | Unbacked | Nothing in the article or supplement estimates or shows the claim, and no curing hedge applies. *The program is cost-effective*, in a paper with no cost data. |
+| T4 | Contested on method | The claim is within what its design supports on paper, but a specific, named methods problem visible in the article or supplement may undo it. A generic concern that could be raised about any paper of the design is not T4. Recorded and reported separately; not counted as overreach. |
+| LIT | Rests on cited literature | The claim's only support is outside work that itself estimates the claim's content. Not assessed. |
+| NA | Not assessable | The backing analysis cannot be determined. (No final row carries this code.) |
+| NC | Not a claim | |
+
+Overreach means T1, T2, T3a or T3b. A modal hedge alone or a framing hedge alone cures nothing, with two exceptions: when the paper's concession is about the strength of the evidence, any hedge that attaches to the finding cures the T1, because the claim echoes the concession rather than ignoring it; and a hedged prediction about a future event is cured by any hedge. A null claim is contradicted if the paper's own exhibit shows a significant or substantively large estimate, conceded if the paper acknowledges low power for it, and contested if its interval admits effects the paper elsewhere treats as meaningful. A size word such as large, robust or consistent is contradicted if the estimate it describes is insignificant or the paper's own robustness checks undo it. A subgroup comparison is supported if the point estimates show the stated order, tested or not, and contested only when the sentence builds a further inference on an untested difference. A causal claim on a quasi-experimental estimate is supported by default, conceded if the article itself limits that estimate, and contested only if a failed check is material to it: the sign flips, the estimate falls by more than half, or the check's interval excludes the main estimate. Losing significance alone is not material.
+
+## The pilot
+
+The codebook went through three pilot rounds on six papers, each coded blind by a Claude Fable agent and by Codex: Xu (regression discontinuity), Delgado & Sartain (teacher-by-school fixed effects), Heller & Slungaard Mumma (state panel plus survey experiment) and Polikoff et al. (survey) in rounds one and two; Xu again plus Munoz et al. (descriptive decomposition) and Camp et al. (difference-in-differences) in round three. Gilmour et al. was excluded from the pilot.
+
+| Round | Codebook | Papers | Verdict agreement | Verdict kappa |
+|---|---|---|---|---|
+| 1 | v0.1 | Xu, Delgado, Heller, Polikoff | 0.56 | 0.43 |
+| 2 | v0.2 | same four | 0.52 | 0.42 |
+| 2 | v0.2 | same, without Xu | 0.65 | 0.55 |
+| 3 | v0.3 | Xu | 0.57 | 0.48 |
+| 3 | v0.3 | Munoz, Camp (fresh) | 0.81 | 0.70 |
+
+Claim type and hedge were reliable from round one. Verdicts were not, and most disagreements came from gaps both coders named independently. The substantive rulings that changed the codebook, each approved by the editor, were these. A diagnostic the authors discount is contested (T4), not conceded (T1), because arguing a failure away is not conceding it. The paper's own design label caps what an analysis supports, whatever its design code, so a causal claim on an analysis the paper calls non-causal is T1. Concessions on quasi-experimental estimates route to T1. The old single contradicted-or-unbacked tier was split into T3a and T3b, because the two need different evidence and only one of them can be cured. Scope became its own field with a narrow definition of BEYOND, so that generic present-tense statements would not inflate T2. Footnotes were taken out of the census. And, after round two showed Codex coding generic hedged implication sentences as conceded overreach under a literal reading of "a hedge never cures T1," the rule was reversed: strong hedges (modal plus framing, speculation, conditional, design label) cure T1, T2 and T3b, while nothing cures T3a. Round three's clarifications fixed the materiality test for robustness checks, the default benchmark for a meaningful effect in null claims (20% of the baseline mean or 0.10 standard deviations when the paper names none), and the treatment of subgroup comparisons.
+
+Xu remained the hardest paper throughout, because it has many achievement claims hedged to different degrees next to the paper's own label of that evidence as suggestive.
+
+## Coding, adjudication and checks
+
+**Two blind coders.** Every paper was coded independently by a Claude Fable agent and by Codex (OpenAI GPT-6), each given the paper's PDF and text, its supplement if any, the extracted claims and the frozen codebook. Coders were forbidden by a path list from opening the earlier reviews, the syntheses, the mistakes-audit ledger or anything under the pilot folder, and could not search the web. Each coder built a design inventory and a concession inventory before coding any claim, coded every extracted row, and added any in-scope sentence the extractor missed. When a rule produced a verdict the coder believed wrong, the instruction was to apply the rule anyway and record the problem.
+
+**Adjudication.** A Fable adjudicator, the only reader to see both codings, ruled on every disagreement in type, scope or verdict by checking the paper and naming the codebook rule, and took a third code where both coders were wrong. It also re-verified every agreed T1, T2, T3a and T3b: for T1, that the concession quote is verbatim on the stated page and applies to the same analysis; for T3a, the contradicting number in the exhibit; for T2 and T3b, that no analysis in the article or supplement backs the claim. Where a claim was contradicted only by a single printed cell, the adjudicator checked whether other evidence in the paper shows the cell, not the claim, is misprinted.
+
+**Cross-checks after adjudication.** Nine claims restate a printed value that disagrees with an exhibit and were flagged `F1`. A Fable session that, unlike the coders and the adjudicator, could read the [Mistakes audit](mistakes.qmd) ledger checked them against it, and two contradicted verdicts were reversed to supported because that audit had shown the exhibit, not the sentence, was the error (one Holtz claim resting on a table later shown to be tract-level, and one Truwit & Ronfeldt claim resting on a text-versus-text count that cannot be resolved). No paper changed status. A script then confirmed every concession quote behind a T1 verdict verbatim in the article text. On 2026-09-27 the site's editor checked nine candidate examples against the typeset pages, and all were confirmed. No other verdict has been human-verified.
+
+**Reliability.** Before adjudication, over the 1,135 extracted claims coded by both coders (split rows collapsed to the most severe verdict, coder-added rows excluded):
+
+| Field | Raw agreement | Cohen's kappa |
+|---|---|---|
+| Claim type | 0.82 | 0.79 |
+| Scope | 0.96 | 0.60 |
+| Verdict | 0.71 | 0.62 |
+| Band (supported; overreach; contested; not a claim) | 0.79 | 0.65 |
+
+Agreement is AI-to-AI only. The three papers set aside for a human benchmark (Chin & Chen, Gicheva et al., Lyon et al.; 54 claims) were coded by the same two AI coders and adjudicated the same way as the rest, and are included in every table below. Of the 1,340 final codes, both coders agreed outright on 760 (57%); the adjudicator took the Fable code on 282 (21%), the Codex code on 252 (19%), its own third code on 40 (3%), and overruled an agreed code on 6. Neither model dominated.
+
+## Results
+
+All counts are over the 33 papers and the 1,140 assessable claims. Overreach is T1, T2, T3a or T3b; T4 is reported but not counted.
+
+**Papers.**
+
+| Measure | Papers (of 33) |
+|---|---|
+| At least one overreaching claim | 32 |
+| At least one claim that outruns its design or sample (T1 or T2) | 31 |
+| At least one claim that ignores a limit the paper itself states (T1) | 29 |
+| At least one claim the paper's own evidence contradicts (T3a) | 16 |
+| At least one claim nothing in the paper backs (T3b) | 20 |
+| At least one contested claim (T4) | 13 |
+| At least one overreaching claim in the title or abstract | 21 |
+| No overreach | 1 |
+
+The one paper with no overreach is [Camp et al.](papers/P20_camp/index.qmd), a difference-in-differences paper whose nulls hold and whose speculation is labeled as such.
+
+**Claims, by verdict.**
+
+| Verdict | Claims | Papers with at least one |
+|---|---|---|
+| S supported | 561 | 33 |
+| SH supported as hedged | 194 | 30 |
+| T1 outruns, conceded | 221 | 29 |
+| T2 outruns the design | 41 | 11 |
+| T3a contradicted | 35 | 16 |
+| T3b unbacked | 57 | 20 |
+| T4 contested on method | 31 | 13 |
+| Overreach (T1, T2, T3a, T3b) | 354 | 32 |
+| Assessable | 1,140 | 33 |
+
+354 of 1,140 assessable claims overreach, 31%. The median paper has 10 overreaching claims (mean 10.7, maximum 28), and the median paper's overreach share is 32%. Not assessable and excluded from every denominator: 175 rows that are not claims and 25 that rest on cited literature.
+
+**Title and abstract.** 21 of 33 papers have at least one overreaching claim in the title or abstract. Of the 129 assessable title and abstract claims, 38 overreach (29%). Four titles state a finding rather than a topic; three of the four overreach.
+
+**Where overreach concentrates.** By claim type:
+
+| Type | Assessable | Overreach | Share |
+|---|---|---|---|
+| Descriptive | 239 | 22 | 9% |
+| Association | 187 | 21 | 11% |
+| Causal | 147 | 93 | 63% |
+| Mechanism | 222 | 125 | 56% |
+| Scope | 8 | 4 | 50% |
+| Null | 47 | 22 | 47% |
+| Policy or evaluative | 290 | 67 | 23% |
+
+By location:
+
+| Location | Assessable | Overreach | Share | T1 + T2 | T3a | T3b |
+|---|---|---|---|---|---|---|
+| Title | 4 | 3 | 75% | 3 | 0 | 0 |
+| Abstract | 125 | 35 | 28% | 26 | 9 | 0 |
+| Discussion or conclusion | 1,011 | 316 | 31% | 233 | 26 | 57 |
+| All | 1,140 | 354 | 31% | 262 | 35 | 57 |
+
+Descriptive and associational claims, the statements of what the data show, hold up about nine times in ten, and when they fail it is mostly by contradicting the paper's own numbers. The problem is explanation: nearly two-thirds of causal claims and more than half of mechanism claims go beyond what the design supports. Most of that sits in the closing section, but the closing section is also where nearly nine in ten claims come from, and the abstract's overreach share (28%) is close to the closing section's (31%).
+
+**Sensitivity of the headline.**
+
+| Scenario | Papers with overreach | Overreaching claims | Share of 1,140 |
+|---|---|---|---|
+| Codebook as written | 32 | 354 | 31% |
+| Lenient hedges: any modal or framing hedge cures T1, T2 and T3b | 30 | 196 | 17% |
+| Excluding the 9 claims cross-checked with the mistakes audit | 32 | 353 | 31% (of 1,131) |
+| Title and abstract claims only | 21 | 38 | 29% (of 129) |
+| Contradicted by the paper's own evidence only (T3a) | 16 | 35 | 3% |
+
+Under the lenient reading, which treats a lone "may" or "suggests" as enough, the claim count roughly halves and two papers drop out, [Delgado & Sartain](papers/P16_delgado/index.qmd) and [Gicheva et al.](papers/P24_gicheva/index.qmd); Gicheva's only overreaching claim is a modal-hedged one. The paper count barely moves. The conservative versions of the headline are the paper count and the contradicted-only row, not the 354.
+
+**The editor's own paper.** [Gilmour et al.](papers/P11_gilmour/index.qmd) has 56 assessable claims and 14 that overreach: 1 T1, 10 T2, 2 T3a and 1 T3b. Nine of the 14 carry only a modal hedge; most are explanations of a descriptive turnover pattern stated as likely causes. None is in the title or abstract.
+
+## Caveats
+
+- **An honest disclaimer can score worse than silence.** A paper that says its estimates are not causal and then writes causally gets T1. A paper that never says so gets T2. Both count as overreach, so the paper count does not punish candor, but the two rows should be read together, as T1 + T2 above, and not as a ranking of papers by honesty.
+- **The earlier reviews overstated the abstract.** The reviews on this site say, in effect, that the abstract overclaims in every paper. That does not survive the census. Overreach reaches the title or abstract in 21 of 33 papers, not 33. The reviews named 20 papers as cases where the body concedes what the abstract asserts; the census finds overreach somewhere in 19 of them (Camp is the exception) and in the title or abstract specifically in 11 of the 20. The defensible statement is that headline sentences overreach in nearly every paper and that in about two-thirds of papers the overreach reaches the title or abstract.
+- **Modal hedges.** Under the codebook, a modal hedge after a paper-wide non-causal label still counts as overreach. The lenient row above is the answer for readers who disagree.
+- **Judgment calls that move specific papers**, each documented in the adjudication notes: Choi et al.'s blanket nulls are contradicted because of single Bonferroni-significant cells, and would be conceded instead under the alternative reading; Cristancho et al. and Broton, Fenton-Miller & Bowman each rebut their own concessions, and counting the concessions gives T1 where not counting them gives T4 or T2; Boles's footnote declining to report local estimates is treated as a strength concession, without which Boles falls from 12 overreaching claims to 8; five of Chin & Chen's six T4 verdicts rest on a single significant pre-period lead.
+- **Discussion sections are long.** 1,011 of the 1,140 assessable claims come from the closing block. The title-and-abstract row is the conservative version.
+- **No human benchmark.** Reliability is two AI coders from different model families plus adjudication and the editor's page checks of the examples. The benchmark sheets for Chin, Gicheva and Lyon were prepared and not used.
+- **One paper is the editor's own.** Gilmour et al. was coded by the same process, excluded from nothing except the pilot, and is reported above without adjustment.
+
+## Data files
+
+- [data/overreach_claims.csv](data/overreach_claims.csv): one row per census row, 1,340 rows.
+- [data/paper_summary.csv](data/paper_summary.csv): one row per paper, 33 rows, with the census counts and the mistakes-audit counts side by side.
+
+Both files carry codes only. The claim text, the concession quote, the evidence field and the adjudicator's ruling are not published, because they quote the papers. Cells are limited to 40 characters and may not contain a quotation mark; the export script fails otherwise.
+
+**overreach_claims.csv**
+
+| Column | Values |
+|---|---|
+| `pid`, `cite`, `journal`, `doi` | Paper identifiers, as on the paper pages. |
+| `claim_id` | Extractor id in reading order, e.g. `P15-C08`; `a`, `b` suffixes for rows a coder split; `X` ids (e.g. `P01-X01`) for the 59 rows a coder added. |
+| `location` | `title`, `abstract`, `conclusion`. Coder-added rows are all `conclusion`. |
+| `type` | `DES`, `ASC`, `CAU`, `MEC`, `SCO`, `NUL`, `POL`, `NC`. |
+| `scope` | `IN`, `BEYOND`. |
+| `hedge` | `H0`, `HM`, `HF`, `HMF`, `HS`, `HC`, `HL`, semicolon-joined when several apply. |
+| `design` | Design code of the backing analysis: `DESC`, `CORR`, `WITHIN`, `QE`, `RCT`, `OTHER`, `NONE`; semicolon-joined when a claim rests on more than one. Blank for 36 supported rows and for rows that are not claims. |
+| `verdict` | `S`, `SH`, `T1`, `T2`, `T3a`, `T3b`, `T4`, `LIT`, `NC`. |
+| `secondary` | Less severe verdicts that also applied, or the more severe one a coder was unsure about; semicolon-joined; blank if none. |
+| `concession_page` | Page of the concession behind a T1 verdict; blank otherwise. |
+| `final_code_source` | Where the final code came from: `agree` (both coders, verified), `fable`, `codex`, `adjudicator` (a third code), `overruled` (an agreed code the adjudicator changed). |
+| `assessable` | `true` for S, SH, T1, T2, T3a, T3b and T4. |
+| `f1` | `true` for the 9 claims cross-checked against the mistakes-audit ledger. |
+| `overreach` | `true` for T1, T2, T3a and T3b. |
+
+**paper_summary.csv**, census columns: `claims_total`, `claims_assessable`, `overreach_claims`, `verdict_S` through `verdict_NA` (one count per verdict code), and `overreach_title_abstract`. The ledger columns are described on the Mistakes audit page.
+
+<!-- END DRAFT -->
