@@ -4,7 +4,7 @@ title: "Mistakes audit"
 
 <!-- DRAFT: Brendan to edit -->
 
-The reviews on this site flag places where a sentence in a paper and an exhibit in the same paper cannot both be right. This page describes the audit that took those flags one step further: for each one, which side is wrong, whether a reader can recover what the authors meant from the public record, and whether the sentence a reader would quote survives. The audit was done in September 2026 by AI agents under the direction of the site's editor, on 141 flagged items across all 33 papers. Its row-level results are in [data/mistakes_ledger.csv](data/mistakes_ledger.csv).
+The reviews on this site flag places where a sentence in a paper and an exhibit in the same paper cannot both be right. This page describes the audit that took those flags one step further: for each one, which side is wrong, whether a reader can recover what the authors meant from the public record, and whether the sentence a reader would quote survives. The audit was done in September 2026 by AI agents under the direction of the site's editor, on 141 flagged items across all 33 papers. Its row-level results are in [data/mistakes_ledger.csv](data/mistakes_ledger.csv). The editor's accompanying essay counts 110 of the 124 surviving items as verifiable errors; [the difference is explained below](#essay-counts).
 
 Three caveats first. Authors were not contacted, so items that the published record cannot settle stay unsettled. The audit did not re-estimate anything from raw data. And the consequence codes below are a reading of how much an error matters; a second, blind AI pass agreed on every underlying fact but graded that reading differently on 15 of the 37 items it re-adjudicated, never more severely. The audit is also the source of the correction notes dated 2026-09-26 on the [Corrections](corrections.qmd) page: 17 of the 141 flags were withdrawn, and several other review claims were corrected in wording.
 
@@ -90,6 +90,17 @@ All totals are the final ones, after the blind pass. They match the ledger file 
 | Surviving | 124 | 32 |
 
 Broton, Fenton-Miller & Bowman had one item, and it was withdrawn (the covariate count reconciles once race categories are counted separately, and the GPA drops are explained in the supplement). Other withdrawals include a percentage that reproduces (Lyon et al.), sample sizes confirmed by the survey's public documentation (Polikoff et al.), and rows a review had read as exclusive shares when they were not (Gao et al.).
+
+[]{#essay-counts}**How these counts relate to the essay.** The accompanying essay reports 110 verifiable errors, not 124. It leaves out 14 surviving items in which a sentence conflicts with the paper's own stated limits, significance conventions or design. That such a conflict exists can be checked, but deciding which side is wrong takes a reading of the paper, so the essay treats this kind of problem as overreach, the subject of the [Overreach census](overreach.qmd), rather than as a factual error. The 14 items, one per paper, are P01-1, P02-1, P08-2, P09-2, P10-1, P12-1, P13-1, P14-1, P16-1, P21-1, P25-1, P28-1, P30-5 and P31-3. Thirteen were resolved from the article and one from outside it. Thirteen survive weakened (C1) and one fails (C2, P13-1). The essay's four resolution columns correspond to R1 through R4.
+
+| | Essay | Set aside | This page |
+|---|---|---|---|
+| R1 article | 70 | 13 | 83 |
+| R2 external | 12 | 1 | 13 |
+| R3 partial | 19 | 0 | 19 |
+| R4 unresolvable | 9 | 0 | 9 |
+| Surviving items | 110 | 14 | 124 |
+| Papers with a surviving item | 32 | 14 | 32 |
 
 **Resolution by consequence, 124 surviving items.**
 
