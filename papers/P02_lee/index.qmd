@@ -160,12 +160,4 @@ Ratings and confidence below are those assigned by the dimension reviewers; conf
 
 ## Responses
 
-Authors of the reviewed paper, and readers who find an error in a review, can respond in the discussion thread below once it is enabled, or open an issue in the site's GitHub repository. Corrections are logged on the Corrections page with dates.
-
-<!--
-Giscus discussion thread placeholder.
-To enable, uncomment the `comments: giscus:` block in _quarto.yml (it needs the
-GitHub repository to be public, Discussions turned on, the giscus app installed,
-and the repo-id / category-id values from https://giscus.app). Quarto then adds
-the thread at the bottom of every page, directly below this section.
--->
+Authors of the reviewed paper, and readers who find an error in a review, can respond in the discussion thread below (it needs a GitHub account), or open an issue in the site's GitHub repository. Corrections are logged on the Corrections page with dates.

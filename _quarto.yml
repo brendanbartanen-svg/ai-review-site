@@ -49,18 +49,5 @@ format:
 execute:
   enabled: false
 
-# Discussion threads (Giscus). Needs the GitHub repository to be public, with
-# Discussions enabled and the giscus app installed; take repo-id and
-# category-id from https://giscus.app. Uncomment to add a thread to every page.
-# To limit threads to the paper pages, put this block in papers/_metadata.yml
-# instead (note: build_site.py deletes and regenerates papers/, so it would
-# need to write that file too).
-# comments:
-#   giscus:
-#     repo: OWNER/REPO
-#     repo-id: "R_xxxxxxxxxx"
-#     category: "Announcements"
-#     category-id: "DIC_xxxxxxxxxx"
-#     mapping: pathname
-#     reactions-enabled: true
-#     input-position: top
+# Discussion threads (giscus) are configured in papers/_metadata.yml, which
+# build/build_site.py writes, so that only paper pages get a thread.
