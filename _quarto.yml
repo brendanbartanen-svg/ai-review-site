@@ -18,7 +18,7 @@ project:
 
 website:
   title: "Reader's Guides: AI reviews of 33 education research papers"
-  # site-url: https://OWNER.github.io/REPO/   # set once the repository exists
+  site-url: https://brendanbartanen-svg.github.io/ai-review-site/
   search: true
   navbar:
     left:

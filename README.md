@@ -52,7 +52,7 @@ Per-paper notes (shown in the callout at the top of a paper page and on the Corr
 
 ## Publishing (repository owner)
 
-Nothing has been pushed; this is a local repository with no remote.
+Published at https://brendanbartanen-svg.github.io/ai-review-site/ from https://github.com/brendanbartanen-svg/ai-review-site. The steps below are how it was set up.
 
 1. Create an empty **public** repository on GitHub (no README, license or .gitignore, so the first push is clean).
 2. `git remote add origin https://github.com/OWNER/REPO.git`
